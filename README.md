@@ -1,23 +1,30 @@
-# Daily Paper Reader: 每日论文雷达与 AI 阅读平台
+<h1 align="center">Daily Paper Reader</h1>
 
-[![Stars](https://img.shields.io/github/stars/ziwenhahaha/daily-paper-reader?style=flat-square)](https://github.com/ziwenhahaha/daily-paper-reader/stargazers)
-[![Forks](https://img.shields.io/github/forks/ziwenhahaha/daily-paper-reader?style=flat-square)](https://github.com/ziwenhahaha/daily-paper-reader/network/members)
-[![License](https://img.shields.io/github/license/ziwenhahaha/daily-paper-reader?style=flat-square)](https://github.com/ziwenhahaha/daily-paper-reader/blob/main/LICENSE)
-[![Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-2ea44f?style=flat-square)](https://ziwenhahaha.github.io/daily-paper-reader)
-[![Docs](https://img.shields.io/badge/Docs-Quick%20Start-blue?style=flat-square)](https://ziwenhahaha.github.io/daily-paper-reader/#/newbie/README)
+<p align="center">
+  Discover, summarize, and read the latest AI papers every day
+</p>
 
-**Daily Paper Reader** 是一个面向研究者、学生和工程师的 **每日 arXiv / OpenReview 论文推荐、阅读与 AI 问答平台**。<br>
-⚡ **Fork 一次，即可获得一个每天自动更新的个性化论文站点。**<br>
-🧠 把 **发现论文 → 个性化筛选 → 深入阅读 → AI 提问总结** 放进同一条工作流。
+<p align="center">
+  <a href="https://github.com/ziwenhahaha/daily-paper-reader/stargazers">
+    <img src="https://img.shields.io/github/stars/ziwenhahaha/daily-paper-reader?style=flat-square" alt="Stars" />
+  </a>
+  <a href="https://github.com/ziwenhahaha/daily-paper-reader/network/members">
+    <img src="https://img.shields.io/github/forks/ziwenhahaha/daily-paper-reader?style=flat-square" alt="Forks" />
+  </a>
+  <a href="https://github.com/ziwenhahaha/daily-paper-reader/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/ziwenhahaha/daily-paper-reader?style=flat-square" alt="License" />
+  </a>
+  <a href="https://ziwenhahaha.github.io/daily-paper-reader">
+    <img src="https://img.shields.io/badge/Demo-GitHub%20Pages-2ea44f?style=flat-square" alt="Demo" />
+  </a>
+  <a href="https://ziwenhahaha.github.io/daily-paper-reader/#/newbie/README">
+    <img src="https://img.shields.io/badge/Docs-Quick%20Start-blue?style=flat-square" alt="Docs" />
+  </a>
+</p>
 
-[在线演示](https://ziwenhahaha.github.io/daily-paper-reader) ·
-[5 分钟快速启动](#5-分钟快速启动) ·
-[使用教程](https://ziwenhahaha.github.io/daily-paper-reader/#/newbie/README) ·
-[提交 Issue](https://github.com/ziwenhahaha/daily-paper-reader/issues)
+
 
 ## 界面预览
-
-首屏建议先看这里，`demo2.png` 基本覆盖了论文列表、TLDR、元信息和 AI 提问入口这四个核心区域。
 
 ![Daily Paper Reader 界面预览](others/demo2.png)
 
@@ -114,7 +121,7 @@ Fork 到自己的 GitHub 账号下，建议仓库名保持 `daily-paper-reader` 
 访问：
 
 ```text
-https://<你的用户名>.github.io/<仓库名>/
+https://<你的用户名>.github.io/daily-paper-reader
 ```
 
 后续日常使用和配置，基本都可以在网页端完成。
@@ -133,15 +140,7 @@ https://<你的用户名>.github.io/<仓库名>/
 
 可以。它很适合做实验室公共论文面板，或者作为团队内部的论文发现与阅读入口。
 
-## 版本迭代
-
-| 版本 | 日期 | 更新内容 |
-| --- | --- | --- |
-| v1.2.0 | 2026-03-04 | 优化使用体验 |
-| v1.1.0 | 2026-02-28 | 优化订阅面板逻辑，不再需要手动记关键词 |
-| v1.0.0 | 2026-02-19 | 基础功能实现完成 |
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ziwenhahaha/daily-paper-reader&type=Date)](https://star-history.com/#ziwenhahaha/daily-paper-reader&Date)
-

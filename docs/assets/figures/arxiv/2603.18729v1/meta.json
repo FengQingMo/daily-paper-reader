@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-001.webp",
+      "caption": "Figure 2: Frequencies of adjectives assigned to AAE and SAE speakers (template T1).",
+      "page": 6,
+      "index": 1,
+      "width": 1006,
+      "height": 471
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-002.webp",
+      "caption": "Figure 4: Frequencies of names associated to AAE and SAE speakers (template T6).",
+      "page": 7,
+      "index": 2,
+      "width": 1006,
+      "height": 473
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-003.webp",
+      "caption": "Figure 3: Frequencies of jobs assigned to SAE and AAE speakers (template T3).",
+      "page": 7,
+      "index": 3,
+      "width": 1006,
+      "height": 471
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-004.webp",
+      "caption": "Table 1: GQM goal definition.",
+      "page": 3,
+      "index": 4,
+      "width": 503,
+      "height": 383
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-005.webp",
+      "caption": "Figure 5: Comparison of measured biases for models with different prompting strategies.",
+      "page": 8,
+      "index": 5,
+      "width": 1006,
+      "height": 404
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-006.webp",
+      "caption": "Table 7: Mean bias scores across models and prompting conditions. Δ represents AAE mean minus SAE mean; positive values indicate higher bias scores for AAE responses.",
+      "page": 8,
+      "index": 6,
+      "width": 572,
+      "height": 340
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-007.webp",
+      "caption": "Table 3: Prompt templates by analytical category.",
+      "page": 4,
+      "index": 7,
+      "width": 1032,
+      "height": 410
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-008.webp",
+      "caption": "Table 2: Semantically matched SAE–AAE prompt pairs used in the study.",
+      "page": 4,
+      "index": 8,
+      "width": 1056,
+      "height": 615
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18729v1/fig-009.webp",
+      "caption": "Figure 1: Multi-agent generate-critique-revise",
+      "page": 5,
+      "index": 9,
+      "width": 932,
+      "height": 224
+    }
+  ]
+}

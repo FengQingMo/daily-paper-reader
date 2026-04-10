@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-001.webp",
+      "caption": "Table 1: Comparison of ACP with RBAC and Zero Trust across agent governance criteria.",
+      "page": 6,
+      "index": 1,
+      "width": 872,
+      "height": 252
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-002.webp",
+      "caption": "Table 8: Go reference implementation packages. All pass go test ./....",
+      "page": 21,
+      "index": 2,
+      "width": 702,
+      "height": 600
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-003.webp",
+      "caption": "Table 9: Conformance test vector suites. All positive vectors carry real Ed25519 signatures (RFC 8037 Test Key A) and real SHA-256 hash chains.",
+      "page": 21,
+      "index": 3,
+      "width": 522,
+      "height": 287
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-004.webp",
+      "caption": "Table 10: ACP v1.15 development roadmap.",
+      "page": 22,
+      "index": 4,
+      "width": 894,
+      "height": 302
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-005.webp",
+      "caption": "Table 3: ACP-RISK-1.0 risk scoring factors.",
+      "page": 10,
+      "index": 5,
+      "width": 654,
+      "height": 354
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-006.webp",
+      "caption": "Table 6: ACP prohibited behaviors. Exhibiting any disqualifies conformance at all levels.",
+      "page": 18,
+      "index": 6,
+      "width": 764,
+      "height": 352
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-007.webp",
+      "caption": "Table 11: ACP Glossary.",
+      "page": 23,
+      "index": 7,
+      "width": 923,
+      "height": 723
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-008.webp",
+      "caption": "Table 2: ACP formal agent tuple fields.",
+      "page": 8,
+      "index": 8,
+      "width": 801,
+      "height": 352
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-009.webp",
+      "caption": "Table 7: ACP v1.15 active specification documents by conformance level (33 primary documents shown). The remaining 4 documents are the ACP-D decentralized suite (L5, design phase) not yet published. Superseded versions (CONF-1.0, CONF-1.1, LEDGER-1.2, REP-1.1, AGENT-SPEC-0.3, DCMA-1.0, CROSS-ORG-1.0, REP-PORTABILITY-1.0) archived in archive/specs/.",
+      "page": 20,
+      "index": 9,
+      "width": 782,
+      "height": 896
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v3/fig-010.webp",
+      "caption": "Table 4: STRIDE threat model and ACP mitigations.",
+      "page": 16,
+      "index": 10,
+      "width": 889,
+      "height": 377
+    }
+  ]
+}

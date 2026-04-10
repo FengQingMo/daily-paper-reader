@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.23419v1/fig-001.webp",
+      "caption": "Figure 4: Strategy labeling scheme showing overall strategy labels (𝑆-0 to 𝑆-5). Strategies are arranged from risk-seeking to increasingly loss-averse along the horizontal axis, with an additional erratic category (𝑆-5) representing qualitatively distinct defensive behavior. Within the balanced strategies, offense deployment timing labels (𝑂-1 and 𝑂-2) are shown along the vertical axis. Colored regions indicate risk-seeking (red), balanced (blue), loss-averse (green), and erratic (brown) strategy categories.",
+      "page": 6,
+      "index": 1,
+      "width": 506,
+      "height": 331
+    },
+    {
+      "url": "assets/figures/arxiv/2603.23419v1/fig-002.webp",
+      "caption": "Figure 5: Histogram of game scores by difficulty level across all games (26 participants, 6 games each). The score distribution for low difficulty is shifted toward positive values, whereas high difficulty is shifted toward negative values.",
+      "page": 7,
+      "index": 2,
+      "width": 898,
+      "height": 271
+    },
+    {
+      "url": "assets/figures/arxiv/2603.23419v1/fig-003.webp",
+      "caption": "Figure 1: The game environment consists of two regions: the blue ally region and red adversary region. Each region contains a carrier at its center that forces must protect while attempting to destroy the opponent’s carrier by launching aircraft. Enemies can enter the ally region at any time, requiring strategic resource allocation for both offensive and defensive operations. The ally side has a total of 5 aircraft available and must decide how many to deploy in each region across 7 time steps. The interface includes a clock and chat box in the bottom right where AI suggestions appear and participants enter their decisions, while scores for both forces are displayed in the top right corner.",
+      "page": 4,
+      "index": 3,
+      "width": 636,
+      "height": 434
+    },
+    {
+      "url": "assets/figures/arxiv/2603.23419v1/fig-004.webp",
+      "caption": "Figure 3: Overview of the experimental procedure.",
+      "page": 5,
+      "index": 4,
+      "width": 898,
+      "height": 194
+    }
+  ]
+}

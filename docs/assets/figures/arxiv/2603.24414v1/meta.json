@@ -1,0 +1,150 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-001.webp",
+      "caption": "Figure 7 | Examples of system-level and software-level defenses via skills.",
+      "page": 15,
+      "index": 1,
+      "width": 984,
+      "height": 373
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-002.webp",
+      "caption": "Figure 1 | The Framework of ClawKeeper.",
+      "page": 2,
+      "index": 2,
+      "width": 935,
+      "height": 432
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-003.webp",
+      "caption": "Figure 3 | The Framework of Skill-based Protection in ClawKeeper.",
+      "page": 7,
+      "index": 3,
+      "width": 983,
+      "height": 496
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-004.webp",
+      "caption": "Figure 5 | The Framework of Watcher-based Protection in ClawKeeper.",
+      "page": 10,
+      "index": 4,
+      "width": 983,
+      "height": 361
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-005.webp",
+      "caption": "Figure 6 | Self-evolving capability of the Watcher-based Protection. The Defense Success Rate improves as the Watcher processes more adversarial cases, rising from ∼90.0% to ∼95.0% over 100 cases.",
+      "page": 14,
+      "index": 5,
+      "width": 779,
+      "height": 298
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-006.webp",
+      "caption": "Figure 12 | An example of blocking the execution of dangerous commands.",
+      "page": 18,
+      "index": 6,
+      "width": 983,
+      "height": 267
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-007.webp",
+      "caption": "Figure 11 | An example of behavior scanning report (partial display).",
+      "page": 18,
+      "index": 7,
+      "width": 983,
+      "height": 269
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-008.webp",
+      "caption": "Table 5 | Defense Success Rate (%) across seven safety task categories. “−” indicates that the method does not support the corresponding task. Bold entries denote the best result per column.",
+      "page": 13,
+      "index": 8,
+      "width": 983,
+      "height": 311
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-009.webp",
+      "caption": "Figure 4 | The Framework of Plugin-based Protection in ClawKeeper.",
+      "page": 8,
+      "index": 9,
+      "width": 983,
+      "height": 384
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-010.webp",
+      "caption": "Table 2 | A Comparative Analysis of Skill-based Protection in ClawKeeper and Baselines.",
+      "page": 8,
+      "index": 10,
+      "width": 975,
+      "height": 185
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-011.webp",
+      "caption": "Figure 14 | An example of stopping run due to an upstream failure.",
+      "page": 19,
+      "index": 11,
+      "width": 983,
+      "height": 254
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-012.webp",
+      "caption": "Figure 13 | An example of blocking too many tool calls in one turn.",
+      "page": 19,
+      "index": 12,
+      "width": 983,
+      "height": 296
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-013.webp",
+      "caption": "Figure 9 | A comparison before (left) and after (right) installing ClawKeeper.",
+      "page": 17,
+      "index": 13,
+      "width": 984,
+      "height": 245
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-014.webp",
+      "caption": "Figure 10 | An example of threat detection report (partial display).",
+      "page": 17,
+      "index": 14,
+      "width": 983,
+      "height": 196
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-015.webp",
+      "caption": "Table 4 | Overview of the seven safety task categories.",
+      "page": 12,
+      "index": 15,
+      "width": 965,
+      "height": 811
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-016.webp",
+      "caption": "Table 3 | A Comparative Analysis of Plugin-based Protection in ClawKeeper and Baselines.",
+      "page": 9,
+      "index": 16,
+      "width": 975,
+      "height": 198
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-017.webp",
+      "caption": "Figure 2 | Overview of the ClawKeeper.",
+      "page": 5,
+      "index": 17,
+      "width": 935,
+      "height": 448
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24414v1/fig-018.webp",
+      "caption": "Figure 8 | Examples of automated system security monitoring and software interaction reporting.",
+      "page": 16,
+      "index": 18,
+      "width": 984,
+      "height": 571
+    }
+  ]
+}

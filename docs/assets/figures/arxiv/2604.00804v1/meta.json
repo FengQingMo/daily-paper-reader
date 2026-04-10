@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.00804v1/fig-001.webp",
+      "caption": "Table 5: Total data transmitted in megabytes under different settings. Transmitted data is reported w.r.t. the combination of settings: (1) Data type: Point cloud (Pcd, same as MAGiC-SLAM), rendered depth (RD, pure 3D Gaussian map) and camera depth (CD, 3D Gaussian map with depth image) (2) Keyframing (K) (3) Compaction (C). Bold = best (least), underlined = second best.",
+      "page": 10,
+      "index": 1,
+      "width": 980,
+      "height": 448
+    },
+    {
+      "url": "assets/figures/arxiv/2604.00804v1/fig-002.webp",
+      "caption": "Figure 1: Top view comparison of merged maps of two agents in scene office-0 of the Replica dataset [17]. Our method, Coko-SLAM, merges the submaps from different agents correctly while CP-SLAM [19] (a), MAGiC-SLAM [20] (b), and MAC-Ego3D [23] (c) fail without initial relative poses between agents. The maps in (a) and (d) are merged using rendered images from the submaps; the maps in (b), (c), and (e) are merged using depth images directly from the camera. Regarding multi-agent SLAM with novel view synthesis(NVS), CP-SLAM [19] applies neural mapping to multi-agent data but inherits high GPU costs and slow synthesis. MAC-Ego3D [23] adapted fastGICP [28] for real-time tracking and loop closure followed by photometric loss for refinement. This method requires the initial relative poses between agents for loop closure, and a large discrepancy between loop edges can lead to error because ICP requires the maps to be coarsely aligned initially. MAGiC-SLAM [20] uses 3D Gaussians for submap merging and loop closure detection yet still requires agents to send point clouds to the server, maintaining heavy network load and under-utilizing local collaboration.",
+      "page": 3,
+      "index": 2,
+      "width": 979,
+      "height": 606
+    },
+    {
+      "url": "assets/figures/arxiv/2604.00804v1/fig-003.webp",
+      "caption": "Table 1: Training view synthesis performance on Replica Multiagent dataset without initial relevant poses between agents. The merged map based on multiple agents’ submaps is evaluated by synthesizing training views. ✗ indicates failures during map merging. Bold = best, underlined = second best.",
+      "page": 8,
+      "index": 3,
+      "width": 979,
+      "height": 558
+    },
+    {
+      "url": "assets/figures/arxiv/2604.00804v1/fig-004.webp",
+      "caption": "Table 4: Total data transmitted in megabytes per agent across different scenes. Comparison for Replica and Aria datasets. - indicates that CP-SLAM does not support more than two agents. Bold = best (least), underlined = second best.",
+      "page": 9,
+      "index": 4,
+      "width": 980,
+      "height": 259
+    },
+    {
+      "url": "assets/figures/arxiv/2604.00804v1/fig-005.webp",
+      "caption": "Table 3: Number of keyframes per agent across different scenes. Comparison for Replica and Aria datasets. - indicates that CP-SLAM does not support more than two agents. Bold = best (fewest), underlined = second best.",
+      "page": 9,
+      "index": 5,
+      "width": 980,
+      "height": 275
+    },
+    {
+      "url": "assets/figures/arxiv/2604.00804v1/fig-006.webp",
+      "caption": "Table 2: Novel view synthesis synthesis performance on Aria Multiagent dataset without initial relevant poses between agents. The merged map based on multiple agents’ submaps is evaluated by synthesizing novel views. The merged map based on multiple agents’ submaps is evaluated by synthesizing novel and training views. Bold = best, underlined = second best.",
+      "page": 9,
+      "index": 6,
+      "width": 979,
+      "height": 556
+    }
+  ]
+}

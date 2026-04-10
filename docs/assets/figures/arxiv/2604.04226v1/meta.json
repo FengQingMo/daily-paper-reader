@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.04226v1/fig-001.webp",
+      "caption": "Figure 1: Conceptual illustration of agentization of digital assets for the Agentic Web. Through agentization, digital assets are transformed into A2A-compliant agents that can be integrated into the Agentic Web, enabling interactions and collaborations for real-world tasks.",
+      "page": 2,
+      "index": 1,
+      "width": 840,
+      "height": 316
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04226v1/fig-002.webp",
+      "caption": "Figure 4: Execution task complexity distribution. For single-repo tasks, difficulty is decomposed into several dimensions , measured by corresponding indicators. For multi-repo tasks, difficulty is determined by orchestration complexity, measured by the length of the linear collaboration chain (i.e., the number of sequentially invoked repositories). Tasks are grouped into easy, medium, and hard tiers based on these respective criteria.",
+      "page": 7,
+      "index": 2,
+      "width": 884,
+      "height": 312
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04226v1/fig-003.webp",
+      "caption": "Figure 3: Execution task diversity analysis. Single-repo tasks are distributed across 9 application domains, illustrating broad coverage of domain-specific execution scenarios. Multi-repo tasks are grouped by the number of distinct domains involved in each workflow (cross-k domains), highlighting the prevalence of cross-domain interactions and increasing interoperability requirements.",
+      "page": 7,
+      "index": 3,
+      "width": 891,
+      "height": 270
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04226v1/fig-004.webp",
+      "caption": "Figure 5: The orchestration mechanism instantiated in our experiments for A2A-Agentization Bench Stage 3. Multi-repo tasks are provided together with their oracle subtask decompositions obtained during benchmark construction, which serve as the input of orchestration process. In parallel, agent cards produced by agentization agent are converted into agent skills. The coordinator relies solely on these skills to select and bind appropriate A2A agents for each subtask, orchestrates their execution and obtains the result.",
+      "page": 10,
+      "index": 4,
+      "width": 806,
+      "height": 462
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04226v1/fig-005.webp",
+      "caption": "Figure 2: Processing pipeline of repository agentization. The repository agentization process starts from raw repository contents and is organized into four stages. The agent first initializes the repository environment, then analyzes repository contents to extract skills, instantiates an inner agent, and finally produces an A2Acompliant agent with an agent card.",
+      "page": 4,
+      "index": 5,
+      "width": 860,
+      "height": 289
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04226v1/fig-006.webp",
+      "caption": "Table 4: Stage 3 Results: Collaborative Execution. We report Orchestration SR (Orch., %) and Execution SR (Exec., %). Collaboration Chain Length: Easy=2–3, Med=4–5, Hard=6+.",
+      "page": 12,
+      "index": 6,
+      "width": 833,
+      "height": 210
+    }
+  ]
+}

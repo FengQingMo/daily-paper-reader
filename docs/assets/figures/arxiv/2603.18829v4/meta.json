@@ -1,0 +1,118 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-001.webp",
+      "caption": "Table 1: Comparison of ACP with RBAC and Zero Trust across agent governance criteria.",
+      "page": 6,
+      "index": 1,
+      "width": 872,
+      "height": 252
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-002.webp",
+      "caption": "Table 13: ACR-1.0 sequence test vectors. All 5/5 pass in library mode with the Go reference implementation.",
+      "page": 25,
+      "index": 2,
+      "width": 998,
+      "height": 299
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-003.webp",
+      "caption": "Figure 1: ACP end-to-end verifiability pipeline. The TLA+ model defines the invariants that test vectors instantiate and the compliance runner validates at runtime. The ACP engine records every decision in the append-only audit ledger. The TLA+ layer is a static verification artifact; it does not run at admission time.",
+      "page": 26,
+      "index": 3,
+      "width": 890,
+      "height": 204
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-004.webp",
+      "caption": "Table 8: Go reference implementation packages (23 total). All pass go test ./....",
+      "page": 21,
+      "index": 4,
+      "width": 702,
+      "height": 600
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-005.webp",
+      "caption": "Table 9: Conformance test vector suites. All positive vectors carry real Ed25519 signatures (RFC 8037 Test Key A) and real SHA-256 hash chains.",
+      "page": 21,
+      "index": 5,
+      "width": 522,
+      "height": 289
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-006.webp",
+      "caption": "Table 15: ACP Glossary.",
+      "page": 29,
+      "index": 6,
+      "width": 923,
+      "height": 796
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-007.webp",
+      "caption": "Table 10: ACP-RISK-2.0 engine benchmarks (go test -bench=. -benchtime=3s). Full evaluation with all three F_anom rules completes in under 1.4 µs. The cooldown short-circuit path (149 ns) avoids the risk function entirely. All measurements use InMemoryQuerier; production implementations with persistent storage will incur additional I/O latency.",
+      "page": 22,
+      "index": 7,
+      "width": 644,
+      "height": 202
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-008.webp",
+      "caption": "Table 3: ACP-RISK-2.0 risk scoring factors (base formula; Fanom adds up to +30 from pattern accumulation).",
+      "page": 10,
+      "index": 8,
+      "width": 654,
+      "height": 253
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-009.webp",
+      "caption": "Table 6: ACP prohibited behaviors. Exhibiting any disqualifies conformance at all levels.",
+      "page": 18,
+      "index": 9,
+      "width": 764,
+      "height": 352
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-010.webp",
+      "caption": "Table 11: ACR-1.0 sequence vector results under strict mode (–strict).",
+      "page": 23,
+      "index": 10,
+      "width": 786,
+      "height": 213
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-011.webp",
+      "caption": "Table 2: ACP formal agent tuple fields.",
+      "page": 8,
+      "index": 11,
+      "width": 801,
+      "height": 352
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-012.webp",
+      "caption": "Table 4: STRIDE threat model and ACP mitigations.",
+      "page": 17,
+      "index": 12,
+      "width": 889,
+      "height": 377
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-013.webp",
+      "caption": "Table 12: ACP v1.17 development roadmap.",
+      "page": 24,
+      "index": 13,
+      "width": 935,
+      "height": 514
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18829v4/fig-014.webp",
+      "caption": "Table 7: ACP v1.17 active specification documents by conformance level (38 primary documents shown). The remaining 3 documents are the ACP-D decentralized suite (L5, design phase) not yet published. New in v1.16: ACP-RISK-2.0 (L2, deterministic engine v2 with F_anom + Cooldown), ACP-SIGN-2.0 (L1, PQC hybrid spec). New in v1.17: ACR-1.0 sequence compliance runner, TLA+ formal model, ACP-SIGN-2.0 HYBRID stub (pkg/sign2/). Superseded versions (CONF1.0, CONF-1.1, LEDGER-1.2, REP-1.1, AGENT-SPEC-0.3, DCMA-1.0, CROSS-ORG-1.0, REPPORTABILITY-1.0) archived in archive/specs/.",
+      "page": 20,
+      "index": 14,
+      "width": 876,
+      "height": 956
+    }
+  ]
+}

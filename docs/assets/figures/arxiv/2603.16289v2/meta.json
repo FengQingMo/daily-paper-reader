@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.16289v2/fig-001.webp",
+      "caption": "Figure 4: (a) Distribution of categories in VisBrowse-Bench. (b) Summary of statistics.",
+      "page": 6,
+      "index": 1,
+      "width": 887,
+      "height": 427
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16289v2/fig-002.webp",
+      "caption": "Figure 1: Existing benchmarks have two limitations in evaluating multimodal browsing agents: 1. the semantic information of visual queries can be easily obtained through image search tools; 2. real-world browsing environments contain a wealth of multimodal information, which most benchmarks overlook. VisBrowse-Bench is designed to fuse multimodal information during the search process and ensure that visual capabilities are essential for completing the task.",
+      "page": 2,
+      "index": 2,
+      "width": 939,
+      "height": 631
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16289v2/fig-003.webp",
+      "caption": "Figure 5: The percentage of times each of the five tools was used in four MLLMs: Kimi-K2.5, Gemini-3.0-Pro, Claude-4.6-Opus and GPT-5.2",
+      "page": 10,
+      "index": 3,
+      "width": 935,
+      "height": 296
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16289v2/fig-004.webp",
+      "caption": "Figure 2: (a) Overall performance of MLLMs on VisBrowse-Bench. (b) Performance of four MLLMs on seven categories.",
+      "page": 3,
+      "index": 4,
+      "width": 935,
+      "height": 359
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16289v2/fig-005.webp",
+      "caption": "Table 1: Comparison between our benchmark and other multimodal deep search benchmarks.",
+      "page": 8,
+      "index": 5,
+      "width": 941,
+      "height": 192
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16289v2/fig-006.webp",
+      "caption": "Table 2: Main results of the VisBrowse-Bench across different categories. The evaluation metric is accuracy (%). Each model is evaluated using three methods: Direct answer, + TS and + IS. The green numbers represent performance improvement compared to the previous method, and red numbers represent performance degradation. The bold numbers represent the best accuracy overall or in each category, and underlined numbers represent the second-best accuracy.",
+      "page": 9,
+      "index": 6,
+      "width": 975,
+      "height": 993
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16289v2/fig-007.webp",
+      "caption": "Figure 3: Overview of the VisBrowse-Bench. This figure shows the example questions and answers across seven categories.",
+      "page": 5,
+      "index": 7,
+      "width": 935,
+      "height": 408
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16289v2/fig-008.webp",
+      "caption": "Figure 6: Visual query",
+      "page": 16,
+      "index": 8,
+      "width": 950,
+      "height": 635
+    }
+  ]
+}

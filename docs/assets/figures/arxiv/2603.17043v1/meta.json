@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.17043v1/fig-001.webp",
+      "caption": "Figure 1: The proposed OpenQlaw framework.",
+      "page": 2,
+      "index": 1,
+      "width": 829,
+      "height": 355
+    },
+    {
+      "url": "assets/figures/arxiv/2603.17043v1/fig-002.webp",
+      "caption": "Figure 2: Baseline output from the Material Domain Expert (QuPAINT) illustrating the verbose cognitive traces and mass raw coordinate enumeration.",
+      "page": 4,
+      "index": 2,
+      "width": 416,
+      "height": 658
+    },
+    {
+      "url": "assets/figures/arxiv/2603.17043v1/fig-003.webp",
+      "caption": "Figure 3: OpenQlaw framework executing a conversational workflow via WhatsApp, showcasing concise natural language responses and deterministic execution.",
+      "page": 5,
+      "index": 3,
+      "width": 540,
+      "height": 540
+    },
+    {
+      "url": "assets/figures/arxiv/2603.17043v1/fig-004.webp",
+      "caption": "Figure 4: Demonstration of OpenQlaw’s memory, storing cached sample preparation methods and using saved physical scaling ratios for downstream calculations",
+      "page": 6,
+      "index": 4,
+      "width": 829,
+      "height": 447
+    }
+  ]
+}

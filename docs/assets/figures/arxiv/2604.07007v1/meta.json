@@ -1,0 +1,158 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-001.webp",
+      "caption": "Figure 2: AgentCity system architecture. Central three-tier contract hierarchy—foundational contracts (human-authored, agent-immutable), meta-contracts (procedural rules governing the three SoP branches), and operational CollaborationContract instances—flanked by the Legislation Module (left, blue), Execution Fabric (right, green), and Adjudication Interface (top, orange), anchored on an EVM-compatible L2 blockchain (bottom, gray).",
+      "page": 6,
+      "index": 1,
+      "width": 748,
+      "height": 518
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-002.webp",
+      "caption": "Table 17: Economic security bound by adjudicator quorum size.",
+      "page": 90,
+      "index": 2,
+      "width": 837,
+      "height": 242
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-003.webp",
+      "caption": "Figure 5: Seven-stage execution pipeline. Orchestrate → Invoke → Commit (mandatory gate) → Guard (anomaly detection) → Verify (three-tier Proof-of-Progress (PoP)) → Gate → Record. Dashed purple loop: Adaptive Refinement. The Commit stage is the structural bridge between execution and accountability.",
+      "page": 10,
+      "index": 3,
+      "width": 748,
+      "height": 390
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-004.webp",
+      "caption": "Table 4: Compound shock event at round 100: three simultaneous disruption vectors and their targeted mechanisms.",
+      "page": 14,
+      "index": 4,
+      "width": 838,
+      "height": 276
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-005.webp",
+      "caption": "Table 3: Ostrom condition mapping.",
+      "page": 14,
+      "index": 5,
+      "width": 822,
+      "height": 421
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-006.webp",
+      "caption": "Table 1: Comparative positioning of AgentCity against prior multi-agent governance systems.",
+      "page": 3,
+      "index": 6,
+      "width": 861,
+      "height": 504
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-007.webp",
+      "caption": "Table 11: The AgentCity four-contract architecture. Each contract type is mapped to its lifecycle phase, governance function, estimated gas cost range, and key callable functions. The CollaborationContract encompasses six sub-modules (Orchestration, Guardian, Verification, Gate, Settlement, Treasury).",
+      "page": 33,
+      "index": 7,
+      "width": 922,
+      "height": 527
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-008.webp",
+      "caption": "Table 7: Pre-registered hypotheses for Goal Alignment and Dual-Principal Accountability (RQ3).",
+      "page": 18,
+      "index": 8,
+      "width": 802,
+      "height": 378
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-009.webp",
+      "caption": "Table 6: Pre-registered hypotheses for Self-Legislated Governance (RQ2).",
+      "page": 18,
+      "index": 9,
+      "width": 794,
+      "height": 545
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-010.webp",
+      "caption": "Table 2: Experimental configurations. Each level activates additional SoP mechanisms. In the AgentCity-Structural and AgentCity-Full configurations, agents produce Task-level Policy (smart contracts) through the SoP legislative process.",
+      "page": 13,
+      "index": 10,
+      "width": 861,
+      "height": 296
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-011.webp",
+      "caption": "Figure 3: Three-tier contract hierarchy. Foundational contracts (Tier 1, gray) are human-authored and agent-immutable—the dashed red line marks the immutability boundary. Meta-contracts (Tier 2) define procedural rules for each SoP branch. Operational contracts (Tier 3: CollaborationContract instances) are agent-legislated. Each tier is governed by the tier above it.",
+      "page": 8,
+      "index": 11,
+      "width": 748,
+      "height": 563
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-012.webp",
+      "caption": "Table 19: Complete Constitutional Parameter Table.",
+      "page": 92,
+      "index": 12,
+      "width": 892,
+      "height": 916
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-013.webp",
+      "caption": "Table 16: Stake parameters by deployment tier. Prototype parameters are structural illustrations demonstrating the mechanism’s composition; they provide no meaningful economic deterrence for missions with real financial exposure. Production-grade parameters are derived from EQ-5 through EQ-7 and scale linearly with mission value.",
+      "page": 51,
+      "index": 13,
+      "width": 838,
+      "height": 459
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-014.webp",
+      "caption": "Table 5: Pre-registered hypotheses for Division of Labor (RQ1).",
+      "page": 17,
+      "index": 14,
+      "width": 790,
+      "height": 213
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-015.webp",
+      "caption": "Figure 6: Six-stage accountability pipeline. Registration → Detection (Guardian, coordination detection, human review) → Override Panel → Sanctions & Rewards → Settlement → Treasury Recirculation. Dashed orange loop: closed incentive cycle.",
+      "page": 12,
+      "index": 15,
+      "width": 748,
+      "height": 544
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-016.webp",
+      "caption": "Table 12: Detection probability by verification tier and attack vector.",
+      "page": 44,
+      "index": 16,
+      "width": 830,
+      "height": 254
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-017.webp",
+      "caption": "Figure 4: Six-stage legislative pipeline. Proposal → Deliberation (evidence, straw poll, sequential debate) → Consensus Approval (Copeland vote, 60% quorum) → Policy Compliance Validation (fourcriterion check) → Codification (template parameterization) → Deployment Verification. Dashed blue loop: recursive decomposition for non-leaf nodes.",
+      "page": 9,
+      "index": 17,
+      "width": 748,
+      "height": 429
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-018.webp",
+      "caption": "Table 9: Power analysis for the full hypothesis set at 10 seeds per cell.",
+      "page": 20,
+      "index": 18,
+      "width": 846,
+      "height": 317
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07007v1/fig-019.webp",
+      "caption": "Figure 1: Separation of Power. Three structurally isolated branches—Legislation (agent-driven, blue), Execution (software-centric, green), and Adjudication (human-governed, orange)—interact through on-chain smart contracts (center). Dashed arrows show bilateral checks: each branch constrains the other two, ensuring no single branch can operate unchecked.",
+      "page": 5,
+      "index": 19,
+      "width": 748,
+      "height": 554
+    }
+  ]
+}

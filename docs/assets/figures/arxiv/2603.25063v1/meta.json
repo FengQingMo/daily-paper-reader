@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.25063v1/fig-001.webp",
+      "caption": "Fig. 4: Examples of topological descriptors supported by TopoPilot . (a) The graph of a 2D function f with its critical points: maxima in red, saddles in white, and minima in blue. (b) f with a saddle-maximum pair removed after persistence simplification. (c) Merge tree of f . (d)–(e) Contour tree of f before and after persistence simplification. (f) Persistence diagram of f . (g) Morse–Smale complex of f . (h) A vector field with its critical points: source spirals in red and saddles in yellow. (i) A tensor field visualized by its eigenvector field with degenerate points: trisectors in pink and wedges in white.",
+      "page": 4,
+      "index": 1,
+      "width": 421,
+      "height": 315
+    },
+    {
+      "url": "assets/figures/arxiv/2603.25063v1/fig-002.webp",
+      "caption": "Fig. 2: A screenshot of the visualization window used to interact with TopoPilot . (A) a built-in chat interface is used to communicate with the LLM. (B) An interactive visualization pane displays the generated visualization. (C) A toolbar provides basic camera and visualization controls, as well as the ability to save screenshots, videos (for timevarying data), and auto-generated Python code.",
+      "page": 4,
+      "index": 2,
+      "width": 525,
+      "height": 310
+    }
+  ]
+}

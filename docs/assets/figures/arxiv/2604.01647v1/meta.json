@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.01647v1/fig-001.webp",
+      "caption": "Fig. 3. Three-Track artifact graph and an enforceable “do-not-guess” gate. Left: the full artifact graph with typed nodes for Behaviors (Track 1), Knowledge (Track 2), and Skills (Track 3) used during production. Right: zoomed interlock between a metadatacreation workflow (Track 3) and an authoritative mapping source behavior (Track 1). The behavior enforces that when filenames do not align, the workflow must obtain an authoritative mapping rather than guessing.",
+      "page": 6,
+      "index": 1,
+      "width": 895,
+      "height": 494
+    },
+    {
+      "url": "assets/figures/arxiv/2604.01647v1/fig-002.webp",
+      "caption": "Fig. 4. Audited handoff protocol. Each agent-to-agent transition follows four phases: prepare (package outputs with provenance), validate (deterministic gates), approve (record and escalate on failure), and commit (apply state changes). Failures block downstream execution. Inset: production incident ISS-004, from boundary detection to verified resolution.",
+      "page": 7,
+      "index": 2,
+      "width": 895,
+      "height": 438
+    },
+    {
+      "url": "assets/figures/arxiv/2604.01647v1/fig-003.webp",
+      "caption": "Fig. 1. The “fail-open” problem under composition. LLM agents can succeed in bounded, reversible tasks (left), but reliability degrades across end-to-end publication workflows with irreversible steps (center). Core LLM limitations compound under composition (right), yielding multiplicative reliability decay 𝑝𝑛 (bottom). At production scale, silent failures create irreversible contamination and trust collapse.",
+      "page": 3,
+      "index": 3,
+      "width": 895,
+      "height": 477
+    },
+    {
+      "url": "assets/figures/arxiv/2604.01647v1/fig-004.webp",
+      "caption": "Table 1. Evaluation evidence mapped to operational requirements.",
+      "page": 8,
+      "index": 4,
+      "width": 895,
+      "height": 367
+    },
+    {
+      "url": "assets/figures/arxiv/2604.01647v1/fig-005.webp",
+      "caption": "Fig. 2. System design overview. Top: Three-Track artifact store externalizing governance (Track 1), semantic context (Track 2), and executable procedures (Track 3) that interlock at execution time. Bottom: multi-agent operating model with role-separated agents (data preparation, publishing, platform operations) connected by audited handoffs (H1/H2) with deterministic validators before state-changing publication.",
+      "page": 4,
+      "index": 5,
+      "width": 895,
+      "height": 450
+    }
+  ]
+}

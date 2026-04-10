@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.03870v1/fig-001.webp",
+      "caption": "Table 1: LLM bottleneck performance under four categories of IPI attacks. Notably, while the attack vulnerability level accounts for all test scenarios, the remaining three dimensions focus exclusively on hijacked failure cases. All metrics are expressed as percentages, with the exception of model confidence level. The best results for each metric are indicated in bold.",
+      "page": 6,
+      "index": 1,
+      "width": 788,
+      "height": 208
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03870v1/fig-002.webp",
+      "caption": "Figure 3: Illustration of three LLM performance bottlenecks across four IPI attacks. (A) depicts the number of assistant turns elapsed between the receipt of the injection and the execution of the malicious action. (B) and (C) present violin plots comparing the distributions of decision entropy in natural log units and mean log-probability, respectively, as they evolve across execution turns. The shaded regions represent ±1 standard deviation.",
+      "page": 6,
+      "index": 2,
+      "width": 828,
+      "height": 522
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03870v1/fig-003.webp",
+      "caption": "Figure 1: Example overview of the experimental framework based on the AgentDojo (Debenedetti et al., 2024) Banking suite. (A) illustrates the system environment and global state, including representative metadata such as account profiles and transaction histories. (B) shows the task schema, encompassing legitimate user objectives, available tool functions, and the adversarial injection payloads. (C) delineates the end-to-end execution trace. See more details in Sec. 3.1.",
+      "page": 3,
+      "index": 3,
+      "width": 822,
+      "height": 189
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03870v1/fig-004.webp",
+      "caption": "Table 2: Defense Strategy Effectiveness on Qwen-2.5-14B, Qwen-3-14B and Mistral-7B, respectively. Hijack rates (%) are reported here for visual clarity. Best results are bolded.",
+      "page": 8,
+      "index": 4,
+      "width": 786,
+      "height": 242
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03870v1/fig-005.webp",
+      "caption": "Figure 4: Performance evaluation of Qwen3-8B in hijacking detection experiments utilizing both Representation Engineering (RepE) methods. (A) displays the Receiver Operating Characteristic (ROC) curve, and (B) illustrates the Precision-Recall (PR) curve.",
+      "page": 9,
+      "index": 5,
+      "width": 788,
+      "height": 342
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03870v1/fig-006.webp",
+      "caption": "Table 4: Ablation study of detection positions across diverse LLM backbones within the agent execution pipeline.",
+      "page": 9,
+      "index": 6,
+      "width": 822,
+      "height": 193
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03870v1/fig-007.webp",
+      "caption": "Figure 2: Vulnerability analysis of LLM agents (e.g., Qwen-2.5-14B) under four distinct Indirect Prompt Injection (IPI) attacks. (A) illustrates the attack success metrics, quantified by the Hijack Rate across diverse scenarios. (B) characterizes the linguistic patterns observed in successful hijacking cases. We categorize these failures into four distinct behaviors: Immediate, where the agent complies without detectable reasoning; Heading, where the agent expresses uncertainty yet follows the injection; Rationalized, where the agent acknowledges the injection or deceptively frames the malicious action as part of the legitimate task; and Reluctant, where the agent exhibits verbal resistance but ultimately executes the hijacked command. These categories are identified via fixed-syntax filtering of the reasoning traces following corrupted tool-call results.",
+      "page": 5,
+      "index": 7,
+      "width": 829,
+      "height": 243
+    }
+  ]
+}

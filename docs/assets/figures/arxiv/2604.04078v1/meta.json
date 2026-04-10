@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-001.webp",
+      "caption": "Figure 2: Performance of the expert CVDs diagnostic model in internal and external testing. a–c: Receiver operating characteristic curves for CDS; d–h: Receiver operating characteristic curves for NICMS. The red curves represent the internal test set, and the blue curves represent the external validation set. i: Confusion matrix of the AI diagnostic model predictions versus ground truth labels based on the full cohort (n = 2,232), with a color gradient visually representing the proportional distribution of predictions across disease categories.",
+      "page": 6,
+      "index": 1,
+      "width": 976,
+      "height": 935
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-002.webp",
+      "caption": "Figure 6: The architecture of the proposed expert model for cardiac segmentation and CVDs diagnosis is described as follows: (a) It is a two-stage coarse-to-fine cardiac segmentation framework. In the first stage, a U-shaped backbone locates the ROI of the heart. In the second stage, based on the ROI output from the first stage, the framework fuses the global and local features of the heart to generate a refined, high-resolution cardiac segmentation map. (b) It is a two-stage automated screening and diagnostic framework for CVDs. In the first stage, the model leverages cine images (including 2CH, 4CH, and SAX views) to implement tri-class screening, categorizing subjects into three groups: NH, IHD, or NICM. For patients identified as having NICM via screening, the second stage further integrates their retained 4CH cine images, short-axis cine images, and SAX LGE images to output more refined diagnostic results for NICM subtypes. (c) It represents the overall network structure of the U-shaped backbone.",
+      "page": 15,
+      "index": 2,
+      "width": 960,
+      "height": 635
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-003.webp",
+      "caption": "Table 3: Performance comparison between the BAAI Cardiac Agent expert diagnostic model and three SOTA models in the subclassification of non-ischemic cardiomyopathy, including hypertrophic cardiomyopathy (HCM), dilated cardiomyopathy (DCM), restrictive cardiomyopathy (RCM), arrhythmogenic cardiomyopathy (ACM) and myocarditis.",
+      "page": 7,
+      "index": 3,
+      "width": 732,
+      "height": 222
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-004.webp",
+      "caption": "Figure 5: Task-modality-tool mapping of the BAAI Cardiac Agent: the left panel presents the tasks integrated in the agent and their corresponding medical imaging modalities, while the right panel lists the tools required to complete the respective imaging tasks.",
+      "page": 13,
+      "index": 4,
+      "width": 976,
+      "height": 481
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-005.webp",
+      "caption": "Figure 3: Evaluation results of BAAI Cardiac Agent report consistency and expert model invocation success rate. (a) Bland-Altman plots comparing BAAI Cardiac Agent measurements (left ventricular end-diastolic volume, LVEDV; left ventricular end-systolic volume, LVESV; left ventricular ejection fraction, LVEF; stroke volume, SV; left ventricular mass, LVM; left ventricular end-diastolic diameter, LVEDD) with manual reports in the internal cohort; (b) Mean distribution of left ventricular end-diastolic wall thickness (LVEDWT) measured by manual reports using the 17-SM and by the BAAI Cardiac Agent in the internal cohort. The bullseye plot correlates the basal, mid, and apical segments of the left ventricle with the outer, middle, and inner layers in sequence, with the apex at the center; (c) Success rate of expert model invocations by the BAAI Cardiac Agent on the internal and external test sets; (d) Accuracy performance of the BAAI Cardiac Agent in cardiac-specific VQA tasks.",
+      "page": 8,
+      "index": 5,
+      "width": 951,
+      "height": 992
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-006.webp",
+      "caption": "Figure 1: A schematic overview of the BAAI Cardiac Agent illustrating the process of radiology report generation from multi-sequence CMR scans (upper section), in comparison with the traditional clinical workflow (lower section). Upper section: the agent-assisted workflow, in which the user submits instructions and upload all CMR sequences to the BAAI Cardiac Agent. The agent automatically interprets the request, invokes appropriate analytic modules, and performs segmentation, quantitative assessment, and diagnostic reasoning. A structured, quantitative enriched radiology report is then generated within approximately 90 seconds. Lower section: the workflow of a traditional radiologist. This workflow begins with manual or semi-automatic segmentation of cine images, followed by qualification of key cardiac function parameters. Diagnostic interpretation is then performed by integrating information from late gadolinium enhancement (LGE) and rest myocardium perfusion imaging (Rest MPI), after which the final report is manually compiled. This sequential workflow typically requires approximately 1800 seconds.",
+      "page": 4,
+      "index": 6,
+      "width": 974,
+      "height": 904
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-007.webp",
+      "caption": "Figure 4: Schematic diagram of the BAAI Cardiac Agent workflow, in which assigned tasks are completed through adaptive invocation and coordinated use of specialized medical image segmentation tools.",
+      "page": 12,
+      "index": 7,
+      "width": 976,
+      "height": 697
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-008.webp",
+      "caption": "Table 1: Performance comparison between the BAAI Cardiac Agent segmentation expert model and SOTA segmentation networks. Computed DSC (%), HD, and ASD values are shown as mean ± standard deviation.",
+      "page": 5,
+      "index": 8,
+      "width": 690,
+      "height": 380
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04078v1/fig-009.webp",
+      "caption": "Table 2: Performance comparison of cardiac disease screening (CDS) in normal heart (NH), ischemic heart disease (IHD) and non-ischemic cardiomyopathy (NICM) cohorts between the BAAI Cardiac Agent CDS expert model and three SOTA models. (N: Number of subjects, F-W F1: Frequency-weighted F1)",
+      "page": 5,
+      "index": 9,
+      "width": 732,
+      "height": 180
+    }
+  ]
+}

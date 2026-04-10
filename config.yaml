@@ -25,5 +25,54 @@ subscriptions:
     stage: A
     diff_threshold_pct: 15
   keyword_recall_mode: or
-  intent_profiles: []
-source_backends: {}
+  intent_profiles:
+    - tag: Agent
+      description: 查询最新的与智能体相关的论文
+      enabled: true
+      paper_sources:
+        - arxiv
+      keywords:
+        - keyword: agent
+          keyword_cn: 智能体
+          query: 学术研究中关于智能体的最新进展
+        - keyword: multi-agent
+          keyword_cn: 多智能体
+          query: 涉及多智能体系统的最新论文与研究
+        - keyword: autonomous agent
+          keyword_cn: 自主智能体
+          query: 关于自主智能体模型和应用的学术论文
+        - keyword: agent architecture
+          keyword_cn: 智能体架构
+          query: 智能体系统架构及算法设计的研究成果
+      intent_queries:
+        - query: 最新的智能体相关学术论文综述与研究趋势
+          query_cn: 查询最新的智能体论文与趋势
+          enabled: true
+          source: manual
+          note: ''
+        - query: 智能体技术和模型的最新研究方向
+          query_cn: 了解智能体的最新研究热点
+          enabled: true
+          source: manual
+          note: ''
+        - query: 近期发表的与多智能体协作或决策相关论文
+          query_cn: 近期与多智能体系统相关的研究成果
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-04-10T12:37:13.240Z'
+source_backends:
+  arxiv:
+    papers_table: arxiv_papers
+    use_vector_rpc: true
+    vector_rpc: match_arxiv_papers
+    vector_rpc_exact: match_arxiv_papers_exact
+    use_bm25_rpc: true
+    bm25_rpc: match_arxiv_papers_bm25
+    sync_table: arxiv_sync_status
+    sync_success_value: success
+    schema: public
+    kind: supabase
+    enabled: true
+    url: https://lyucdwgefyfbmaiopjbk.supabase.co
+    anon_key: sb_publishable_lX-oi64Uxyd7SIVv3_w2Uw_MTOojeKq

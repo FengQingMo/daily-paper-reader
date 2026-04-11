@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-001.webp",
+      "caption": "Figure 1: Non-exhaustive taxonomy of AI Agent Use Cases and Actions, detailing the concrete tasks performed across different domains using a shared LLM-based architecture.",
+      "page": 6,
+      "index": 1,
+      "width": 890,
+      "height": 458
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-002.webp",
+      "caption": "Figure 3: Operational mapping of agent-specific characteristics to amplified compliance challenges and the structural solutions required by the AI Act’s essential requirements as operationalised through the harmonised standards discussed in Section 6. The image visually contrasts ’Agent Characteristic’ with ’Amplified Compliance Challenge,’ leading to the specific ’Operational Solution.’ The diagram reinforces that cybersecurity, human oversight, and behavioral drift require enforcement mechanisms located outside the model inference process (API level).",
+      "page": 15,
+      "index": 2,
+      "width": 948,
+      "height": 471
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-003.webp",
+      "caption": "Table 4: Legislation directly implicated for AI agent providers.",
+      "page": 21,
+      "index": 3,
+      "width": 971,
+      "height": 662
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-004.webp",
+      "caption": "Table 6: Compliance boundary map. Multi-layer obligations for AI agent providers.",
+      "page": 29,
+      "index": 4,
+      "width": 975,
+      "height": 625
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-005.webp",
+      "caption": "Table 7: Future research directions at the intersection of EU AI legislation and international standardisation.",
+      "page": 39,
+      "index": 5,
+      "width": 960,
+      "height": 525
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-006.webp",
+      "caption": "Table 5: Concrete regulatory trigger scenarios mapping agent actions to legislation.",
+      "page": 22,
+      "index": 6,
+      "width": 990,
+      "height": 967
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-007.webp",
+      "caption": "Table 3: Supporting standards under M/613.",
+      "page": 10,
+      "index": 7,
+      "width": 982,
+      "height": 315
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-008.webp",
+      "caption": "Table 8: Compliance impact matrix: regulatory and standards obligations mapped to AI agent deployment categories. Agent categories follow Table 1; obligation layers follow the analysis in Sections 4–8. Dot size and colour encode impact level per the legend above.",
+      "page": 42,
+      "index": 8,
+      "width": 1363,
+      "height": 715
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-009.webp",
+      "caption": "Figure 4: The Multi-Layer Compliance Architecture for AI under EU Law. The diagram illustrates that the AI Act is only one layer in a complex, intersecting regulatory ecosystem, where horizontal frameworks (GDPR, Data Act, CRA) and sectoral rules must be applied simultaneously based on the agent’s specific context.",
+      "page": 17,
+      "index": 9,
+      "width": 1006,
+      "height": 550
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-010.webp",
+      "caption": "Figure 2: Multi-layer regulatory architecture for AI agent providers. The agent’s external actions (top) determine which obligations are activated. The provider’s primary compliance scope (top three layers) flows through the AI Act essential requirements, the harmonised standards, and the GPAI model layer. Adjacent EU instruments (bottom six boxes) are triggered by the agent’s external effects: which data is processed during training or at inference time (GDPR), which products the agent interfaces with (CRA, Data Act), where it publishes (DSA), which sector it operates in (NIS2, MDR, MiFID II), and what harm its outputs may cause (PLD). Dashed bi-directional arrows indicate interaction between adjacent instruments.",
+      "page": 12,
+      "index": 10,
+      "width": 833,
+      "height": 594
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-011.webp",
+      "caption": "Figure 5: Twelve-step compliance sequence for AI agent providers (Section 8.1). Three decision nodes determine the compliance pathway: Step 0 gates AI Act applicability (non-AI systems face only adjacent legislation); Step 2 determines whether full Chapter III essential requirements or Article 50 transparency obligations apply; Step 8 determines whether CRA product cybersecurity runs in parallel. The dotted feedback loop from Step 11 to Step 4 reflects the post-market monitoring obligation: when behavioral drift is detected, the risk management process must reassess whether the change constitutes substantial modification under Article 3(23). Agent-specific considerations annotated at each step: system-counting (Step 0), GPAI compute threshold (Step 1), foreseeable-misuse analysis (Step 2), fundamental rights competence (Step 4), automation boundary design (Step 6), privilege enforcement outside the model (Step 7), and external-action inventory (Step 9).",
+      "page": 41,
+      "index": 11,
+      "width": 1464,
+      "height": 613
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-012.webp",
+      "caption": "Table 2: Primary harmonised standards under M/613 with agent-relevant content.",
+      "page": 9,
+      "index": 12,
+      "width": 976,
+      "height": 729
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04604v1/fig-013.webp",
+      "caption": "Table 1: Practical taxonomy of AI agent categories with concrete actions, external systems, and regulatory triggers.",
+      "page": 5,
+      "index": 13,
+      "width": 990,
+      "height": 1132
+    }
+  ]
+}

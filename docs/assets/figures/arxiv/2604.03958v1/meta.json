@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-001.webp",
+      "caption": "Fig. 3: Consensus errors of AGVs",
+      "page": 10,
+      "index": 1,
+      "width": 440,
+      "height": 362
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-002.webp",
+      "caption": "Fig. 2: Actual trajectories of AGVs",
+      "page": 9,
+      "index": 2,
+      "width": 443,
+      "height": 365
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-003.webp",
+      "caption": "Fig. 5: The first state tracking trajectory using Algorithm 3",
+      "page": 11,
+      "index": 3,
+      "width": 456,
+      "height": 373
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-004.webp",
+      "caption": "Fig. 8: The first state tracking trajectory using algorithm in [33]",
+      "page": 11,
+      "index": 4,
+      "width": 455,
+      "height": 372
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-005.webp",
+      "caption": "Fig. 6: The second state tracking trajectory using Algorithm 3",
+      "page": 11,
+      "index": 5,
+      "width": 456,
+      "height": 372
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-006.webp",
+      "caption": "Fig. 7: Consensus errors using Algorithm 3",
+      "page": 11,
+      "index": 6,
+      "width": 453,
+      "height": 364
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-007.webp",
+      "caption": "Fig. 9: The second state tracking trajectory using algorithm in [33]",
+      "page": 11,
+      "index": 7,
+      "width": 455,
+      "height": 373
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-008.webp",
+      "caption": "Fig. 10: Consensus errors using algorithm in [33]",
+      "page": 11,
+      "index": 8,
+      "width": 456,
+      "height": 368
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-009.webp",
+      "caption": "Fig. 12: Actual formation of AGVs",
+      "page": 12,
+      "index": 9,
+      "width": 451,
+      "height": 369
+    },
+    {
+      "url": "assets/figures/arxiv/2604.03958v1/fig-010.webp",
+      "caption": "Fig. 13: Formation errors of AGVs",
+      "page": 12,
+      "index": 10,
+      "width": 453,
+      "height": 361
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.04093v1/fig-001.webp",
+      "caption": "Figure 2: LLM-Enhanced IoT Analytical Framework of BadgeX: ubiquitous sensors capture multimodal signals, IoT pipelines extract and aggregate features, and LLMs interpret these features to generate high-level analytics on learning construct.",
+      "page": 3,
+      "index": 1,
+      "width": 898,
+      "height": 419
+    }
+  ]
+}

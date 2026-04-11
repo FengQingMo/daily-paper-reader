@@ -1,0 +1,620 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-11T19:15:40.682117+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 12,
+    "deep_cap": 6,
+    "deep_selected": 7,
+    "quick_candidates": 8,
+    "quick_skim_target": 11,
+    "quick_selected": 8
+  },
+  "deep_dive": [
+    {
+      "id": "2604.05119v1",
+      "source": "arxiv",
+      "title": "Governance-Aware Agent Telemetry for Closed-Loop Enforcement in Multi-Agent AI Systems",
+      "abstract": "Enterprise multi-agent AI systems produce thousands of inter-agent interactions per hour, yet existing observability tools capture these dependencies without enforcing anything. OpenTelemetry and Langfuse collect telemetry but treat governance as a downstream analytics concern, not a real-time enforcement target. The result is an \"observe-but-do-not-act\" gap where policy violations are detected only after damage is done.   We present Governance-Aware Agent Telemetry (GAAT), a reference architecture that closes the loop between telemetry collection and automated policy enforcement for multi-agent systems. GAAT introduces (1) a Governance Telemetry Schema (GTS) extending OpenTelemetry with governance attributes; (2) a real-time policy violation detection engine using OPA-compatible declarative rules under sub-200 ms latency; (3) a Governance Enforcement Bus (GEB) with graduated interventions; and (4) a Trusted Telemetry Plane with cryptographic provenance.",
+      "authors": [
+        "Anshul Pathak",
+        "Nishant Jain"
+      ],
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.LG"
+      ],
+      "published": "2026-04-06T19:30:37+00:00",
+      "link": "https://arxiv.org/pdf/2604.05119v1",
+      "tags": [
+        "keyword:Agent"
+      ],
+      "llm_score": 9.5,
+      "llm_evidence_en": "Governance architecture for multi-agent AI systems",
+      "llm_evidence_cn": "多智能体AI系统的治理架构",
+      "llm_evidence": "多智能体AI系统的治理架构",
+      "canonical_evidence": "多智能体AI系统的治理架构",
+      "llm_tldr_en": "Proposes a telemetry-based architecture for real-time policy enforcement in multi-agent systems.",
+      "llm_tldr_cn": "提出了一种基于遥测的架构，用于多智能体系统中的实时策略执行。",
+      "llm_tldr": "提出了一种基于遥测的架构，用于多智能体系统中的实时策略执行。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "涉及多智能体系统的最新论文与研究",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.02695v1",
+      "source": "arxiv",
+      "title": "XrayClaw: Cooperative-Competitive Multi-Agent Alignment for Trustworthy Chest X-ray Diagnosis",
+      "abstract": "Chest X-ray (CXR) interpretation is a fundamental yet complex clinical task that increasingly relies on artificial intelligence for automation. However, traditional monolithic models often lack the nuanced reasoning required for trustworthy diagnosis, frequently leading to logical inconsistencies and diagnostic hallucinations. While multi-agent systems offer a potential solution by simulating collaborative consultations, existing frameworks remain susceptible to consensus-based errors when instantiated by a single underlying model. This paper introduces XrayClaw, a novel framework that operationalizes multi-agent alignment through a sophisticated cooperative-competitive architecture. XrayClaw integrates four specialized cooperative agents to simulate a systematic clinical workflow, alongside a competitive agent that serves as an independent auditor. To reconcile these distinct diagnostic pathways, we propose Competitive Preference Optimization, a learning objective that penalizes illogical reasoning by enforcing mutual verification between analytical and holistic interpretations. Extensive empirical evaluations on the MS-CXR-T, MIMIC-CXR, and CheXbench benchmarks demonstrate that XrayClaw achieves state-of-the-art performance in diagnostic accuracy, clinical reasoning fidelity, and zero-shot domain generalization. Our results indicate that XrayClaw effectively mitigates cumulative hallucinations and enhances the overall reliability of automated CXR diagnosis, establishing a new paradigm for trustworthy medical imaging analysis.",
+      "authors": [
+        "Shawn Young",
+        "Lijian Xu"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-04-03T03:39:30+00:00",
+      "link": "https://arxiv.org/pdf/2604.02695v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Cooperative-competitive multi-agent alignment for medical diagnosis",
+      "llm_evidence_cn": "用于医疗诊断的合作-竞争多智能体对齐",
+      "llm_evidence": "用于医疗诊断的合作-竞争多智能体对齐",
+      "canonical_evidence": "用于医疗诊断的合作-竞争多智能体对齐",
+      "llm_tldr_en": "Uses a multi-agent architecture to improve trustworthiness in chest X-ray interpretation.",
+      "llm_tldr_cn": "通过合作-竞争多智能体架构提升胸部X光自动诊断的逻辑一致性与可信度。",
+      "llm_tldr": "通过合作-竞争多智能体架构提升胸部X光自动诊断的逻辑一致性与可信度。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "近期发表的与多智能体协作或决策相关论文",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.03958v1",
+      "source": "arxiv",
+      "title": "Distributed Optimal Consensus of Nonlinear Multi-Agent Systems",
+      "abstract": "In this paper, the optimal consensus problem for general nonlinear multi-agent systems is studied, where both leaderless and leader-follower cases are considered in a unified framework. The key idea is to convert consensus problems into optimal control problems where the objective of each agent with nonlinear dynamics is to design the control input minimizing the global consensus cost function. Compared with the existing distributed consensus control for nonlinear multi-agent systems, we propose a distributed optimal consensus algorithm based on the optimal control principle (OCP) method, and two enhanced algorithms are developed under the model predictive control (MPC) framework,these two algorithms demonstrate broader applicability when handling general nonlinear multi-agent systems. Moreover, the convergence and superlinear convergence rate of the proposed algorithms are rigorously analyzed. Numerical simulations demonstrate the effectiveness of the proposed algorithms.",
+      "authors": [
+        "Ziyuan Guo",
+        "Chuanzhi lv",
+        "Liping Zhang",
+        "Huanshui Zhang"
+      ],
+      "primary_category": "math.OC",
+      "categories": [
+        "math.OC"
+      ],
+      "published": "2026-04-05T04:25:19+00:00",
+      "link": "https://arxiv.org/pdf/2604.03958v1",
+      "tags": [
+        "keyword:Agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Distributed optimal consensus algorithms for nonlinear multi-agent systems",
+      "llm_evidence_cn": "非线性多智能体系统的分布式最优一致性算法",
+      "llm_evidence": "非线性多智能体系统的分布式最优一致性算法",
+      "canonical_evidence": "非线性多智能体系统的分布式最优一致性算法",
+      "llm_tldr_en": "Develops distributed optimal consensus algorithms for nonlinear multi-agent systems using predictive control.",
+      "llm_tldr_cn": "利用预测控制为非线性多智能体系统开发了分布式最优一致性算法。",
+      "llm_tldr": "利用预测控制为非线性多智能体系统开发了分布式最优一致性算法。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "近期发表的与多智能体协作或决策相关论文",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.04759v1",
+      "source": "arxiv",
+      "title": "Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw",
+      "abstract": "OpenClaw, the most widely deployed personal AI agent in early 2026, operates with full local system access and integrates with sensitive services such as Gmail, Stripe, and the filesystem. While these broad privileges enable high levels of automation and powerful personalization, they also expose a substantial attack surface that existing sandboxed evaluations fail to capture. To address this gap, we present the first real-world safety evaluation of OpenClaw and introduce the CIK taxonomy, which unifies an agent's persistent state into three dimensions, i.e., Capability, Identity, and Knowledge, for safety analysis. Our evaluations cover 12 attack scenarios on a live OpenClaw instance across four backbone models (Claude Sonnet 4.5, Opus 4.6, Gemini 3.1 Pro, and GPT-5.4). The results show that poisoning any single CIK dimension increases the average attack success rate from 24.6% to 64-74%, with even the most robust model exhibiting more than a threefold increase over its baseline vulnerability. We further assess three CIK-aligned defense strategies alongside a file-protection mechanism; however, the strongest defense still yields a 63.8% success rate under Capability-targeted attacks, while file protection blocks 97% of malicious injections but also prevents legitimate updates. Taken together, these findings show that the vulnerabilities are inherent to the agent architecture, necessitating more systematic safeguards to secure personal AI agents. Our project page is https://ucsc-vlaa.github.io/CIK-Bench.",
+      "authors": [
+        "Zijun Wang",
+        "Haoqin Tu",
+        "Letian Zhang",
+        "Hardy Chen",
+        "Juncheng Wu",
+        "Xiangyan Liu",
+        "Zhenlong Yuan",
+        "Tianyu Pang",
+        "Michael Qizhe Shieh",
+        "Fengze Liu",
+        "Zeyu Zheng",
+        "Huaxiu Yao",
+        "Yuyin Zhou",
+        "Cihang Xie"
+      ],
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "published": "2026-04-06T15:27:05+00:00",
+      "link": "https://arxiv.org/pdf/2604.04759v1",
+      "tags": [
+        "keyword:Agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "safety analysis of personal AI agent OpenClaw",
+      "llm_evidence_cn": "个人AI智能体OpenClaw的安全分析",
+      "llm_evidence": "个人AI智能体OpenClaw的安全分析",
+      "canonical_evidence": "个人AI智能体OpenClaw的安全分析",
+      "llm_tldr_en": "Conducts a real-world safety evaluation of a widely deployed personal AI agent using a new taxonomy.",
+      "llm_tldr_cn": "使用新分类法对广泛部署的个人AI智能体进行真实世界的安全评估。",
+      "llm_tldr": "使用新分类法对广泛部署的个人AI智能体进行真实世界的安全评估。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "关于自主智能体模型和应用的学术论文",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.06452v1",
+      "source": "arxiv",
+      "title": "Learning to Interrupt in Language-based Multi-agent Communication",
+      "abstract": "Multi-agent systems using large language models (LLMs) have demonstrated impressive capabilities across various domains. However, current agent communication suffers from verbose output that overload context and increase computational costs. Although existing approaches focus on compressing the message from the speaker side, they struggle to adapt to different listeners and identify relevant information. An effective way in human communication is to allow the listener to interrupt and express their opinion or ask for clarification. Motivated by this, we propose an interruptible communication framework that allows the agent who is listening to interrupt the current speaker. Through prompting experiments, we find that current LLMs are often overconfident and interrupt before receiving enough information. Therefore, we propose a learning method that predicts the appropriate interruption points based on the estimated future reward and cost. We evaluate our framework across various multi-agent scenarios, including 2-agent text pictionary games, 3-agent meeting scheduling, and 3-agent debate. The results of the experiment show that our HANDRAISER can reduce the communication cost by 32.2% compared to the baseline with comparable or superior task performance. This learned interruption behavior can also be generalized to different agents and tasks.",
+      "authors": [
+        "Danqing Wang",
+        "Da Yin",
+        "Ruta Desai",
+        "Lei Li",
+        "Asli Celikyilmaz",
+        "Ansong Ni"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL"
+      ],
+      "published": "2026-04-07T20:47:40+00:00",
+      "link": "https://arxiv.org/pdf/2604.06452v1",
+      "tags": [
+        "keyword:Agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Interruptible communication framework for multi-agent collaboration",
+      "llm_evidence_cn": "多智能体协作的可中断通信框架",
+      "llm_evidence": "多智能体协作的可中断通信框架",
+      "canonical_evidence": "多智能体协作的可中断通信框架",
+      "llm_tldr_en": "Introduces an interruptible communication framework to improve efficiency and reduce costs in multi-agent systems.",
+      "llm_tldr_cn": "引入了一种可中断的通信框架，以提高多智能体系统的效率并降低成本。",
+      "llm_tldr": "引入了一种可中断的通信框架，以提高多智能体系统的效率并降低成本。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "近期发表的与多智能体协作或决策相关论文",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.07146v1",
+      "source": "arxiv",
+      "title": "Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering",
+      "abstract": "Knowledge-based visual question answering (KB-VQA) requires vision-language models to understand images and use external knowledge, especially for rare entities and long-tail facts. Most existing retrieval-augmented generation (RAG) methods adopt a fixed pipeline that sequentially retrieves information, filters it, and then produces an answer. Such a design makes it difficult to adapt to diverse question types. Moreover, it separates retrieval from reasoning, making it hard for the model to decide when to search, how to refine queries, or when to stop. As a result, the retrieved evidence is often poorly aligned with the question. To address these limitations, we reformulate KB-VQA as a search-agent problem and model the solving process as a multi-step decision-making procedure. At each step, the agent selects one of four actions-Answer, Image Retrieval, Text Retrieval, and Caption-based on its current information state. We further design an automated pipeline to collect multi-step trajectories that record the agent's reasoning process, tool usage, and intermediate decisions. These trajectories are then used as supervision for fine-tuning. Experiments on InfoSeek and E-VQA demonstrate that our method achieves state-of-the-art performance, consistently outperforming prior baselines and confirming the effectiveness of our framework.",
+      "authors": [
+        "Zhuohong Chen",
+        "Zhenxian Wu",
+        "Yunyao Yu",
+        "Hangrui Xu",
+        "Zirui Liao",
+        "Zhifang Liu",
+        "Xiangwen Deng",
+        "Pen Jiao",
+        "Haoqian Wang"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-04-08T14:37:35+00:00",
+      "link": "https://arxiv.org/pdf/2604.07146v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Reformulates KB-VQA as a search-agent problem with decision-based solving",
+      "llm_evidence_cn": "将知识库问答重新表述为具有决策能力的搜索智能体问题",
+      "llm_evidence": "将知识库问答重新表述为具有决策能力的搜索智能体问题",
+      "canonical_evidence": "将知识库问答重新表述为具有决策能力的搜索智能体问题",
+      "llm_tldr_en": "Models the visual question answering process as a decision-based search agent to improve retrieval and reasoning.",
+      "llm_tldr_cn": "将视觉问答过程建模为基于决策的搜索智能体，以改进检索和推理。",
+      "llm_tldr": "将视觉问答过程建模为基于决策的搜索智能体，以改进检索和推理。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "关于自主智能体模型和应用的学术论文",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.07146v2",
+      "source": "arxiv",
+      "title": "Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering",
+      "abstract": "Knowledge-based visual question answering (KB-VQA) requires vision-language models to understand images and use external knowledge, especially for rare entities and long-tail facts. Most existing retrieval-augmented generation (RAG) methods adopt a fixed pipeline that sequentially retrieves information, filters it, and then produces an answer. Such a design makes it difficult to adapt to diverse question types. Moreover, it separates retrieval from reasoning, making it hard for the model to decide when to search, how to refine queries, or when to stop. As a result, the retrieved evidence is often poorly aligned with the question. To address these limitations, we reformulate KB-VQA as a search-agent problem and model the solving process as a multi-step decision-making procedure. At each step, the agent selects one of four actions-Answer, Image Retrieval, Text Retrieval, and Caption-based on its current information state. We further design an automated pipeline to collect multi-step trajectories that record the agent's reasoning process, tool usage, and intermediate decisions. These trajectories are then used as supervision for fine-tuning. Experiments on InfoSeek and E-VQA demonstrate that our method achieves state-of-the-art performance, consistently outperforming prior baselines and confirming the effectiveness of our framework.",
+      "authors": [
+        "Zhuohong Chen",
+        "Zhenxian Wu",
+        "Yunyao Yu",
+        "Hangrui Xu",
+        "Zirui Liao",
+        "Zhifang Liu",
+        "Xiangwen Deng",
+        "Pen Jiao",
+        "Haoqian Wang"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-04-08T14:37:35+00:00",
+      "link": "https://arxiv.org/pdf/2604.07146v2",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "reformulating KB-VQA as a search-agent problem",
+      "llm_evidence_cn": "将知识库视觉问答重新表述为搜索智能体问题",
+      "llm_evidence": "将知识库视觉问答重新表述为搜索智能体问题",
+      "canonical_evidence": "将知识库视觉问答重新表述为搜索智能体问题",
+      "llm_tldr_en": "Models visual question answering as a decision-based search agent to improve alignment between evidence and questions.",
+      "llm_tldr_cn": "将视觉问答建模为基于决策的搜索智能体，以改善证据与问题之间的对齐。",
+      "llm_tldr": "将视觉问答建模为基于决策的搜索智能体，以改善证据与问题之间的对齐。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "关于自主智能体模型和应用的学术论文",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2604.04190v1",
+      "source": "arxiv",
+      "title": "Schema-Aware Planning and Hybrid Knowledge Toolset for Reliable Knowledge Graph Triple Verification",
+      "abstract": "Knowledge Graphs (KGs) serve as a critical foundation for AI systems, yet their automated construction inevitably introduces noise, compromising data trustworthiness. Existing triple verification methods, based on graph embeddings or language models, often suffer from single-source bias by relying on either internal structural constraints or external semantic evidence, and usually follow a static inference paradigm. As a result, they struggle with complex or long-tail facts and provide limited interpretability. To address these limitations, we propose SHARP (Schema-Hybrid Agent for Reliable Prediction), a training-free autonomous agent that reformulates triple verification as a dynamic process of strategic planning, active investigation, and evidential reasoning. Specifically, SHARP combines a Memory-Augmented Mechanism with Schema-Aware Strategic Planning to improve reasoning stability, and employs an enhanced ReAct loop with a Hybrid Knowledge Toolset to dynamically integrate internal KG structure and external textual evidence for cross-verification. Experiments on FB15K-237 and Wikidata5M-Ind show that SHARP significantly outperforms existing state-of-the-art baselines, achieving accuracy gains of 4.2% and 12.9%, respectively. Moreover, SHARP provides transparent, fact-based evidence chains for each judgment, demonstrating strong interpretability and robustness for complex verification tasks.",
+      "authors": [
+        "Xinyan Ma",
+        "Xianhao Ou",
+        "Weihao Zhang",
+        "Shixin Jiang",
+        "Runxuan Liu",
+        "Dandan Tu",
+        "Lei Chen",
+        "Ming Liu",
+        "Bing Qin"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-05T17:10:18+00:00",
+      "link": "https://arxiv.org/pdf/2604.04190v1",
+      "tags": [
+        "keyword:Agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Autonomous agent for dynamic strategic planning in knowledge verification",
+      "llm_evidence_cn": "用于知识验证中动态战略规划的自主智能体",
+      "llm_evidence": "用于知识验证中动态战略规划的自主智能体",
+      "canonical_evidence": "用于知识验证中动态战略规划的自主智能体",
+      "llm_tldr_en": "Proposes SHARP, a training-free autonomous agent for reliable knowledge graph triple verification.",
+      "llm_tldr_cn": "提出了SHARP，一种用于可靠知识图谱三元组验证的免训练自主智能体。",
+      "llm_tldr": "提出了SHARP，一种用于可靠知识图谱三元组验证的免训练自主智能体。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "关于自主智能体模型和应用的学术论文",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.04093v1",
+      "source": "arxiv",
+      "title": "BadgeX: IoT-Enhanced Wearable Analytics Meets LLMs for Collaborative Learning",
+      "abstract": "We present BadgeX, a novel system integrating lightweight wearable IoT devices (smart badges/smartphones) with Large Language Models (LLMs) to enable real-time collaborative learning analytics. The system captures multimodal sensor data (e.g., audio, image, motion, depth) from learners, processes it into structured features, and employs an LLM-driven framework to interpret these features, generating high-level insights grounded in learning theory. A pilot study demonstrated the system's capability to capture rich collaboration traces and for an LLM to produce plausible, theoretically coherent narrative analyses from sensor-derived features. BadgeX aims to lower deployment barriers, making complex collaborative dynamics visible and offering a pathway for real-time support in educational settings.",
+      "authors": [
+        "Zaibei Li",
+        "Shunpei Yamaguchi",
+        "Qiuchi Li",
+        "Daniel Spikol"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "published": "2026-04-05T12:18:42+00:00",
+      "link": "https://arxiv.org/pdf/2604.04093v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "LLM-driven framework for collaborative learning analytics using wearable IoT",
+      "llm_evidence_cn": "利用可穿戴物联网进行协作学习分析的 LLM 驱动框架",
+      "llm_evidence": "利用可穿戴物联网进行协作学习分析的 LLM 驱动框架",
+      "canonical_evidence": "利用可穿戴物联网进行协作学习分析的 LLM 驱动框架",
+      "llm_tldr_en": "BadgeX integrates wearable IoT with LLMs to analyze and interpret complex collaborative learning dynamics.",
+      "llm_tldr_cn": "BadgeX 将可穿戴物联网与 LLM 集成，以分析和解释复杂的协作学习动态。",
+      "llm_tldr": "BadgeX 将可穿戴物联网与 LLM 集成，以分析和解释复杂的协作学习动态。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "关于自主智能体模型和应用的学术论文",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.04604v1",
+      "source": "arxiv",
+      "title": "AI Agents Under EU Law",
+      "abstract": "AI agents - i.e. AI systems that autonomously plan, invoke external tools, and execute multi-step action chains with reduced human involvement - are being deployed at scale across enterprise functions ranging from customer service and recruitment to clinical decision support and critical infrastructure management. The EU AI Act (Regulation 2024/1689) regulates these systems through a risk-based framework, but it does not operate in isolation: providers face simultaneous obligations under the GDPR, the Cyber Resilience Act, the Digital Services Act, the Data Act, the Data Governance Act, sector-specific legislation, the NIS2 Directive, and the revised Product Liability Directive. This paper provides the first systematic regulatory mapping for AI agent providers integrating (a) draft harmonised standards under Standardisation Request M/613 to CEN/CENELEC JTC 21 as of January 2026, (b) the GPAI Code of Practice published in July 2025, (c) the CRA harmonised standards programme under Mandate M/606 accepted in April 2025, and (d) the Digital Omnibus proposals of November 2025. We present a practical taxonomy of nine agent deployment categories mapping concrete actions to regulatory triggers, identify agent-specific compliance challenges in cybersecurity, human oversight, transparency across multi-party action chains, and runtime behavioral drift. We propose a twelve-step compliance architecture and a regulatory trigger mapping connecting agent actions to applicable legislation. We conclude that high-risk agentic systems with untraceable behavioral drift cannot currently satisfy the AI Act's essential requirements, and that the provider's foundational compliance task is an exhaustive inventory of the agent's external actions, data flows, connected systems, and affected persons.",
+      "authors": [
+        "Luca Nannini",
+        "Adam Leon Smith",
+        "Michele Joshua Maggini",
+        "Enrico Panai",
+        "Sandra Feliciano",
+        "Aleksandr Tiulkanov",
+        "Elena Maran",
+        "James Gealy",
+        "Piercosma Bisconti"
+      ],
+      "primary_category": "cs.CY",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.CR",
+        "cs.MA"
+      ],
+      "published": "2026-04-06T11:47:38+00:00",
+      "link": "https://arxiv.org/pdf/2604.04604v1",
+      "tags": [
+        "keyword:Agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Regulatory mapping and legal framework for AI agents under EU law",
+      "llm_evidence_cn": "欧盟法律框架下AI智能体的监管映射与法律研究",
+      "llm_evidence": "欧盟法律框架下AI智能体的监管映射与法律研究",
+      "canonical_evidence": "欧盟法律框架下AI智能体的监管映射与法律研究",
+      "llm_tldr_en": "Provides a systematic regulatory mapping for AI agents under the EU AI Act and related legislation.",
+      "llm_tldr_cn": "系统地梳理了欧盟AI法案及相关法规对AI智能体提供商的监管要求。",
+      "llm_tldr": "系统地梳理了欧盟AI法案及相关法规对AI智能体提供商的监管要求。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "学术研究中关于智能体的最新进展",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.05387v1",
+      "source": "arxiv",
+      "title": "Data-Driven Function Calling Improvements in Large Language Model for Online Financial QA",
+      "abstract": "Large language models (LLMs) have been incorporated into numerous industrial applications. Meanwhile, a vast array of API assets is scattered across various functions in the financial domain. An online financial question-answering system can leverage both LLMs and private APIs to provide timely financial analysis and information. The key is equipping the LLM model with function calling capability tailored to a financial scenario. However, a generic LLM requires customized financial APIs to call and struggles to adapt to the financial domain. Additionally, online user queries are diverse and contain out-of-distribution parameters compared with the required function input parameters, which makes it more difficult for a generic LLM to serve online users. In this paper, we propose a data-driven pipeline to enhance function calling in LLM for our online, deployed financial QA, comprising dataset construction, data augmentation, and model training. Specifically, we construct a dataset based on a previous study and update it periodically, incorporating queries and an augmentation method named AugFC. The addition of user query-related samples will \\textit{exploit} our financial toolset in a data-driven manner, and AugFC explores the possible parameter values to enhance the diversity of our updated dataset. Then, we train an LLM with a two-step method, which enables the use of our financial functions. Extensive experiments on existing offline datasets, as well as the deployment of an online scenario, illustrate the superiority of our pipeline. The related pipeline has been adopted in the financial QA of YuanBao\\footnote{https://yuanbao.tencent.com/chat/}, one of the largest chat platforms in China.",
+      "authors": [
+        "Xing Tang",
+        "Hao Chen",
+        "Shiwei Li",
+        "Fuyuan Lyu",
+        "Weijie Shi",
+        "Lingjie Li",
+        "Dugang Liu",
+        "Weihong Luo",
+        "Xiku Du",
+        "Xiuqiang He"
+      ],
+      "primary_category": "cs.IR",
+      "categories": [
+        "cs.IR",
+        "cs.CL"
+      ],
+      "published": "2026-04-07T03:35:06+00:00",
+      "link": "https://arxiv.org/pdf/2604.05387v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Equipping LLM with function calling capability for financial agents",
+      "llm_evidence_cn": "为金融智能体配备大语言模型函数调用能力",
+      "llm_evidence": "为金融智能体配备大语言模型函数调用能力",
+      "canonical_evidence": "为金融智能体配备大语言模型函数调用能力",
+      "llm_tldr_en": "Enhances LLM function calling for financial QA systems to improve domain-specific agent performance.",
+      "llm_tldr_cn": "增强大语言模型在金融问答系统中的函数调用能力，提升特定领域智能体的表现。",
+      "llm_tldr": "增强大语言模型在金融问答系统中的函数调用能力，提升特定领域智能体的表现。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "关于自主智能体模型和应用的学术论文",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.05130v1",
+      "source": "arxiv",
+      "title": "A Multi-Agent Framework for Automated Exploit Generation with Constraint-Guided Comprehension and Reflection",
+      "abstract": "Open-source libraries are widely used in modern software development, introducing significant security vulnerabilities. While static analysis tools can identify potential vulnerabilities at scale, they often generate overwhelming reports with high false positive rates. Automated Exploit Generation (AEG) emerges as a promising solution to confirm vulnerability authenticity by generating an exploit. However, traditional AEG approaches based on fuzzing or symbolic execution face path coverage and constraint-solving problems. Although LLMs show great potential for AEG, how to effectively leverage them to comprehend vulnerabilities and generate corresponding exploits is still an open question.   To address these challenges, we propose Vulnsage, a multi-agent framework for AEG. Vulnsage simulates human security researchers' workflows by decomposing the complex AEG process into multiple specialized sub-agents: Code Analyzer Agent, Code Generation Agent, Validation Agent, and a set of Reflection Agents, orchestrated by a central supervisor through iterative cycles. Given a target program, the Code Analyzer Agent performs static analysis to identify potential vulnerabilities and collects relevant information for each one. The Code Generation Agent then utilizes an LLM to generate candidate exploits. The Validation Agent and Reflection Agents form a feedback-driven self-refinement loop that uses execution traces and runtime error analysis to either improve the exploit iteratively or reason about the false positive alert.   Experimental evaluation demonstrates that Vulnsage succeeds in generating 34.64\\% more exploits than state-of-the-art tools such as \\explodejs. Furthermore, Vulnsage has successfully discovered and verified 146 zero-day vulnerabilities in real-world scenarios, demonstrating its practical effectiveness for assisting security assessment in software supply chains.",
+      "authors": [
+        "Siyi Chen",
+        "Tianhan Luo",
+        "Shijian Wu",
+        "Xiangyu Liu",
+        "Yilin Zhou",
+        "Qi Li",
+        "Wenyuan Xu"
+      ],
+      "primary_category": "cs.SE",
+      "categories": [
+        "cs.SE"
+      ],
+      "published": "2026-04-06T19:47:17+00:00",
+      "link": "https://arxiv.org/pdf/2604.05130v1",
+      "tags": [
+        "keyword:Agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Multi-agent framework for automated exploit generation and vulnerability comprehension",
+      "llm_evidence_cn": "用于自动漏洞利用生成和理解的多智能体框架",
+      "llm_evidence": "用于自动漏洞利用生成和理解的多智能体框架",
+      "canonical_evidence": "用于自动漏洞利用生成和理解的多智能体框架",
+      "llm_tldr_en": "A multi-agent framework that uses reflection and constraint-guided comprehension for automated exploit generation.",
+      "llm_tldr_cn": "一种利用反射和约束引导理解进行自动漏洞利用生成的多智能体框架。",
+      "llm_tldr": "一种利用反射和约束引导理解进行自动漏洞利用生成的多智能体框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "涉及多智能体系统的最新论文与研究",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.06845v1",
+      "source": "arxiv",
+      "title": "HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues",
+      "abstract": "Long-term memory is critical for dialogue systems that support continuous, sustainable, and personalized interactions. However, existing methods rely on continuous summarization or OpenIE-based graph construction paired with fixed Top-\\textit{k} retrieval, leading to limited adaptability across query categories and high computational overhead. In this paper, we propose HingeMem, a boundary-guided long-term memory that operationalizes event segmentation theory to build an interpretable indexing interface via boundary-triggered hyperedges over four elements: person, time, location, and topic. When any such element changes, HingeMem draws a boundary and writes the current segment, thereby reducing redundant operations and preserving salient context. To enable robust and efficient retrieval under diverse information needs, HingeMem introduces query-adaptive retrieval mechanisms that jointly decide (a) \\textit{what to retrieve}: determine the query-conditioned routing over the element-indexed memory; (b) \\textit{how much to retrieve}: control the retrieval depth based on the estimated query type. Extensive experiments across LLM scales (from 0.6B to production-tier models; \\textit{e.g.}, Qwen3-0.6B to Qwen-Flash) on LOCOMO show that HingeMem achieves approximately $20\\%$ relative improvement over strong baselines without query categories specification, while reducing computational cost (68\\%$\\downarrow$ question answering token cost compared to HippoRAG2). Beyond advancing memory modeling, HingeMem's adaptive retrieval makes it a strong fit for web applications requiring efficient and trustworthy memory over extended interactions.",
+      "authors": [
+        "Yijie Zhong",
+        "Yunfan Gao",
+        "Haofen Wang"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "published": "2026-04-08T09:07:07+00:00",
+      "link": "https://arxiv.org/pdf/2604.06845v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "boundary-guided long-term memory for scalable dialogues",
+      "llm_evidence_cn": "用于可扩展对话的边界引导长期记忆架构",
+      "llm_evidence": "用于可扩展对话的边界引导长期记忆架构",
+      "canonical_evidence": "用于可扩展对话的边界引导长期记忆架构",
+      "llm_tldr_en": "Proposes HingeMem, a memory architecture for dialogue systems using event segmentation for efficient retrieval.",
+      "llm_tldr_cn": "提出 HingeMem，一种利用事件分割理论实现高效检索的对话系统长期记忆架构。",
+      "llm_tldr": "提出 HingeMem，一种利用事件分割理论实现高效检索的对话系统长期记忆架构。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "智能体系统架构及算法设计的研究成果",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.06711v1",
+      "source": "arxiv",
+      "title": "Specializing Large Models for Oracle Bone Script Interpretation via Component-Grounded Multimodal Knowledge Augmentation",
+      "abstract": "Deciphering ancient Chinese Oracle Bone Script (OBS) is a challenging task that offers insights into the beliefs, systems, and culture of the ancient era. Existing approaches treat decipherment as a closed-set image recognition problem, which fails to bridge the ``interpretation gap'': while individual characters are often unique and rare, they are composed of a limited set of recurring, pictographic components that carry transferable semantic meanings. To leverage this structural logic, we propose an agent-driven Vision-Language Model (VLM) framework that integrates a VLM for precise visual grounding with an LLM-based agent to automate a reasoning chain of component identification, graph-based knowledge retrieval, and relationship inference for linguistically accurate interpretation. To support this, we also introduce OB-Radix, an expert-annotated dataset providing structural and semantic data absent from prior corpora, comprising 1,022 character images (934 unique characters) and 1,853 fine-grained component images across 478 distinct components with verified explanations. By evaluating our system across three benchmarks of different tasks, we demonstrate that our framework yields more detailed and precise decipherments compared to baseline methods.",
+      "authors": [
+        "Jianing Zhang",
+        "Runan Li",
+        "Honglin Pang",
+        "Ding Xia",
+        "Zhou Zhu",
+        "Qian Zhang",
+        "Chuntao Li",
+        "Xi Yang"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "published": "2026-04-08T06:05:54+00:00",
+      "link": "https://arxiv.org/pdf/2604.06711v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Agent-driven framework for ancient script interpretation",
+      "llm_evidence_cn": "用于古文字解读的智能体驱动框架",
+      "llm_evidence": "用于古文字解读的智能体驱动框架",
+      "canonical_evidence": "用于古文字解读的智能体驱动框架",
+      "llm_tldr_en": "Applies an agentic reasoning chain to automate the interpretation of Oracle Bone Script.",
+      "llm_tldr_cn": "应用智能体推理链来自动化甲骨文的解读过程。",
+      "llm_tldr": "应用智能体推理链来自动化甲骨文的解读过程。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "关于自主智能体模型和应用的学术论文",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.08303v1",
+      "source": "arxiv",
+      "title": "Stability and Sensitivity Analysis for Objective Misspecifications Among Model Predictive Game Controllers",
+      "abstract": "Model-based multi-agent control requires agents to possess a model of the behavior of others to make strategic decisions. Solution concepts from game theory are often used to model the emergent collective behavior of self-interested agents and have found active use in multi-agent control design. Model predictive games are a class of controllers in which an agent iteratively solves a finite-horizon game to predict the behavior of a multi-agent system and synthesize their own control action. When multiple agents implement these types of controllers, there may exist misspecifications in the respective game models embedded in their controllers, stemming from inaccurate estimates or conjectures of other agents' objectives. This paper analyzes the resulting prediction misalignments and their effects on the system's behavior. We provide criteria for the stability of multi-agent dynamic systems with heterogeneous model predictive game controllers, and quantify the sensitivity of the equilibria to individual agents' game parameters.",
+      "authors": [
+        "Ada Yildirim",
+        "Bryce L. Ferguson"
+      ],
+      "primary_category": "eess.SY",
+      "categories": [
+        "eess.SY"
+      ],
+      "published": "2026-04-09T14:35:44+00:00",
+      "link": "https://arxiv.org/pdf/2604.08303v1",
+      "tags": [
+        "keyword:Agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Model predictive game controllers for multi-agent control",
+      "llm_evidence_cn": "用于多智能体控制的模型预测博弈控制器",
+      "llm_evidence": "用于多智能体控制的模型预测博弈控制器",
+      "canonical_evidence": "用于多智能体控制的模型预测博弈控制器",
+      "llm_tldr_en": "Analyzes stability and sensitivity in multi-agent systems using model predictive games.",
+      "llm_tldr_cn": "研究了多智能体控制中模型预测博弈控制器的稳定性与目标误设敏感性。",
+      "llm_tldr": "研究了多智能体控制中模型预测博弈控制器的稳定性与目标误设敏感性。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "智能体系统架构及算法设计的研究成果",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    }
+  ]
+}

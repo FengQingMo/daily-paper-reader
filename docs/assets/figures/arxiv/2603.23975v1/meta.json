@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.23975v1/fig-001.webp",
+      "caption": "Fig. 1. Heterogeneity in dynamic collaboration. (b) Architecture Heterogeneity occurs when agents employ diverse model architectures, making direct feature fusion structurally infeasible. (c) Latent Domain Heterogeneity is from an independent training setting even when agents adopt identical architectures, resulting in a more subtle threat. Our proposed framework successfully identifies not only explicit structural mismatches but also these hidden latent domain shifts to prevent feature contamination.",
+      "page": 1,
+      "index": 1,
+      "width": 460,
+      "height": 325
+    },
+    {
+      "url": "assets/figures/arxiv/2603.23975v1/fig-002.webp",
+      "caption": "Fig. 2. Overview of HyDRA. Domain Classifier computes a domain similarity score Sdomain by comparing the ego-decoded prediction Bpred with the received auxiliary detection result BA. In Hybrid Fusion, homogeneous agents (Nint) participate in intermediate fusion to generate Stage 1 detections (Bstage1), while heterogeneous agents (Nlate) participate in late fusion using their transmitted detection results. At the late-fusion stage, Anchor-Guided Pose Graph Optimization mitigates pose noise by treating the reliable Stage 1 results as fixed spatial anchors to correct the poses of heterogeneous agents.",
+      "page": 2,
+      "index": 2,
+      "width": 998,
+      "height": 356
+    },
+    {
+      "url": "assets/figures/arxiv/2603.23975v1/fig-003.webp",
+      "caption": "Fig. 5. Analysis of domain classifier scores comparing homogeneous vs. heterogeneous agents under ideal and noisy (σ = 0.4) conditions.",
+      "page": 7,
+      "index": 3,
+      "width": 496,
+      "height": 250
+    },
+    {
+      "url": "assets/figures/arxiv/2603.23975v1/fig-004.webp",
+      "caption": "TABLE IV ABLATION STUDY UNDER POSE NOISE ERROR (σ = 0.4)",
+      "page": 7,
+      "index": 4,
+      "width": 512,
+      "height": 283
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-001.webp",
+      "caption": "Figure 1: Illustration of existing ICL paradigms (top) and challenges (bottom) in EHR-based clinical reasoning.",
+      "page": 1,
+      "index": 1,
+      "width": 483,
+      "height": 314
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-002.webp",
+      "caption": "Table 5: Statistics of the MIMIC-III dataset and MIMIC-IV dataset. “Re.” stands for Readmission, indicating patients who are readmitted to the ICU within 30 days of discharge, while “No Re.” represents patients who are not readmitted.",
+      "page": 15,
+      "index": 2,
+      "width": 767,
+      "height": 390
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-003.webp",
+      "caption": "Figure 8: Shot scaling performance on MIMIC-IV Readmission with Qwen3-14B as the backbone LLM.",
+      "page": 21,
+      "index": 3,
+      "width": 857,
+      "height": 373
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-004.webp",
+      "caption": "Table 10: Key Notations Used in GraphWalker",
+      "page": 30,
+      "index": 4,
+      "width": 478,
+      "height": 1094
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-005.webp",
+      "caption": "Table 9: Case study on MIMIC-III Mortality.",
+      "page": 29,
+      "index": 5,
+      "width": 1011,
+      "height": 1423
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-006.webp",
+      "caption": "Table 8: Results of the black-box variant of GraphWalker on MIMIC-III Mortality using GPT-5.2, and its compatibility with ReAct-style reasoning. ReAct uses the same few-shot demonstrations but adopts a more dynamic reasoning scaffold. Higher values indicate better performance (↑).",
+      "page": 23,
+      "index": 6,
+      "width": 411,
+      "height": 311
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-007.webp",
+      "caption": "Figure 9: Performance–latency tradeoff on MIMIC-III Mortality with Qwen3-14B. The x-axis denotes the average inference time per case, and the y-axis shows AUROC, AUPRC, and F1, respectively. Each point represents a demonstration selection method, and the dashed line marks the Pareto frontier. GraphWalker lies on the Pareto frontier, indicating that an additional test-time cost of only several seconds per case, which is acceptable in many clinical decision-support scenarios, can yield substantial gains in predictive performance.",
+      "page": 28,
+      "index": 7,
+      "width": 881,
+      "height": 1233
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-008.webp",
+      "caption": "Table 1: Performance comparison on MIMIC-III and MIMIC-IV datasets using Qwen3-14B and Llama3.1-8B-Instruct as backbone LLMs. All evaluation metrics are defined such that higher values indicate better performance (↑). The best results are highlighted in bold, while the second-best results are underlined. Impro(%) indicates the relative improvement of GraphWalker over the second-best performance.",
+      "page": 8,
+      "index": 8,
+      "width": 921,
+      "height": 743
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-009.webp",
+      "caption": "Table 2: Ablation study of GraphWalker using Qwen3-14B as backbone LLM on MIMIC-III and MIMIC-IV datasets. All evaluation metrics are defined such that higher values indicate better performance (↑). The best results are highlighted in Bold.",
+      "page": 8,
+      "index": 9,
+      "width": 887,
+      "height": 182
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-010.webp",
+      "caption": "Figure 4: Analysis of Information Aggregation of Multiple Demonstrations using various Demonstration Selection Algorithm.",
+      "page": 4,
+      "index": 10,
+      "width": 929,
+      "height": 252
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-011.webp",
+      "caption": "Table 6: Additional results on MIMIC-III and MIMIC-IV datasets using Qwen3-32B as the backbone LLM. All evaluation metrics are defined such that higher values indicate better performance (↑). The best results are highlighted in bold, while the second-best results are underlined. Impro(%) indicates the relative improvement of GraphWalker over the second-best performance.",
+      "page": 17,
+      "index": 11,
+      "width": 921,
+      "height": 393
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06684v1/fig-012.webp",
+      "caption": "Figure 5: Illustration of GraphWalker.",
+      "page": 5,
+      "index": 12,
+      "width": 958,
+      "height": 511
+    }
+  ]
+}

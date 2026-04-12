@@ -1,0 +1,1168 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-12T09:48:25.115919+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 27,
+    "deep_cap": 6,
+    "deep_selected": 18,
+    "quick_candidates": 21,
+    "quick_skim_target": 11,
+    "quick_selected": 11
+  },
+  "deep_dive": [
+    {
+      "id": "2603.21563v1",
+      "source": "arxiv",
+      "title": "Counterfactual Credit Policy Optimization for Multi-Agent Collaboration",
+      "abstract": "Collaborative multi-agent large language models (LLMs) can solve complex reasoning tasks by decomposing roles and aggregating diverse hypotheses. Yet, reinforcement learning (RL) for such systems is often undermined by credit assignment: a shared global reward obscures individual contributions, inflating update variance and encouraging free-riding. We introduce Counterfactual Credit Policy Optimization (CCPO), a framework that assigns agent-specific learning signals by estimating each agent's marginal contribution through counterfactual trajectories. CCPO builds dynamic counterfactual baselines that simulate outcomes with an agent's contribution removed, yielding role-sensitive advantages for policy optimization. To further improve stability under heterogeneous tasks and data distributions, we propose a global-history-aware normalization scheme that calibrates advantages using global rollout statistics. We evaluate CCPO on two collaboration topologies: a sequential Think--Reason dyad and multi-agent voting. Across mathematical and logical reasoning benchmarks, CCPO mitigates free-riding and outperforms strong multi-agent RL baselines, yielding finer-grained and more effective credit assignment for collaborative LLM training. Our code is available at https://github.com/bhai114/ccpo.",
+      "authors": [
+        "Zhongyi Li",
+        "Wan Tian",
+        "Yikun Ban",
+        "Jinju Chen",
+        "Huiming Zhang",
+        "Yang Liu",
+        "Fuzhen Zhuang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-23T04:35:02+00:00",
+      "link": "https://arxiv.org/pdf/2603.21563v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "reinforcement learning for multi-agent collaboration and credit assignment",
+      "llm_evidence_cn": "多智能体协作与信用分配的强化学习研究",
+      "llm_evidence": "多智能体协作与信用分配的强化学习研究",
+      "canonical_evidence": "多智能体协作与信用分配的强化学习研究",
+      "llm_tldr_en": "Introduces CCPO to improve multi-agent collaboration through counterfactual credit assignment.",
+      "llm_tldr_cn": "引入CCPO框架，通过反事实信用分配优化多智能体协作学习。",
+      "llm_tldr": "引入CCPO框架，通过反事实信用分配优化多智能体协作学习。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.22823v2",
+      "source": "arxiv",
+      "title": "Empirical Comparison of Agent Communication Protocols for Task Orchestration",
+      "abstract": "Context. Nowadays, artificial intelligence agent systems are transforming from single-tool interactions to complex multi-agent orchestrations. As a result, two competing communication protocols have emerged: a tool integration protocol that standardizes how agents invoke external tools, and an inter-agent delegation protocol that enables autonomous agents to discover and delegate tasks to one another. Despite widespread industry adoption by dozens of enterprise partners, no empirical comparison of these protocols exists in the literature. Objective. The goal of this work is to develop the first systematic benchmark comparing tool-integration-only, multi-agent delegation, and hybrid architectures across standardized queries at three complexity levels, and to quantify the trade-offs in response time, context window consumption, monetary cost, error recovery, and implementation complexity.",
+      "authors": [
+        "Ivan Dobrovolskyi"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-24T05:50:58+00:00",
+      "link": "https://arxiv.org/pdf/2603.22823v2",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "comparison of agent communication protocols for multi-agent orchestrations",
+      "llm_evidence_cn": "多智能体编排中智能体通信协议的比较",
+      "llm_evidence": "多智能体编排中智能体通信协议的比较",
+      "canonical_evidence": "多智能体编排中智能体通信协议的比较",
+      "llm_tldr_en": "Benchmarks tool-integration and inter-agent delegation protocols for complex multi-agent task orchestration.",
+      "llm_tldr_cn": "对复杂多智能体任务编排中的工具集成和智能体间委托协议进行基准测试。",
+      "llm_tldr": "对复杂多智能体任务编排中的工具集成和智能体间委托协议进行基准测试。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.02381v1",
+      "source": "arxiv",
+      "title": "Agentic AI-Empowered Wireless Agent Networks With Semantic-Aware Collaboration via ILAC",
+      "abstract": "The rapid development of agentic artificial intelligence (AI) is driving future wireless networks to evolve from passive data pipes into intelligent collaborative ecosystems under the emerging paradigm of integrated learning and communication (ILAC). However, realizing efficient agentic collaboration faces challenges not only in handling semantic redundancy but also in the lack of an integrated mechanism for communication, computation, and control. To address this, we propose a wireless agent network (WAN) framework that orchestrates a progressive knowledge aggregation mechanism. Specifically, we formulate the aggregation process as a joint energy minimization problem where the agents perform semantic compression to eliminate redundancy, optimize transmission power to deliver semantic payloads, and adjust physical trajectories to proactively enhance channel qualities. To solve this problem, we develop a hierarchical algorithm that integrates inner-level resource optimization with outer-level topology evolution. Theoretically, we reveal that incorporating a potential field into the topology evolution effectively overcomes the short-sightedness of greedy matching, providing a mathematically rigorous heuristic for long-term energy minimization. Simulation results demonstrate that the proposed framework achieves superior energy efficiency and scalability compared to conventional benchmarks, validating the efficacy of semantic-aware collaboration in dynamic environments.",
+      "authors": [
+        "Zhouxiang Zhao",
+        "Jiaxiang Wang",
+        "Zhaohui Yang",
+        "Kun Yang",
+        "Zhaoyang Zhang",
+        "Mingzhe Chen",
+        "Kaibin Huang"
+      ],
+      "primary_category": "cs.NI",
+      "categories": [
+        "cs.NI",
+        "cs.IT",
+        "cs.MA"
+      ],
+      "published": "2026-04-01T16:07:23+00:00",
+      "link": "https://arxiv.org/pdf/2604.02381v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.5,
+      "llm_evidence_en": "semantic-aware collaboration and integrated mechanism for communication and control",
+      "llm_evidence_cn": "语义感知协作以及通信与控制的集成机制",
+      "llm_evidence": "语义感知协作以及通信与控制的集成机制",
+      "canonical_evidence": "语义感知协作以及通信与控制的集成机制",
+      "llm_tldr_en": "Introduces a wireless agent network framework for efficient semantic-aware collaboration and knowledge aggregation.",
+      "llm_tldr_cn": "引入了一种用于高效语义感知协作和知识聚合的无线智能体网络框架。",
+      "llm_tldr": "引入了一种用于高效语义感知协作和知识聚合的无线智能体网络框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.14790v1",
+      "source": "arxiv",
+      "title": "Mind-of-Director: Multi-modal Agent-Driven Film Previsualization via Collaborative Decision-Making",
+      "abstract": "We present Mind-of-Director, a multi-modal agent-driven framework for film previz that models the collaborative decision-making process of a film production team. Given a creative idea, Mind-of-Director orchestrates multiple specialized agents to produce previz sequences within the game engine. The framework consists of four cooperative modules: Script Development, where agents draft and refine the screenplay iteratively; Virtual Scene Design, which transforms text into semantically aligned 3D environments; Character Behaviour Control, which determines character blocking and motion; and Camera Planning, which optimizes framing, movement, and composition for cinematic camera effects. A real-time visual editing system built in the game engine further enables interactive inspection and synchronized timeline adjustment across scenes, behaviours, and cameras. Extensive experiments and human evaluations show that Mind-of-Director generates high-quality, semantically grounded previz sequences in approximately 25 minutes per idea, demonstrating the effectiveness of agent collaboration for both automated prototyping and human-in-the-loop filmmaking.",
+      "authors": [
+        "Shufeng Nan",
+        "Mengtian Li",
+        "Sixiao Zheng",
+        "Yuwei Lu",
+        "Han Zhang",
+        "Yanwei Fu"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-03-16T03:40:22+00:00",
+      "link": "https://arxiv.org/pdf/2603.14790v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Models collaborative decision-making among multiple specialized agents for film production.",
+      "llm_evidence_cn": "模拟了电影制作中多个专业智能体之间的协作决策过程。",
+      "llm_evidence": "模拟了电影制作中多个专业智能体之间的协作决策过程。",
+      "canonical_evidence": "模拟了电影制作中多个专业智能体之间的协作决策过程。",
+      "llm_tldr_en": "Mind-of-Director uses a multi-agent framework to automate film previsualization through collaborative decision-making.",
+      "llm_tldr_cn": "Mind-of-Director利用多智能体框架，通过协作决策实现电影预可视化的自动化生成。",
+      "llm_tldr": "Mind-of-Director利用多智能体框架，通过协作决策实现电影预可视化的自动化生成。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.15586v1",
+      "source": "arxiv",
+      "title": "Computational Concept of the Psyche",
+      "abstract": "This article presents an overview of approaches to modeling the human psyche in the context of constructing an artificial one. Based on this overview, a concept of cognitive architecture is proposed, in which the psyche is viewed as the operating system of a living or artificial subject, comprising a space of states, including the state of needs that determine the meaning of a subject's being in relation to stimuli from the external world, and intelligence as a decision-making system regarding actions in this world to satisfy these needs. Based on this concept, a computational formalization is proposed for creating artificial general intelligence systems for an agent through experiential learning in a state space that includes agent's needs, taking into account their biological or existential significance for the intelligent agent, along with agent's sensations and actions. Thus, the problem of constructing artificial general intelligence is formalized as a system for making optimal decisions in the space of specific agent needs under conditions of uncertainty, maximizing success in achieving goals, minimizing existential risks, and maximizing energy efficiency. A minimal experimental implementation of the model is presented.",
+      "authors": [
+        "Anton Kolonin",
+        "Vladimir Krykov"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "eess.SY"
+      ],
+      "published": "2026-03-16T17:46:58+00:00",
+      "link": "https://arxiv.org/pdf/2603.15586v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "cognitive architecture and decision-making system for an agent",
+      "llm_evidence_cn": "智能体的认知架构与决策系统",
+      "llm_evidence": "智能体的认知架构与决策系统",
+      "canonical_evidence": "智能体的认知架构与决策系统",
+      "llm_tldr_en": "Proposes a computational concept of the psyche as a cognitive architecture for artificial general intelligence.",
+      "llm_tldr_cn": "提出了一种心理计算概念，作为通用人工智能的认知架构。",
+      "llm_tldr": "提出了一种心理计算概念，作为通用人工智能的认知架构。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.18273v1",
+      "source": "arxiv",
+      "title": "EDM-ARS: A Domain-Specific Multi-Agent System for Automated Educational Data Mining Research",
+      "abstract": "In this technical report, we present the Educational Data Mining Automated Research System (EDM-ARS), a domain-specific multi-agent pipeline that automates end-to-end educational data mining (EDM) research. We conceptualize EDM-ARS as a general framework for domain-aware automated research pipelines, where educational expertise is embedded into each stage of the research lifecycle. As a first instantiation of this framework, we focus on predictive modeling tasks. Within this scope, EDM-ARS orchestrates five specialized LLM-powered agents (ProblemFormulator, DataEngineer, Analyst, Critic, and Writer) through a state-machine coordinator that supports revision loops, checkpoint-based recovery, and sandboxed code execution. Given a research prompt and a dataset, EDM-ARS produces a complete LaTeX manuscript with real Semantic Scholar citations, validated machine learning analyses, and automated methodological peer review. We also provide a detailed description of the system architecture, the three-tier data registry design that encodes educational domain expertise, the specification of each agent, the inter-agent communication protocol, and mechanisms for error-handling and self-correction. Finally, we discuss current limitations, including single-dataset scope and formulaic paper output, and outline a phased roadmap toward causal inference, transfer learning, psychometric, and multi-dataset generalization. EDM-ARS is released as an open-source project to support the educational research community.",
+      "authors": [
+        "Chenguang Pan",
+        "Zhou Zhang",
+        "Weixuan Xiao",
+        "Chengyuan Yao"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-18T20:45:45+00:00",
+      "link": "https://arxiv.org/pdf/2603.18273v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Multi-agent pipeline orchestrating specialized agents through a state-machine coordinator",
+      "llm_evidence_cn": "通过状态机协调器编排专业智能体的多智能体流水线",
+      "llm_evidence": "通过状态机协调器编排专业智能体的多智能体流水线",
+      "canonical_evidence": "通过状态机协调器编排专业智能体的多智能体流水线",
+      "llm_tldr_en": "A domain-specific multi-agent system that automates educational data mining research tasks.",
+      "llm_tldr_cn": "一种领域特定的多智能体系统，可自动执行教育数据挖掘研究任务。",
+      "llm_tldr": "一种领域特定的多智能体系统，可自动执行教育数据挖掘研究任务。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.18829v1",
+      "source": "arxiv",
+      "title": "Agent Control Protocol: Admission Control for Agent Actions",
+      "abstract": "Agent Control Protocol (ACP) is a formal technical specification for governance of autonomous agents in B2B institutional environments. ACP is the admission control layer between agent intent and system state mutation: before any agent action reaches execution, it must pass a cryptographic admission check that validates identity, capability scope, delegation chain, and policy compliance simultaneously.   ACP defines the mechanisms of cryptographic identity, capability-based authorization, deterministic risk evaluation, verifiable chained delegation, transitive revocation, and immutable auditing that a system must implement for autonomous agents to operate under explicit institutional control. ACP operates as an additional layer on top of RBAC and Zero Trust, without replacing them.   The v1.13 specification comprises 36 technical documents organized into five conformance levels (L1-L5). It includes a Go reference implementation of 22 packages covering all L1-L4 capabilities, 51 signed conformance test vectors (Ed25519 + SHA-256), and an OpenAPI 3.1.0 specification for all HTTP endpoints. It defines more than 62 verifiable requirements, 12 prohibited behaviors, and the mechanisms for interoperability between institutions.   Specification and implementation: https://github.com/chelof100/acp-framework-en",
+      "authors": [
+        "Marcelo Fernandez"
+      ],
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "published": "2026-03-19T12:28:28+00:00",
+      "link": "https://arxiv.org/pdf/2603.18829v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "admission control protocol for governing autonomous agent actions",
+      "llm_evidence_cn": "管理自主智能体行为的准入控制协议",
+      "llm_evidence": "管理自主智能体行为的准入控制协议",
+      "canonical_evidence": "管理自主智能体行为的准入控制协议",
+      "llm_tldr_en": "Defines a technical protocol for the governance and control of autonomous agent actions.",
+      "llm_tldr_cn": "定义了一套用于自主智能体行为治理与控制的技术协议。",
+      "llm_tldr": "定义了一套用于自主智能体行为治理与控制的技术协议。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.21489v1",
+      "source": "arxiv",
+      "title": "Effective Strategies for Asynchronous Software Engineering Agents",
+      "abstract": "AI agents have become increasingly capable at isolated software engineering (SWE) tasks such as resolving issues on Github. Yet long-horizon tasks involving multiple interdependent subtasks still pose challenges both with respect to accuracy, and with respect to timely completion. A natural approach to solving these long-horizon tasks in a timely manner is asynchronous multi-agent collaboration, where multiple agents work on different parts of the task at the same time. But effective application of multi-agent systems has proven surprisingly difficult: concurrent edits by multiple agents interfere with each other, dependencies are difficult to synchronize, and combining partial progress into a coherent whole is challenging. On the other hand, human developers have long relied on mature collaboration infrastructure to manage these challenges in large software projects. Inspired by these collaboration primitives, we introduce Centralized Asynchronous Isolated Delegation (CAID), a structured multi-agent coordination paradigm grounded in three core SWE primitives: centralized task delegation, asynchronous execution, and isolated workspaces. CAID constructs dependency-aware task plans through a central manager, executes subtasks concurrently in isolated workspaces, and consolidates progress via structured integration with executable test-based verification. In empirical evaluation, we find that CAID improves accuracy over single-agent baselines by 26.7% absolute on paper reproduction tasks (PaperBench) and 14.3% on Python library development tasks (Commit0). Through systematic analysis, we find that branch-and-merge is a central coordination mechanism for multi-agent collaboration, and that SWE primitives such as git worktree, git commit, and git merge enable it to be realized in a reliable and executable manner.",
+      "authors": [
+        "Jiayi Geng",
+        "Graham Neubig"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "published": "2026-03-23T02:26:35+00:00",
+      "link": "https://arxiv.org/pdf/2603.21489v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "asynchronous multi-agent collaboration for software engineering",
+      "llm_evidence_cn": "软件工程中的异步多智能体协作",
+      "llm_evidence": "软件工程中的异步多智能体协作",
+      "canonical_evidence": "软件工程中的异步多智能体协作",
+      "llm_tldr_en": "Evaluates strategies for asynchronous multi-agent collaboration in long-horizon software engineering tasks.",
+      "llm_tldr_cn": "评估了长周期软件工程任务中异步多智能体协作的策略。",
+      "llm_tldr": "评估了长周期软件工程任务中异步多智能体协作的策略。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.21574v1",
+      "source": "arxiv",
+      "title": "Adaptive Robust Estimator for Multi-Agent Reinforcement Learning",
+      "abstract": "Multi-agent collaboration has emerged as a powerful paradigm for enhancing the reasoning capabilities of large language models, yet it suffers from interaction-level ambiguity that blurs generation, critique, and revision, making credit assignment across agents difficult. Moreover, policy optimization in this setting is vulnerable to heavy-tailed and noisy rewards, which can bias advantage estimation and trigger unstable or even divergent training. To address both issues, we propose a robust multi-agent reinforcement learning framework for collaborative reasoning, consisting of two components: Dual-Agent Answer-Critique-Rewrite (DACR) and an Adaptive Robust Estimator (ARE). DACR decomposes reasoning into a structured three-stage pipeline: answer, critique, and rewrite, while enabling explicit attribution of each agent's marginal contribution to its partner's performance. ARE provides robust estimation of batch experience means during multi-agent policy optimization. Across mathematical reasoning and embodied intelligence benchmarks, even under noisy rewards, our method consistently outperforms the baseline in both homogeneous and heterogeneous settings. These results indicate stronger robustness to reward noise and more stable training dynamics, effectively preventing optimization failures caused by noisy reward signals.",
+      "authors": [
+        "Zhongyi Li",
+        "Wan Tian",
+        "Jingyu Chen",
+        "Kangyao Huang",
+        "Huiming Zhang",
+        "Hui Yang",
+        "Tao Ren",
+        "Jinyang Jiang",
+        "Yijie Peng",
+        "Yikun Ban",
+        "Fuzhen Zhuang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-23T04:51:15+00:00",
+      "link": "https://arxiv.org/pdf/2603.21574v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "robust multi-agent reinforcement learning framework for collaborative reasoning",
+      "llm_evidence_cn": "用于协作推理的鲁棒多智能体强化学习框架",
+      "llm_evidence": "用于协作推理的鲁棒多智能体强化学习框架",
+      "canonical_evidence": "用于协作推理的鲁棒多智能体强化学习框架",
+      "llm_tldr_en": "Introduces a robust MARL framework to improve credit assignment and stability in multi-agent collaborative reasoning.",
+      "llm_tldr_cn": "引入了一种鲁棒的多智能体强化学习框架，以提高协作推理中的信用分配和训练稳定性。",
+      "llm_tldr": "引入了一种鲁棒的多智能体强化学习框架，以提高协作推理中的信用分配和训练稳定性。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "研究多智能体系统的交互与学习机制",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.22823v1",
+      "source": "arxiv",
+      "title": "Empirical Comparison of Agent Communication Protocols for Task Orchestration",
+      "abstract": "Context. Nowadays, artificial intelligence agent systems are transforming from single-tool interactions to complex multi-agent orchestrations. As a result, two competing communication protocols have emerged: a tool integration protocol that standardizes how agents invoke external tools, and an inter-agent delegation protocol that enables autonomous agents to discover and delegate tasks to one another. Despite widespread industry adoption by dozens of enterprise partners, no empirical comparison of these protocols exists in the literature. Objective. The goal of this work is to develop the first systematic benchmark comparing tool-integration-only, multi-agent delegation, and hybrid architectures across standardized queries at three complexity levels, and to quantify the trade-offs in response time, context window consumption, monetary cost, error recovery, and implementation complexity.",
+      "authors": [
+        "Ivan Dobrovolskyi"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-24T05:50:58+00:00",
+      "link": "https://arxiv.org/pdf/2603.22823v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "comparison of agent communication protocols for task orchestration and delegation",
+      "llm_evidence_cn": "比较用于任务编排和委派的智能体通信协议",
+      "llm_evidence": "比较用于任务编排和委派的智能体通信协议",
+      "canonical_evidence": "比较用于任务编排和委派的智能体通信协议",
+      "llm_tldr_en": "Benchmarks tool-integration and inter-agent delegation protocols for multi-agent orchestration.",
+      "llm_tldr_cn": "对多智能体编排中的工具集成和智能体间委派协议进行了基准测试比较。",
+      "llm_tldr": "对多智能体编排中的工具集成和智能体间委派协议进行了基准测试比较。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.23975v1",
+      "source": "arxiv",
+      "title": "HyDRA: Hybrid Domain-Aware Robust Architecture for Heterogeneous Collaborative Perception",
+      "abstract": "In collaborative perception, an agent's performance can be degraded by heterogeneity arising from differences in model architecture or training data distributions. To address this challenge, we propose HyDRA (Hybrid Domain-Aware Robust Architecture), a unified pipeline that integrates intermediate and late fusion within a domain-aware framework. We introduce a lightweight domain classifier that dynamically identifies heterogeneous agents and assigns them to the late-fusion branch. Furthermore, we propose anchor-guided pose graph optimization to mitigate localization errors inherent in late fusion, leveraging reliable detections from intermediate fusion as fixed spatial anchors. Extensive experiments demonstrate that, despite requiring no additional training, HyDRA achieves performance comparable to state-of-the-art heterogeneity-aware CP methods. Importantly, this performance is maintained as the number of collaborating agents increases, enabling zero-cost scaling without retraining.",
+      "authors": [
+        "Minwoo Song",
+        "Minhee Kang",
+        "Heejin Ahn"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-03-25T06:15:25+00:00",
+      "link": "https://arxiv.org/pdf/2603.23975v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "collaborative perception and fusion mechanisms for heterogeneous agents",
+      "llm_evidence_cn": "异构智能体的协作感知与融合机制",
+      "llm_evidence": "异构智能体的协作感知与融合机制",
+      "canonical_evidence": "异构智能体的协作感知与融合机制",
+      "llm_tldr_en": "Proposes a robust architecture for heterogeneous collaborative perception among multiple agents.",
+      "llm_tldr_cn": "提出了一种用于多个智能体之间异构协作感知的鲁棒架构。",
+      "llm_tldr": "提出了一种用于多个智能体之间异构协作感知的鲁棒架构。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.24621v1",
+      "source": "arxiv",
+      "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+      "abstract": "We introduce ARC-AGI-3, an interactive benchmark for studying agentic intelligence through novel, abstract, turn-based environments in which agents must explore, infer goals, build internal models of environment dynamics, and plan effective action sequences without explicit instructions. Like its predecessors ARC-AGI-1 and 2, ARC-AGI-3 focuses entirely on evaluating fluid adaptive efficiency on novel tasks, while avoiding language and external knowledge. ARC-AGI-3 environments only leverage Core Knowledge priors and are difficulty-calibrated via extensive testing with human test-takers. Our testing shows humans can solve 100% of the environments, in contrast to frontier AI systems which, as of March 2026, score below 1%. In this paper, we present the benchmark design, its efficiency-based scoring framework grounded in human action baselines, and the methodology used to construct, validate, and calibrate the environments.",
+      "authors": [
+        "ARC Prize Foundation"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-24T21:58:16+00:00",
+      "link": "https://arxiv.org/pdf/2603.24621v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Evaluates agentic intelligence through goal inference, internal model building, and planning.",
+      "llm_evidence_cn": "通过目标推理、内部模型构建和规划来评估智能体的智能水平。",
+      "llm_evidence": "通过目标推理、内部模型构建和规划来评估智能体的智能水平。",
+      "canonical_evidence": "通过目标推理、内部模型构建和规划来评估智能体的智能水平。",
+      "llm_tldr_en": "Introduces a benchmark for evaluating fluid adaptive efficiency and reasoning in agentic intelligence.",
+      "llm_tldr_cn": "引入了一个评估智能体流体适应效率和推理能力的交互式基准测试。",
+      "llm_tldr": "引入了一个评估智能体流体适应效率和推理能力的交互式基准测试。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.00319v1",
+      "source": "arxiv",
+      "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
+      "abstract": "We develop algorithms for collaborative control of AI agents and critics in a multi-actor, multi-critic federated multi-agent system. Each AI agent and critic has access to classical machine learning or generative AI foundation models. The AI agents and critics collaborate with a central server to complete multimodal tasks such as fault detection, severity, and cause analysis in a network telemetry system, text-to-image generation, video generation, healthcare diagnostics from medical images and patient records, etcetera. The AI agents complete their tasks and send them to AI critics for evaluation. The critics then send feedback to agents to improve their responses. Collaboratively, they minimize the overall cost to the system with no inter-agent or inter-critic communication. AI agents and critics keep their cost functions or derivatives of cost functions private. Using multi-time scale stochastic approximation techniques, we provide convergence guarantees on the time-average active states of AI agents and critics. The communication overhead is a little on the system, of the order of $\\mathcal{O}(m)$, for $m$ modalities and is independent of the number of AI agents and critics. Finally, we present an example of fault detection, severity, and cause analysis in network telemetry and thorough evaluation to check the algorithm's efficacy.",
+      "authors": [
+        "Syed Eqbal Alam",
+        "Zhan Shu"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-03-31T23:33:56+00:00",
+      "link": "https://arxiv.org/pdf/2604.00319v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "collaborative control of AI agents and critics in a multi-agent system",
+      "llm_evidence_cn": "多智能体系统中AI智能体与评论者的协作控制",
+      "llm_evidence": "多智能体系统中AI智能体与评论者的协作控制",
+      "canonical_evidence": "多智能体系统中AI智能体与评论者的协作控制",
+      "llm_tldr_en": "Develops algorithms for collaborative control and feedback between AI agents and critics in federated systems.",
+      "llm_tldr_cn": "开发了联邦多智能体系统中AI智能体与评论者之间协作控制和反馈的算法。",
+      "llm_tldr": "开发了联邦多智能体系统中AI智能体与评论者之间协作控制和反馈的算法。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.03602v1",
+      "source": "arxiv",
+      "title": "Kill Webs by Collaborative & Self-organizing Agents (CSOAs)",
+      "abstract": "A single agent represents a single system capable of ingesting local data, indexing, cataloging information, performing knowledge pattern discovery, and separating patterns and anomalies from data. Multiple agents work collaboratively in a peer-to-peer network. Each agent has a peer list. Such multiple agents' collaboration can be modeled as cooperative games. Each agent optimizes its own objective locally. We show that each agent self-organizes or converges to its best value and the whole agent network achieves the best social welfare based on both the quantum adiabatic evolution transformation (QAET), and quantum intelligence game (QIG) or the QAET-QIG framework. We apply the QAET-QIG framework to the kill web concept that can potentially improve the traditional kill chain process or the find, fix, track, target, engage, and assess (F2T2EA) process. The improvement is measured in the values of powerful global optimization, distributed lethality, and load balancing. We show a use case of the QAET-QIG frame in a potential application of mixed sensors, platforms, weapons, and effects.",
+      "authors": [
+        "Ying Zhao",
+        "Charles C. Zhou"
+      ],
+      "primary_category": "cs.ET",
+      "categories": [
+        "cs.ET"
+      ],
+      "published": "2026-04-04T06:06:33+00:00",
+      "link": "https://arxiv.org/pdf/2604.03602v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Models multiple agents working collaboratively in a peer-to-peer network using cooperative games.",
+      "llm_evidence_cn": "利用合作博弈模型研究对等网络中多智能体的协作与自组织机制。",
+      "llm_evidence": "利用合作博弈模型研究对等网络中多智能体的协作与自组织机制。",
+      "canonical_evidence": "利用合作博弈模型研究对等网络中多智能体的协作与自组织机制。",
+      "llm_tldr_en": "Proposes a framework for collaborative and self-organizing agents to optimize social welfare in networks.",
+      "llm_tldr_cn": "提出了一种协作自组织智能体框架，通过博弈论优化网络整体福利。",
+      "llm_tldr": "提出了一种协作自组织智能体框架，通过博弈论优化网络整体福利。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.03938v1",
+      "source": "arxiv",
+      "title": "What Do We Need for an Agentic Society?",
+      "abstract": "Thirty years ago, Wooldridge and Jennings defined intelligent agents through four properties: autonomy, reactivity, pro-activeness, and social ability. Today, advances in AI can empower everyday objects to become such intelligent agents. We call such objects agentic objects and envision that they can form an agentic society: a collective agentic environment that perceives patterns, makes judgments, and takes actions that no single object could achieve alone. However, individual capability does not guarantee coordination. Through an illustrative scenario of a teenager experiencing bullying and depression, we demonstrate both the promise of coordination and its failure modes: false positives that destroy trust, deadlocks that prevent action, and adversarial corruption that poisons judgment. These failures reveal open questions spanning three phases: what to share, how to judge, and when to act. These questions chart a research agenda for building agentic societies.",
+      "authors": [
+        "Kwon Ko",
+        "Hyoungwook Jin"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "published": "2026-04-05T02:34:10+00:00",
+      "link": "https://arxiv.org/pdf/2604.03938v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "agentic society and collective agentic environment coordination",
+      "llm_evidence_cn": "智能体社会与集体智能体环境协调",
+      "llm_evidence": "智能体社会与集体智能体环境协调",
+      "canonical_evidence": "智能体社会与集体智能体环境协调",
+      "llm_tldr_en": "Discusses the vision and failure modes of an agentic society where objects act as intelligent agents.",
+      "llm_tldr_cn": "探讨了物体作为智能体构成的“智能体社会”的愿景及其协调失败模式。",
+      "llm_tldr": "探讨了物体作为智能体构成的“智能体社会”的愿景及其协调失败模式。",
+      "llm_tags": [
+        "query:agent:composite"
+      ],
+      "matched_query_tag": "query:agent:composite",
+      "matched_query_text": "Papers central to 查找与智能体相关的学术论文, especially work that connects or combines: 研究多智能体系统的交互与学习机制; 分析自主智能体的行为建模与控制方法; 探讨协作智能体之间的通讯与协调机制; 查找关于智能体结构与推理能力的研究; 查找关于智能体系统和相关算法的最新学术论文; 探索智能体在多智能体环境下的学习与协作研究; 获取智能体建模、通信和决策的核心研究成果.",
+      "matched_requirement_id": "req-composite-agent",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.04503v1",
+      "source": "arxiv",
+      "title": "Memory Intelligence Agent",
+      "abstract": "Deep research agents (DRAs) integrate LLM reasoning with external tools. Memory systems enable DRAs to leverage historical experiences, which are essential for efficient reasoning and autonomous evolution. Existing methods rely on retrieving similar trajectories from memory to aid reasoning, while suffering from key limitations of ineffective memory evolution and increasing storage and retrieval costs. To address these problems, we propose a novel Memory Intelligence Agent (MIA) framework, consisting of a Manager-Planner-Executor architecture. Memory Manager is a non-parametric memory system that can store compressed historical search trajectories. Planner is a parametric memory agent that can produce search plans for questions. Executor is another agent that can search and analyze information guided by the search plan. To build the MIA framework, we first adopt an alternating reinforcement learning paradigm to enhance cooperation between the Planner and the Executor. Furthermore, we enable the Planner to continuously evolve during test-time learning, with updates performed on-the-fly alongside inference without interrupting the reasoning process. Additionally, we establish a bidirectional conversion loop between parametric and non-parametric memories to achieve efficient memory evolution. Finally, we incorporate a reflection and an unsupervised judgment mechanisms to boost reasoning and self-evolution in the open world. Extensive experiments across eleven benchmarks demonstrate the superiority of MIA.",
+      "authors": [
+        "Jingyang Qiao",
+        "Weicheng Meng",
+        "Yu Cheng",
+        "Zhihang Lin",
+        "Zhizhong Zhang",
+        "Xin Tan",
+        "Jingyu Gong",
+        "Kun Shao",
+        "Yuan Xie"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-04-06T07:59:52+00:00",
+      "link": "https://arxiv.org/pdf/2604.04503v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Agent architecture for reasoning and autonomous evolution using memory systems",
+      "llm_evidence_cn": "利用记忆系统进行推理和自主演化的智能体架构",
+      "llm_evidence": "利用记忆系统进行推理和自主演化的智能体架构",
+      "canonical_evidence": "利用记忆系统进行推理和自主演化的智能体架构",
+      "llm_tldr_en": "Proposes a Memory Intelligence Agent framework to enhance reasoning and autonomous evolution.",
+      "llm_tldr_cn": "提出了一种记忆智能智能体框架，以增强推理能力和自主演化。",
+      "llm_tldr": "提出了一种记忆智能智能体框架，以增强推理能力和自主演化。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.04503v2",
+      "source": "arxiv",
+      "title": "Memory Intelligence Agent",
+      "abstract": "Deep research agents (DRAs) integrate LLM reasoning with external tools. Memory systems enable DRAs to leverage historical experiences, which are essential for efficient reasoning and autonomous evolution. Existing methods rely on retrieving similar trajectories from memory to aid reasoning, while suffering from key limitations of ineffective memory evolution and increasing storage and retrieval costs. To address these problems, we propose a novel Memory Intelligence Agent (MIA) framework, consisting of a Manager-Planner-Executor architecture. Memory Manager is a non-parametric memory system that can store compressed historical search trajectories. Planner is a parametric memory agent that can produce search plans for questions. Executor is another agent that can search and analyze information guided by the search plan. To build the MIA framework, we first adopt an alternating reinforcement learning paradigm to enhance cooperation between the Planner and the Executor. Furthermore, we enable the Planner to continuously evolve during test-time learning, with updates performed on-the-fly alongside inference without interrupting the reasoning process. Additionally, we establish a bidirectional conversion loop between parametric and non-parametric memories to achieve efficient memory evolution. Finally, we incorporate a reflection and an unsupervised judgment mechanisms to boost reasoning and self-evolution in the open world. Extensive experiments across eleven benchmarks demonstrate the superiority of MIA.",
+      "authors": [
+        "Jingyang Qiao",
+        "Weicheng Meng",
+        "Yu Cheng",
+        "Zhihang Lin",
+        "Zhizhong Zhang",
+        "Xin Tan",
+        "Jingyu Gong",
+        "Kun Shao",
+        "Yuan Xie"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-04-06T07:59:52+00:00",
+      "link": "https://arxiv.org/pdf/2604.04503v2",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Framework for deep research agents integrating reasoning with memory systems for autonomous evolution",
+      "llm_evidence_cn": "集成推理与记忆系统的深度研究智能体框架，支持自主进化",
+      "llm_evidence": "集成推理与记忆系统的深度研究智能体框架，支持自主进化",
+      "canonical_evidence": "集成推理与记忆系统的深度研究智能体框架，支持自主进化",
+      "llm_tldr_en": "MIA framework enhances agent reasoning and evolution by managing historical search trajectories in memory.",
+      "llm_tldr_cn": "MIA 框架通过管理内存中的历史搜索轨迹，增强了智能体的推理和进化能力。",
+      "llm_tldr": "MIA 框架通过管理内存中的历史搜索轨迹，增强了智能体的推理和进化能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.05484v1",
+      "source": "arxiv",
+      "title": "CoEnv: Driving Embodied Multi-Agent Collaboration via Compositional Environment",
+      "abstract": "Multi-agent embodied systems hold promise for complex collaborative manipulation, yet face critical challenges in spatial coordination, temporal reasoning, and shared workspace awareness. Inspired by human collaboration where cognitive planning occurs separately from physical execution, we introduce the concept of compositional environment -- a synergistic integration of real-world and simulation components that enables multiple robotic agents to perceive intentions and operate within a unified decision-making space. Building on this concept, we present CoEnv, a framework that leverages simulation for safe strategy exploration while ensuring reliable real-world deployment. CoEnv operates through three stages: real-to-sim scene reconstruction that digitizes physical workspaces, VLM-driven action synthesis supporting both real-time planning with high-level interfaces and iterative planning with code-based trajectory generation, and validated sim-to-real transfer with collision detection for safe deployment. Extensive experiments on challenging multi-arm manipulation benchmarks demonstrate CoEnv's effectiveness in achieving high task success rates and execution efficiency, establishing a new paradigm for multi-agent embodied AI.",
+      "authors": [
+        "Li Kang",
+        "Yutao Fan",
+        "Rui Li",
+        "Heng Zhou",
+        "Yiran Qin",
+        "Zhemeng Zhang",
+        "Songtao Huang",
+        "Xiufeng Song",
+        "Zaibin Zhang",
+        "Bruno N. Y. Chen",
+        "Zhenfei Yin",
+        "Dongzhan Zhou",
+        "Wangmeng Zuo",
+        "Lei Bai"
+      ],
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-04-07T06:24:41+00:00",
+      "link": "https://arxiv.org/pdf/2604.05484v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "multi-agent collaboration and spatial coordination in embodied systems",
+      "llm_evidence_cn": "具身系统中的多智能体协作与空间协调",
+      "llm_evidence": "具身系统中的多智能体协作与空间协调",
+      "canonical_evidence": "具身系统中的多智能体协作与空间协调",
+      "llm_tldr_en": "CoEnv enables embodied multi-agent collaboration through a compositional environment for strategy exploration.",
+      "llm_tldr_cn": "CoEnv通过组合环境实现具身多智能体协作，支持策略探索与现实部署。",
+      "llm_tldr": "CoEnv通过组合环境实现具身多智能体协作，支持策略探索与现实部署。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2603.20435v1",
+      "source": "arxiv",
+      "title": "Deep reflective reasoning in interdependence constrained structured data extraction from clinical notes for digital health",
+      "abstract": "Extracting structured information from clinical notes requires navigating a dense web of interdependent variables where the value of one attribute logically constrains others. Existing Large Language Model (LLM)-based extraction pipelines often struggle to capture these dependencies, leading to clinically inconsistent outputs. We propose deep reflective reasoning, a large language model agent framework that iteratively self-critiques and revises structured outputs by checking consistency among variables, the input text, and retrieved domain knowledge, stopping when outputs converge. We extensively evaluate the proposed method in three diverse oncology applications: (1) On colorectal cancer synoptic reporting from gross descriptions (n=217), reflective reasoning improved average F1 across eight categorical synoptic variables from 0.828 to 0.911 and increased mean correct rate across four numeric variables from 0.806 to 0.895; (2) On Ewing sarcoma CD99 immunostaining pattern identification (n=200), the accuracy improved from 0.870 to 0.927; (3) On lung cancer tumor staging (n=100), tumor stage accuracy improved from 0.680 to 0.833 (pT: 0.842 -> 0.884; pN: 0.885 -> 0.948). The results demonstrate that deep reflective reasoning can systematically improve the reliability of LLM-based structured data extraction under interdependence constraints, enabling more consistent machine-operable clinical datasets and facilitating knowledge discovery with machine learning and data science towards digital health.",
+      "authors": [
+        "Jingwei Huang",
+        "Kuroush Nezafati",
+        "Zhikai Chi",
+        "Ruichen Rong",
+        "Colin Treager",
+        "Tingyi Wanyan",
+        "Yueshuang Xu",
+        "Xiaowei Zhan",
+        "Patrick Leavey",
+        "Guanghua Xiao",
+        "Wenqi Shi",
+        "Yang Xie"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-20T19:05:30+00:00",
+      "link": "https://arxiv.org/pdf/2603.20435v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 8.5,
+      "llm_evidence_en": "large language model agent framework for iterative self-critique and reasoning",
+      "llm_evidence_cn": "用于迭代自我批判和推理的大语言模型智能体框架",
+      "llm_evidence": "用于迭代自我批判和推理的大语言模型智能体框架",
+      "canonical_evidence": "用于迭代自我批判和推理的大语言模型智能体框架",
+      "llm_tldr_en": "Develops a reflective reasoning agent framework to handle interdependencies in structured data extraction.",
+      "llm_tldr_cn": "开发了一种反射推理智能体框架，用于处理结构化数据提取中的相互依赖关系。",
+      "llm_tldr": "开发了一种反射推理智能体框架，用于处理结构化数据提取中的相互依赖关系。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.16733v1",
+      "source": "arxiv",
+      "title": "IQuest-Coder-V1 Technical Report",
+      "abstract": "In this report, we introduce the IQuest-Coder-V1 series-(7B/14B/40B/40B-Loop), a new family of code large language models (LLMs). Moving beyond static code representations, we propose the code-flow multi-stage training paradigm, which captures the dynamic evolution of software logic through different phases of the pipeline. Our models are developed through the evolutionary pipeline, starting with the initial pre-training consisting of code facts, repository, and completion data. Following that, we implement a specialized mid-training stage that integrates reasoning and agentic trajectories in 32k-context and repository-scale in 128k-context to forge deep logical foundations. The models are then finalized with post-training of specialized coding capabilities, which is bifurcated into two specialized paths: the thinking path (utilizing reasoning-driven RL) and the instruct path (optimized for general assistance). IQuest-Coder-V1 achieves state-of-the-art performance among competitive models across critical dimensions of code intelligence: agentic software engineering, competitive programming, and complex tool use. To address deployment constraints, the IQuest-Coder-V1-Loop variant introduces a recurrent mechanism designed to optimize the trade-off between model capacity and deployment footprint, offering an architecturally enhanced path for efficacy-efficiency trade-off. We believe the release of the IQuest-Coder-V1 series, including the complete white-box chain of checkpoints from pre-training bases to the final thinking and instruction models, will advance research in autonomous code intelligence and real-world agentic systems.",
+      "authors": [
+        "Jian Yang",
+        "Wei Zhang",
+        "Shawn Guo",
+        "Zhengmao Ye",
+        "Lin Jing",
+        "Shark Liu",
+        "Yizhi Li",
+        "Jiajun Wu",
+        "Cening Liu",
+        "X. Ma",
+        "Yuyang Song",
+        "Siwei Wu",
+        "Yuwen Li",
+        "L. Liao",
+        "T. Zheng",
+        "Ziling Huang",
+        "Zelong Huang",
+        "Che Liu",
+        "Yan Xing",
+        "Renyuan Li",
+        "Qingsong Cai",
+        "Hanxu Yan",
+        "Siyue Wang",
+        "Shikai Li",
+        "Jason Klein Liu",
+        "An Huang",
+        "Yongsheng Kang",
+        "Jinxing Zhang",
+        "Chuan Hao",
+        "Haowen Wang",
+        "Weicheng Gu",
+        "Ran Tao",
+        "Mingjie Tang",
+        "Peihao Wu",
+        "Jianzhou Wang",
+        "Xianglong Liu",
+        "Weifeng Lv",
+        "Bryan Dai"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "published": "2026-03-17T16:15:31+00:00",
+      "link": "https://arxiv.org/pdf/2603.16733v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Integrates reasoning and agentic trajectories to forge deep logical foundations in code LLMs.",
+      "llm_evidence_cn": "在代码大模型中整合推理和智能体轨迹以构建深层逻辑基础。",
+      "llm_evidence": "在代码大模型中整合推理和智能体轨迹以构建深层逻辑基础。",
+      "canonical_evidence": "在代码大模型中整合推理和智能体轨迹以构建深层逻辑基础。",
+      "llm_tldr_en": "Develops code LLMs using a paradigm that integrates reasoning and agentic trajectories for better logic.",
+      "llm_tldr_cn": "通过整合推理与智能体轨迹的训练范式，提升了代码大模型的逻辑能力。",
+      "llm_tldr": "通过整合推理与智能体轨迹的训练范式，提升了代码大模型的逻辑能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2603.24004v1",
+      "source": "arxiv",
+      "title": "Thinking with Tables: Enhancing Multi-Modal Tabular Understanding via Neuro-Symbolic Reasoning",
+      "abstract": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable reasoning capabilities across modalities such as images and text. However, tabular data, despite being a critical real-world modality, remains relatively underexplored in multimodal learning. In this paper, we focus on the task of Tabular-Vision Multi-Modal Understanding (TVMU) and identify three core challenges: (1) high structural variability and data incompleteness in tables, (2) implicit and complex feature dependencies, and (3) significant heterogeneity in problem-solving pipelines across downstream tasks. To address these issues, we propose Thinking with Tables (TWT). TWT employs a program-aided code-based neuro-symbolic reasoning mechanism that facilitates key operations, such as information extraction and element modeling, by interacting with external environments. We evaluate TWT on eight representative datasets. Experimental results demonstrate that TWT consistently outperforms existing baselines by an average of 10\\% in accuracy, achieving performance comparable to, or even surpassing, proprietary commercial SOTA LLMs on TVMU tasks. Models and codes are available at https://github.com/kunyang-YU/Thinking-with-Tables",
+      "authors": [
+        "Kun-Yang Yu",
+        "Zhi Zhou",
+        "Shi-Yu Tian",
+        "Xiao-Wen Yang",
+        "Zi-Yi Jia",
+        "Ming Yang",
+        "Zi-Jian Cheng",
+        "Lan-Zhe Guo",
+        "Yu-Feng Li"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL"
+      ],
+      "published": "2026-03-25T07:07:06+00:00",
+      "link": "https://arxiv.org/pdf/2603.24004v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 6.5,
+      "llm_evidence_en": "neuro-symbolic reasoning mechanism for tabular understanding",
+      "llm_evidence_cn": "用于表格理解的神经符号推理机制",
+      "llm_evidence": "用于表格理解的神经符号推理机制",
+      "canonical_evidence": "用于表格理解的神经符号推理机制",
+      "llm_tldr_en": "Enhances multi-modal tabular understanding using a program-aided neuro-symbolic reasoning mechanism.",
+      "llm_tldr_cn": "利用程序辅助的神经符号推理机制增强多模态表格理解能力。",
+      "llm_tldr": "利用程序辅助的神经符号推理机制增强多模态表格理解能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.15039v1",
+      "source": "arxiv",
+      "title": "GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents",
+      "abstract": "Recent progress in Multimodal Large Language Models (MLLMs) has enabled mobile GUI agents capable of visual perception, cross-modal reasoning, and interactive control. However, existing benchmarks are largely English-centric and fail to capture the linguistic and interaction characteristics of the Chinese mobile ecosystem. They also focus on isolated skills such as GUI grounding or offline agent, lacking a unified and fine-grained framework to assess the full capability chain from perception to execution. To address this gap, we introduce GUI-CEval, the first comprehensive benchmark for Chinese mobile GUI agents, built entirely on physical device environments. GUI-CEval spans 201 mainstream apps across four device types and adopts a two-level structure that evaluates both atomic abilities and realistic application-level performance along five dimensions: perception, planning, reflection, execution, and evaluation. All data are collected and verified through multi-stage manual processes to ensure authenticity and reproducibility. Extensive experiments on 20 representative MLLMs and multi-agent systems show that while models such as Qwen2.5-VL and UI-TARS perform competitively, most MLLMs still exhibit clear weaknesses in reflective decision-making and post-action self-evaluation, limiting their reliability in real-world interactions. We hope GUI-CEval provides a comprehensive and interpretable benchmark to guide capability diagnosis and advance the development of Chinese mobile GUI agents.",
+      "authors": [
+        "Yang Li",
+        "Yuchen Liu",
+        "Haoyu Lu",
+        "Zhiqiang Xia",
+        "Hongzhen Wang",
+        "Kaiyang Han",
+        "Changpeng Yang",
+        "Jinyang Wu",
+        "Jiaming Xu",
+        "Runyu Shi",
+        "Ying Huang"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-03-16T09:45:33+00:00",
+      "link": "https://arxiv.org/pdf/2603.15039v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Assesses mobile GUI agents' capability chain from perception to execution and interactive control.",
+      "llm_evidence_cn": "评估移动端GUI智能体从感知到执行及交互控制的全能力链。",
+      "llm_evidence": "评估移动端GUI智能体从感知到执行及交互控制的全能力链。",
+      "canonical_evidence": "评估移动端GUI智能体从感知到执行及交互控制的全能力链。",
+      "llm_tldr_en": "Presents a comprehensive Chinese benchmark for evaluating mobile GUI agents in physical environments.",
+      "llm_tldr_cn": "发布了首个针对中文移动端GUI智能体感知与执行能力的全面基准测试。",
+      "llm_tldr": "发布了首个针对中文移动端GUI智能体感知与执行能力的全面基准测试。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.18221v1",
+      "source": "arxiv",
+      "title": "Scalable and Personalized Oral Assessments Using Voice AI",
+      "abstract": "Large language models have broken take-home exams. Students generate polished work they cannot explain under follow-up questioning. Oral examinations are a natural countermeasure -- they require real-time reasoning and cannot be outsourced to an LLM -- but they have never scaled. Voice AI changes this. We describe a system that conducted 36 oral examinations for an undergraduate AI/ML course at a total cost of \\$15 (\\$0.42 per student), low enough to attach oral comprehension checks to every assignment rather than reserving them for high-stakes finals. Because the LLM generates questions dynamically from a rubric, the entire examination structure can be shared in advance: practice is learning, and there is no exam to leak. A multi-agent architecture decomposes each examination into structured phases, and a council of three LLM families grades each transcript through a deliberation round in which models revise scores after reviewing peer evidence, achieving inter-rater reliability (Krippendorff's $α$ = 0.86) above conventional thresholds. But the system also broke in instructive ways: the agent stacked questions despite explicit prohibitions, could not randomize case selection, and a cloned professorial voice was perceived as aggressive rather than familiar. The recurring lesson is that behavioral constraints on LLMs must be enforced through architecture, not prompting alone. Students largely agreed the format tested genuine understanding (70%), yet found it more stressful than written exams (83%) -- unsurprising given that 83% had never taken any oral examination. We document the full design, failure modes, and student experience, and include all prompts as appendices.",
+      "authors": [
+        "Panos Ipeirotis",
+        "Konstantinos Rizakos"
+      ],
+      "primary_category": "cs.CY",
+      "categories": [
+        "cs.CY"
+      ],
+      "published": "2026-03-18T19:09:06+00:00",
+      "link": "https://arxiv.org/pdf/2603.18221v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Uses a multi-agent architecture to decompose complex reasoning tasks for oral assessments.",
+      "llm_evidence_cn": "利用多智能体架构分解口语评估中的复杂推理任务。",
+      "llm_evidence": "利用多智能体架构分解口语评估中的复杂推理任务。",
+      "canonical_evidence": "利用多智能体架构分解口语评估中的复杂推理任务。",
+      "llm_tldr_en": "A multi-agent system is used to scale personalized oral examinations by decomposing tasks into specialized roles.",
+      "llm_tldr_cn": "该系统通过将任务分解为专门角色，利用多智能体架构实现了大规模个性化口语考试。",
+      "llm_tldr": "该系统通过将任务分解为专门角色，利用多智能体架构实现了大规模个性化口语考试。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2603.14006v1",
+      "source": "arxiv",
+      "title": "Beyond Explicit Edges: Robust Reasoning over Noisy and Sparse Knowledge Graphs",
+      "abstract": "GraphRAG is increasingly adopted for converting unstructured corpora into graph structures to enable multi-hop reasoning. However, standard graph algorithms rely heavily on static connectivity and explicit edges, often failing in real-world scenarios where knowledge graphs (KGs) are noisy, sparse, or incomplete. To address this limitation, we introduce INSES (Intelligent Navigation and Similarity Enhanced Search), a dynamic framework designed to reason beyond explicit edges. INSES couples LLM-guided navigation, which prunes noise and steers exploration, with embedding-based similarity expansion to recover hidden links and bridge semantic gaps. Recognizing the computational cost of graph reasoning, we complement INSES with a lightweight router that delegates simple queries to Naïve RAG and escalates complex cases to INSES, balancing efficiency with reasoning depth. INSES consistently outperforms SOTA RAG and GraphRAG baselines across multiple benchmarks. Notably, on the MINE benchmark, it demonstrates superior robustness across KGs constructed by varying methods (KGGEN, GraphRAG, OpenIE), improving accuracy by 5%, 10%, and 27%, respectively.",
+      "authors": [
+        "Hang Gao",
+        "Dimitris N. Metaxas"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL"
+      ],
+      "published": "2026-03-14T16:16:47+00:00",
+      "link": "https://arxiv.org/pdf/2603.14006v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "LLM-guided navigation and reasoning over knowledge graphs",
+      "llm_evidence_cn": "大语言模型引导的知识图谱导航与推理",
+      "llm_evidence": "大语言模型引导的知识图谱导航与推理",
+      "canonical_evidence": "大语言模型引导的知识图谱导航与推理",
+      "llm_tldr_en": "INSES improves reasoning over sparse knowledge graphs using LLM-guided navigation and similarity search.",
+      "llm_tldr_cn": "INSES 通过 LLM 引导的导航和相似性搜索，改进了在稀疏知识图谱上的推理。",
+      "llm_tldr": "INSES 通过 LLM 引导的导航和相似性搜索，改进了在稀疏知识图谱上的推理。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.15586v2",
+      "source": "arxiv",
+      "title": "Computational Concept of the Psyche",
+      "abstract": "This article presents an overview of approaches to modeling the human psyche in the context of constructing an artificial one. Based on this overview, a concept of cognitive architecture is proposed, in which the psyche is viewed as the operating system of a living or artificial subject, comprising a space of states, including the state of needs that determine the meaning of a subject's being in relation to stimuli from the external world, and intelligence as a decision-making system regarding actions in this world to satisfy these needs. Based on this concept, a computational formalization is proposed for creating artificial general intelligence systems for an agent through experiential learning in a state space that includes agent's needs, taking into account their biological or existential significance for the intelligent agent, along with agent's sensations and actions. Thus, the problem of constructing artificial general intelligence is formalized as a system for making optimal decisions in the space of specific agent needs under conditions of uncertainty, maximizing success in achieving goals, minimizing existential risks, and maximizing energy efficiency. A minimal experimental implementation of the model is presented.",
+      "authors": [
+        "Anton Kolonin",
+        "Vladimir Krykov"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "eess.SY"
+      ],
+      "published": "2026-03-16T17:46:58+00:00",
+      "link": "https://arxiv.org/pdf/2603.15586v2",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Proposes a cognitive architecture for agents based on state spaces, needs, and decision-making.",
+      "llm_evidence_cn": "提出了一种基于状态空间、需求和决策的智能体认知架构。",
+      "llm_evidence": "提出了一种基于状态空间、需求和决策的智能体认知架构。",
+      "canonical_evidence": "提出了一种基于状态空间、需求和决策的智能体认知架构。",
+      "llm_tldr_en": "Formalizes a computational concept of the psyche for artificial agents through experiential learning.",
+      "llm_tldr_cn": "通过经验学习为人工智能体形式化了一种心理计算概念和认知架构。",
+      "llm_tldr": "通过经验学习为人工智能体形式化了一种心理计算概念和认知架构。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.18786v1",
+      "source": "arxiv",
+      "title": "Proceedings of the 2nd Workshop on Advancing Artificial Intelligence through Theory of Mind",
+      "abstract": "This volume includes a selection of papers presented at the 2nd Workshop on Advancing Artificial Intelligence through Theory of Mind held at AAAI 2026 in Singapore on 26th January 2026. The purpose of this volume is to provide an open access and curated anthology for the ToM and AI research community.",
+      "authors": [
+        "Nitay Alon",
+        "Joseph M. Barnby",
+        "Reuth Mirsky",
+        "Stefan Sarkadi"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-19T11:35:46+00:00",
+      "link": "https://arxiv.org/pdf/2603.18786v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Advancing AI through Theory of Mind for reasoning and social intelligence",
+      "llm_evidence_cn": "通过心理理论提升人工智能的推理与社交智能",
+      "llm_evidence": "通过心理理论提升人工智能的推理与社交智能",
+      "canonical_evidence": "通过心理理论提升人工智能的推理与社交智能",
+      "llm_tldr_en": "A collection of research on Theory of Mind to improve AI reasoning and social understanding.",
+      "llm_tldr_cn": "关于心理理论的研究合集，旨在提升人工智能的推理能力和社交理解。",
+      "llm_tldr": "关于心理理论的研究合集，旨在提升人工智能的推理能力和社交理解。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.06684v1",
+      "source": "arxiv",
+      "title": "GraphWalker: Graph-Guided In-Context Learning for Clinical Reasoning on Electronic Health Records",
+      "abstract": "Clinical Reasoning on Electronic Health Records (EHRs) is a fundamental yet challenging task in modern healthcare. While in-context learning (ICL) offers a promising inference-time adaptation paradigm for large language models (LLMs) in EHR reasoning, existing methods face three fundamental challenges: (1) Perspective Limitation, where data-driven similarity fails to align with LLM reasoning needs and model-driven signals are constrained by limited clinical competence; (2) Cohort Awareness, as demonstrations are selected independently without modeling population-level structure; and (3) Information Aggregation, where redundancy and interaction effects among demonstrations are ignored, leading to diminishing marginal gains. To address these challenges, we propose GraphWalker, a principled demonstration selection framework for EHR-oriented ICL. GraphWalker (i) jointly models patient clinical information and LLM-estimated information gain by integrating data-driven and model-driven perspectives, (ii) incorporates Cohort Discovery to avoid noisy local optima, and (iii) employs a Lazy Greedy Search with Frontier Expansion algorithm to mitigate diminishing marginal returns in information aggregation. Extensive experiments on multiple real-world EHR benchmarks demonstrate that GraphWalker consistently outperforms state-of-the-art ICL baselines, yielding substantial improvements in clinical reasoning performance. Our code is open-sourced at https://github.com/PuppyKnightUniversity/GraphWalker",
+      "authors": [
+        "Yue Fang",
+        "Weibin Liao",
+        "Yuxin Guo",
+        "Jiaran Gao",
+        "Hongxin Ding",
+        "Jinyang Zhang",
+        "Xinke Jiang",
+        "Zhibang Yang",
+        "Junfeng Zhao",
+        "Yasha Wang",
+        "Liantao Ma"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-04-08T04:59:49+00:00",
+      "link": "https://arxiv.org/pdf/2604.06684v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "clinical reasoning on EHRs using LLMs and graph-guided in-context learning",
+      "llm_evidence_cn": "使用大语言模型和图引导上下文学习进行电子健康档案的临床推理",
+      "llm_evidence": "使用大语言模型和图引导上下文学习进行电子健康档案的临床推理",
+      "canonical_evidence": "使用大语言模型和图引导上下文学习进行电子健康档案的临床推理",
+      "llm_tldr_en": "GraphWalker improves clinical reasoning in LLMs by using graph-guided in-context learning on EHR data.",
+      "llm_tldr_cn": "GraphWalker通过在电子健康档案数据上使用图引导的上下文学习，提升了大语言模型的临床推理能力。",
+      "llm_tldr": "GraphWalker通过在电子健康档案数据上使用图引导的上下文学习，提升了大语言模型的临床推理能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.18829v2",
+      "source": "arxiv",
+      "title": "Agent Control Protocol: Admission Control for Agent Actions",
+      "abstract": "Agent Control Protocol (ACP) is a formal technical specification for governance of autonomous agents in B2B institutional environments. ACP is the admission control layer between agent intent and system state mutation: before any agent action reaches execution, it must pass a cryptographic admission check that validates identity, capability scope, delegation chain, and policy compliance simultaneously.   ACP defines the mechanisms of cryptographic identity, capability-based authorization, deterministic risk evaluation, verifiable chained delegation, transitive revocation, and immutable auditing that a system must implement for autonomous agents to operate under explicit institutional control.   ACP operates as an additional layer on top of RBAC and Zero Trust, without replacing them. It is designed specifically for the problem that neither model solves: governing what an autonomous agent can do, under what conditions, with what limits, and with complete traceability for external auditing -- including across organizational boundaries.   The v1.14 specification comprises 36 technical documents organized into five conformance levels (L1-L5). It includes a Go reference implementation of 22 packages covering all L1-L4 capabilities, 73 signed conformance test vectors (Ed25519 + SHA-256), and an OpenAPI 3.1.0 specification for all HTTP endpoints. It defines more than 62 verifiable requirements, 12 prohibited behaviors, and the mechanisms for interoperability between institutions.   Specification and implementation: https://github.com/chelof100/acp-framework-en",
+      "authors": [
+        "Marcelo Fernandez"
+      ],
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "published": "2026-03-19T12:28:28+00:00",
+      "link": "https://arxiv.org/pdf/2603.18829v2",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "governance and admission control for autonomous agents",
+      "llm_evidence_cn": "自主智能体的治理与准入控制",
+      "llm_evidence": "自主智能体的治理与准入控制",
+      "canonical_evidence": "自主智能体的治理与准入控制",
+      "llm_tldr_en": "A technical specification for the governance and cryptographic admission control of autonomous agents.",
+      "llm_tldr_cn": "一种用于自主智能体治理和加密准入控制的技术规范。",
+      "llm_tldr": "一种用于自主智能体治理和加密准入控制的技术规范。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.21551v1",
+      "source": "arxiv",
+      "title": "AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes",
+      "abstract": "Large language models are rapidly changing how learners acquire and demonstrate cybersecurity skills. However, when human--AI collaboration is allowed, educators still lack validated competition designs and evaluation practices that remain fair and evidence-based. This paper presents a cross-regional study of LLM-centered Capture-the-Flag competitions built on the Cyber Security Awareness Week competition system. To understand how autonomy levels and participants' knowledge backgrounds influence problem-solving performance and learning-related behaviors, we formalize three autonomy levels: human-in-the-loop, autonomous agent frameworks, and hybrid. To enable verification, we require traceable submissions including conversation logs, agent trajectories, and agent code. We analyze multi-region competition data covering an in-class track, a standard track, and a year-long expert track, each targeting participants with different knowledge backgrounds. Using data from the 2025 competition, we compare solve performance across autonomy levels and challenge categories, and observe that autonomous agent frameworks and hybrid achieve higher completion rates on challenges requiring iterative testing and tool interactions. In the in-class track, we classify participants' agent designs and find a preference for lightweight, tool-augmented prompting and reflection-based retries over complex multi-agent architectures. Our results offer actionable guidance for designing LLM-assisted cybersecurity competitions as learning technologies, including autonomy-specific scoring criteria, evidence requirements that support solution verification, and track structures that improve accessibility while preserving reliable evaluation and engagement.",
+      "authors": [
+        "Haoran Xi",
+        "Minghao Shao",
+        "Kimberly Milner",
+        "Venkata Sai Charan Putrevu",
+        "Nanda Rani",
+        "Meet Udeshi",
+        "Prashanth Krishnamurthy",
+        "Brendan Dolan-Gavitt",
+        "Siddharth Garg",
+        "Sandeep Kumar Shukla",
+        "Farshad Khorrami",
+        "Alon Hillel-Tuch",
+        "Muhammad Shafique",
+        "Ramesh Karri"
+      ],
+      "primary_category": "cs.SE",
+      "categories": [
+        "cs.SE"
+      ],
+      "published": "2026-03-23T04:05:59+00:00",
+      "link": "https://arxiv.org/pdf/2603.21551v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "autonomous agent frameworks and human-AI collaboration in cybersecurity",
+      "llm_evidence_cn": "网络安全中的自主智能体框架与人机协作",
+      "llm_evidence": "网络安全中的自主智能体框架与人机协作",
+      "canonical_evidence": "网络安全中的自主智能体框架与人机协作",
+      "llm_tldr_en": "Explores autonomy levels and design principles for agentic systems in cybersecurity education competitions.",
+      "llm_tldr_cn": "探索了网络安全教育竞赛中智能体系统的自主水平和设计原则。",
+      "llm_tldr": "探索了网络安全教育竞赛中智能体系统的自主水平和设计原则。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体系统和相关算法的最新学术论文",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

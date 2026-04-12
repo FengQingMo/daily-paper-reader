@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.15586v2/fig-001.webp",
+      "caption": "Fig. 3. Illustration of the decision making process in the state of spaces based on state transition graphs stored in the episodic memory of an agent, where experienced states s are agent’s memories kept as precedents linked by transitions, associated with pertransition utility and evidence counts while predicted states s′ are expectations that an agent experiences at any given moment while making a decision or calmly observing an environment.",
+      "page": 10,
+      "index": 1,
+      "width": 716,
+      "height": 402
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15586v2/fig-002.webp",
+      "caption": "Fig. 5. Visualization of the process of learning to play ping-pong against the opposite wall in the space of needs: the opposite wall is on top, the racket is in the middle, the ball is between the wall and the racket, at the bottom are the plots rendering functions of satisfaction or dissatisfaction for four needs: Happiness (\"Happy\"), Sadness (\"Sad\"), \"Novelty\", \"Expectedness\"; and a separate function of explicit (positive or negative) reinforcement presence (\"Feedback\").",
+      "page": 14,
+      "index": 2,
+      "width": 579,
+      "height": 648
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15586v2/fig-003.webp",
+      "caption": "Fig. 1. Conceptual cognitive architecture of artificial psyche.",
+      "page": 3,
+      "index": 3,
+      "width": 616,
+      "height": 483
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15586v2/fig-004.webp",
+      "caption": "Fig. 4. Four-layer memory architecture (from bottom to top): a) long-term episodic memory keeping logs of agent’s interactions with the environment; b) \"model\" of the agent-environment interactions that is either neural-associative (left) or symbolic (right); c) attention focus with current observations; d) short-term memory with current operational context. Memory data in each of the four layers can be limited in three dimensions: 1) size, capacity, or time period, limited to storing only recent events on certain retention horizon; 2) scope of evidence perception or number of input and action modalities; 3) precision or accuracy of the data (e.g., in the form of floating-point numbers, integers, or Boolean values).",
+      "page": 13,
+      "index": 4,
+      "width": 579,
+      "height": 285
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15586v2/fig-005.webp",
+      "caption": "Fig. 2. Illustration of the decision making process in state st at time t, described by vector s1, where 6 transitions to 6 states in the future time t + 1 are possible, represented by vectors s′2, s′3, s′4, s′5, s′6, s′7, based on 4 possible actions a′ 1, a′ 2, a′ 3, a′ 4. In the case of actions a′ 1 and a′ 2, a non-deterministic transition to new states with different probabilities may occur. Action a′ 1 may lead to s′2 or s′3, while a′ 2 may cause s′4 or s′5. Actions a′ 3 and a′ 4 lead to a deterministic outcome. Each state vector includes a corresponding action vector a′, a feeling vector f ′, and a need satisfaction vector y′, associated with the overall utility U(s) = U(y) of transitioning to this state and the probability of this transition P (s). Each action a′ can be associated with a statistically estimated \"prospected utility\" such as ∑ U ∗ P . Although statistical and economic evaluation based on \"prospect theory\" [28] suggests that action a′ 2 is optimal (either maximum profit with moderate probability, or no profit with low probability), the same research shows that people usually intuitively choose actions like a′ 3, where a smaller profit is guaranteed with higher probability.",
+      "page": 8,
+      "index": 5,
+      "width": 616,
+      "height": 317
+    }
+  ]
+}

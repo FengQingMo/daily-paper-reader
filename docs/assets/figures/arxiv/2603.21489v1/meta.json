@@ -1,0 +1,118 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-001.webp",
+      "caption": "Table 2: Main results on Commit0 and PaperBench. We compare single-agent baselines with CAID (2 engineers on PaperBench and 4 engineers on Commit0) under the same model and iteration budget.",
+      "page": 6,
+      "index": 1,
+      "width": 939,
+      "height": 408
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-002.webp",
+      "caption": "Figure 2: CAID effectively utilizes iteration budgets. We compare the final score and the iteration utilization between single-agent runs with different iteration limits and CAID.",
+      "page": 6,
+      "index": 2,
+      "width": 941,
+      "height": 312
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-003.webp",
+      "caption": "Table 6: MiniMax 2.5 results on Commit0-Lite across different configurations.",
+      "page": 21,
+      "index": 3,
+      "width": 910,
+      "height": 545
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-004.webp",
+      "caption": "Table 3: We compare soft context isolation and worktree isolation on PaperBench and Commit0-Lite.",
+      "page": 7,
+      "index": 4,
+      "width": 433,
+      "height": 307
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-005.webp",
+      "caption": "Table 7: Claude 4.5 Sonnet results on PaperBench Code-Dev across different configurations.",
+      "page": 22,
+      "index": 5,
+      "width": 923,
+      "height": 552
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-006.webp",
+      "caption": "Table 8: GLM 4.7 results on PaperBench Code-Dev across different configurations.",
+      "page": 22,
+      "index": 6,
+      "width": 923,
+      "height": 553
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-007.webp",
+      "caption": "Table 1: Mapping between concrete SWE primitives and multi-agent coordination mechanisms in CAID. Each primitive serves as an operational building block for isolation, delegation, asynchronous execution, and integration.",
+      "page": 3,
+      "index": 7,
+      "width": 939,
+      "height": 271
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-008.webp",
+      "caption": "Table 9: MiniMax 2.5 results on PaperBench Code-Dev across different configurations.",
+      "page": 23,
+      "index": 8,
+      "width": 923,
+      "height": 552
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-009.webp",
+      "caption": "Figure 4: Execution timelines on the minitorch repository for a single-agent run and two CAID runs. The bars in the Gantt plot indicate file-level implementation intervals and manager phases. The runs differ in which modules are assigned and actively developed, resulting in distinct execution trajectories and pass rates.",
+      "page": 8,
+      "index": 9,
+      "width": 900,
+      "height": 420
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-010.webp",
+      "caption": "Figure 3: Effect of the number of engineer agents on runtime, pass rate, and cost for Commit0-Lite and PaperBench. We provide the single-agent baselines here for comparison.",
+      "page": 8,
+      "index": 10,
+      "width": 846,
+      "height": 335
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-011.webp",
+      "caption": "Table 4: Claude 4.5 Sonnet results on Commit0-Lite across different configurations.",
+      "page": 19,
+      "index": 11,
+      "width": 958,
+      "height": 556
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-012.webp",
+      "caption": "Figure 5: Runtime (s) vs. pass rate (%) of a subset of the Commit0 under three coordination prompts (1) Round-Manager Review: the manager reviews each round before integration; (2) Engineer Self-Verification: engineers verify locally without repeated managerial review; and (3) Efficiency-Prioritized: all agents are instructed to prioritize runtime efficiency.",
+      "page": 9,
+      "index": 12,
+      "width": 444,
+      "height": 518
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-013.webp",
+      "caption": "Table 5: GLM 4.7 results on Commit0-Lite across different configurations.",
+      "page": 20,
+      "index": 13,
+      "width": 910,
+      "height": 545
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21489v1/fig-014.webp",
+      "caption": "Figure 6: Gantt plot on the simpy repository for CAID with different number of engineers, where N = 2, 4, 8.",
+      "page": 20,
+      "index": 14,
+      "width": 854,
+      "height": 535
+    }
+  ]
+}

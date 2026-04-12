@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.18221v1/fig-001.webp",
+      "caption": "Fig. 1. End-to-end system architecture. Left: The examination pipeline decomposes each oral exam into three agent phases, with per-student context injected via dynamic variables. Right: The grading pipeline scores each transcript through two rounds of multi-model assessment followed by chair synthesis. Cases flagged for high disagreement are routed to human audit.",
+      "page": 2,
+      "index": 1,
+      "width": 808,
+      "height": 183
+    }
+  ]
+}

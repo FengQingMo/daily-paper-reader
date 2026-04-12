@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.14790v1/fig-001.webp",
+      "caption": "Fig. 4: Unity-Based Interface. Our system provides synchronized timeline tracks for characters and cameras, enabling realtime inspection, editing, and visualization across all stages.",
+      "page": 8,
+      "index": 1,
+      "width": 529,
+      "height": 289
+    }
+  ]
+}

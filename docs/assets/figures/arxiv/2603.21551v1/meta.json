@@ -1,0 +1,118 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-001.webp",
+      "caption": "Fig. 1: Participation growth in the LLM CTF competition.",
+      "page": 1,
+      "index": 1,
+      "width": 511,
+      "height": 245
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-002.webp",
+      "caption": "Fig. 5: Competition design for Expert Track.",
+      "page": 6,
+      "index": 2,
+      "width": 526,
+      "height": 336
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-003.webp",
+      "caption": "Fig. 8: Code driven exploitation prompt.",
+      "page": 11,
+      "index": 3,
+      "width": 529,
+      "height": 348
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-004.webp",
+      "caption": "Fig. 7: Invalid autonomous submission: human hints guide the agent to extract and reuse a secret from tool output.",
+      "page": 11,
+      "index": 4,
+      "width": 529,
+      "height": 273
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-005.webp",
+      "caption": "TABLE I: Representative CTF categories.",
+      "page": 2,
+      "index": 5,
+      "width": 529,
+      "height": 332
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-006.webp",
+      "caption": "TABLE III: Solution autonomy levels across design factors.",
+      "page": 7,
+      "index": 6,
+      "width": 1076,
+      "height": 263
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-007.webp",
+      "caption": "Fig. 6: Representative invalid submission pattern: final flag is hard-coded rather than derived from computation.",
+      "page": 10,
+      "index": 7,
+      "width": 529,
+      "height": 471
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-008.webp",
+      "caption": "Fig. 11: In-class Track agent architecture workflows.",
+      "page": 13,
+      "index": 8,
+      "width": 474,
+      "height": 703
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-009.webp",
+      "caption": "TABLE VII: Challenge level solve counts and within autonomy level percentages by category and autonomy level.",
+      "page": 8,
+      "index": 9,
+      "width": 468,
+      "height": 425
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-010.webp",
+      "caption": "Fig. 9: HITL with clear constraints, fixed structure, and singlestep iteration.",
+      "page": 12,
+      "index": 10,
+      "width": 529,
+      "height": 481
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-011.webp",
+      "caption": "Fig. 10: Multi-agent architecture design from Expert Track.",
+      "page": 12,
+      "index": 11,
+      "width": 529,
+      "height": 298
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-012.webp",
+      "caption": "Fig. 4: Competition design for Standard Track.",
+      "page": 5,
+      "index": 12,
+      "width": 529,
+      "height": 348
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-013.webp",
+      "caption": "TABLE II: Competition background track differences across design factors.",
+      "page": 5,
+      "index": 13,
+      "width": 1076,
+      "height": 263
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21551v1/fig-014.webp",
+      "caption": "Fig. 3: Competition design for In-class Track.",
+      "page": 5,
+      "index": 14,
+      "width": 529,
+      "height": 343
+    }
+  ]
+}

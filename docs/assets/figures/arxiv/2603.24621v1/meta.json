@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.24621v1/fig-001.webp",
+      "caption": "Figure 2: Screenshot of ARC-AGI-3 environment ls20.",
+      "page": 6,
+      "index": 1,
+      "width": 638,
+      "height": 637
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24621v1/fig-002.webp",
+      "caption": "Table 1: ARC-AGI-3 dataset composition.",
+      "page": 11,
+      "index": 2,
+      "width": 842,
+      "height": 186
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24621v1/fig-003.webp",
+      "caption": "Figure 3: First level of ls20 in graph form. Notice the three repeating states – an artifact of the three-life mechanic of the level. Pwin for this level is exactly 1 in 355.",
+      "page": 10,
+      "index": 3,
+      "width": 736,
+      "height": 612
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24621v1/fig-004.webp",
+      "caption": "Figure 1: Frontier AI performance on ARC-AGI since introduction in 2019.",
+      "page": 3,
+      "index": 4,
+      "width": 979,
+      "height": 538
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24621v1/fig-005.webp",
+      "caption": "Figure 6: Total actions by level for game ls20.",
+      "page": 18,
+      "index": 5,
+      "width": 771,
+      "height": 357
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24621v1/fig-006.webp",
+      "caption": "Figure 4: Participant demographics.",
+      "page": 17,
+      "index": 6,
+      "width": 979,
+      "height": 377
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24621v1/fig-007.webp",
+      "caption": "Figure 5: Time spent on environments by outcome, split between successful runs (“correct”) and unsucessful runs (“correct”).",
+      "page": 17,
+      "index": 7,
+      "width": 492,
+      "height": 252
+    }
+  ]
+}

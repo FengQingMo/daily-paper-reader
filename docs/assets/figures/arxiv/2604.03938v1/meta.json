@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.03938v1/fig-001.webp",
+      "caption": "Figure 1: The gap between agentic objects and agentic society. Individual objects may possess all four agent properties yet remain uncoordinated (left). Forming a society requires addressing coordination challenges across perception, judgment, and action (right).",
+      "page": 3,
+      "index": 1,
+      "width": 687,
+      "height": 238
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.16733v1/fig-001.webp",
+      "caption": "Figure 3. IQuest-Coder-V1 performance across different benchmarks.",
+      "page": 10,
+      "index": 1,
+      "width": 934,
+      "height": 547
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16733v1/fig-002.webp",
+      "caption": "Figure 2. Code-Flow Training pipeline of IQuest-Coder-V1.",
+      "page": 3,
+      "index": 2,
+      "width": 799,
+      "height": 396
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16733v1/fig-003.webp",
+      "caption": "Table 7. Combined performance on agentic coding tasks (Terminal-Bench, Terminal-Bench 2.0, SWE-Verified) and general tool-use tasks (Mind2Web, BFCL V3).",
+      "page": 13,
+      "index": 3,
+      "width": 941,
+      "height": 869
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16733v1/fig-004.webp",
+      "caption": "Table 2. Performance comparison on CrossCodeEval Tasks.",
+      "page": 8,
+      "index": 4,
+      "width": 941,
+      "height": 633
+    },
+    {
+      "url": "assets/figures/arxiv/2603.16733v1/fig-005.webp",
+      "caption": "Table 4. Performance comparison on Code Reasoning Evaluation.",
+      "page": 9,
+      "index": 5,
+      "width": 564,
+      "height": 654
+    }
+  ]
+}

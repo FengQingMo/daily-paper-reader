@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.15039v1/fig-001.webp",
+      "caption": "Figure 1. Results of six representative multimodal large language models across seven tasks defined in GUI-CEval. The uneven radar profiles show that GUI-CEval offers a comprehensive examination of perception–to–execution capabilities and poses a substantial challenge to current models.",
+      "page": 1,
+      "index": 1,
+      "width": 471,
+      "height": 364
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15039v1/fig-002.webp",
+      "caption": "Table 2. Performance comparison of general-purpose and GUI-specific models on the GUI-CEval benchmark. Best results are in bold, and the second-best results are underlined. Detailed results for each subtask and all models are provided in Appendix A.4.",
+      "page": 6,
+      "index": 2,
+      "width": 1031,
+      "height": 485
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15039v1/fig-003.webp",
+      "caption": "Figure 2. A representative example illustrating how GUI-CEval provides a comprehensive analysis of a Chinese mobile instruction. It evaluates realistic GUI application ability using tasks constructed from real mobile environments and trajectories, while also assessing atomic skills via single-answer multiple-choice questions, enabling developers to diagnose and improve model weaknesses.",
+      "page": 2,
+      "index": 3,
+      "width": 1036,
+      "height": 629
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15039v1/fig-004.webp",
+      "caption": "Figure 5. Performance trends of representative models across six capability dimensions under varying input resolutions.",
+      "page": 7,
+      "index": 4,
+      "width": 496,
+      "height": 308
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15039v1/fig-005.webp",
+      "caption": "Figure 6. Relationship between step success rate and online task accuracy for representative GUI agents in online environments, with color indicating grounding accuracy.",
+      "page": 7,
+      "index": 5,
+      "width": 487,
+      "height": 297
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15039v1/fig-006.webp",
+      "caption": "Table 1. Comparison of existing GUI evaluation datasets with our GUI-CEval. F, G, Off, On denote the tasks of Foundation, Grounding, Offline Agent and Online Agent.",
+      "page": 3,
+      "index": 6,
+      "width": 494,
+      "height": 244
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15039v1/fig-007.webp",
+      "caption": "Figure 3. The pipeline of GUI-CEval, covering task definition, data collection, human annotation, and multi-stage quality control.",
+      "page": 4,
+      "index": 7,
+      "width": 994,
+      "height": 411
+    },
+    {
+      "url": "assets/figures/arxiv/2603.15039v1/fig-008.webp",
+      "caption": "Figure 4. Overall statistics of the GUI-CEval, which consists of 4,194 multimodal QA and 4,028 GUI-agent application tasks.",
+      "page": 5,
+      "index": 8,
+      "width": 496,
+      "height": 320
+    }
+  ]
+}

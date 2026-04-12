@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.18273v1/fig-001.webp",
+      "caption": "Figure 1: EDM-ARS architecture. Five specialized agents are coordinated by a state-machine orchestrator. The Critic agent reviews outputs from the ProblemFormulator, DataEngineer, and Analyst, and can issue revision instructions routed back through the pipeline. The Data Registry provides domain knowledge to all agents. Solid arrows indicate the forward pipeline; dashed arrows indicate revision loops; dotted arrows indicate domain knowledge access.",
+      "page": 5,
+      "index": 1,
+      "width": 836,
+      "height": 332
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18273v1/fig-002.webp",
+      "caption": "Table 1: EDM-ARS technology stack.",
+      "page": 7,
+      "index": 2,
+      "width": 944,
+      "height": 311
+    },
+    {
+      "url": "assets/figures/arxiv/2603.18273v1/fig-003.webp",
+      "caption": "Table 2: Missing data protocol applied per predictor variable.",
+      "page": 10,
+      "index": 3,
+      "width": 868,
+      "height": 253
+    }
+  ]
+}

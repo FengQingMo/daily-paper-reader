@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.07922v1/fig-001.webp",
+      "caption": "Figure 1: Baselines vs. SAT. COT spends redundant checks for easy steps, Early-Stopping halts after a highconfidence first-pass answer and fails, while SAT skips redundancy on easy steps but preserves verification on hard steps, achieving the correct answer efficiently.",
+      "page": 1,
+      "index": 1,
+      "width": 458,
+      "height": 347
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07922v1/fig-002.webp",
+      "caption": "Figure 4: Accuracy and token usage on GPQA and HumanEval across different model scales.",
+      "page": 6,
+      "index": 2,
+      "width": 941,
+      "height": 201
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07922v1/fig-003.webp",
+      "caption": "Table 1: Performance on mathematical reasoning benchmarks. Metrics include Acc (↑) and Tokens (↓). Changes relative to the COT are highlighted in orange for Acc and blue for Tokens. Best results within each group are bolded.",
+      "page": 6,
+      "index": 3,
+      "width": 941,
+      "height": 636
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07922v1/fig-004.webp",
+      "caption": "Figure 13: Baselines vs. SAT. Early-Stopping halts after a high-confidence first-pass answer and fails; Suppressing Reflective eliminates all verification steps, preventing necessary self-correction and leading to the same error. In contrast, SAT skips redundancy on easy steps but preserves verification on hard steps, achieving the correct answer efficiently.",
+      "page": 11,
+      "index": 4,
+      "width": 457,
+      "height": 295
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07922v1/fig-005.webp",
+      "caption": "Table 4: Comparisons with additional baselines. Metrics include Acc (↑) and Tokens (↓). Changes relative to the COT are highlighted in orange for Acc and blue for Tokens. Best results within each group are bolded.",
+      "page": 14,
+      "index": 5,
+      "width": 941,
+      "height": 902
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07922v1/fig-006.webp",
+      "caption": "Figure 2: Overview of the proposed framework that models LRM reasoning as a Finite-State Machine (FSM). The left panel provides a detailed view of the specific state transition dynamics and stability rules of the proposed reasoning FSM. The right panel illustrates the closed-loop control flow: the Pilot perceives the difficulty (rt) of the previous step (yt−1), driving the State Transition Logic to update the thinking state (st). This state is then mapped to a control tag (ct) via In-Context Steering to modulate the next generation step (yt).",
+      "page": 3,
+      "index": 6,
+      "width": 761,
+      "height": 336
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07922v1/fig-007.webp",
+      "caption": "Table 3: Definitions of Control Tags. These tags are inserted into the context to modulate the reasoning style of the subsequent step.",
+      "page": 12,
+      "index": 7,
+      "width": 885,
+      "height": 307
+    },
+    {
+      "url": "assets/figures/arxiv/2604.07922v1/fig-008.webp",
+      "caption": "Table 2: List of Input Features for the Lightweight Pilot. The features are categorized into Semantic inputs and Uncertainty inputs (subdivided into Static and Dynamic metrics).",
+      "page": 12,
+      "index": 8,
+      "width": 937,
+      "height": 502
+    }
+  ]
+}

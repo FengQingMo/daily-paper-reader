@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.04967v1/fig-001.webp",
+      "caption": "Fig. 1: Shared-workspace regime-switch detection. Top: a collaborating agent switches from cooperative (Helper) to adversarial (Blocker), creating collision risk. Bottom: enabling detection reduces post-switch collisions by 52% across all methods (No-Detect: 2.34 vs. detection mean: ∼1.1). Among detectors, collision rates are comparable (range 0.99–1.29), motivating evaluation of detection reliability and adaptation quality.",
+      "page": 1,
+      "index": 1,
+      "width": 529,
+      "height": 358
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04967v1/fig-002.webp",
+      "caption": "Fig. 4: Close-range time (CRT) under extended episodes (300 steps, 10 seeds). CRT measures post-switch timesteps at <15 cm end-effector distance. UA-TOM (MS) achieves the lowest CRT (4.8), including lower than Oracle (5.3), indicating that smooth belief revision maintains safer clearance than instantaneous strategy switching. LIAM detects at 97.3% yet accumulates 2.8× more danger time (13.4 steps). †Privileged.",
+      "page": 6,
+      "index": 2,
+      "width": 860,
+      "height": 312
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04967v1/fig-003.webp",
+      "caption": "Fig. 5: Post-switch adaptation dynamics (300-step episodes, 10 seeds). (A): Post-switch collision rate over time following ts, showing instantaneous risk at each timestep. UA-TOM (MS) exhibits a smooth, monotonic decrease consistent with the SSM’s gradual belief revision (Fig. 6). Oracle shows a sharp transient from instantaneous strategy switching. LIAM remains elevated for an extended window despite successful detection. (B): Cumulative post-switch collisions over time. The separation between methods grows over the post-switch window, confirming that sustained proximity behavior, not isolated collision events, drives the safety differences captured by CRT.",
+      "page": 7,
+      "index": 3,
+      "width": 860,
+      "height": 304
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04967v1/fig-004.webp",
+      "caption": "Fig. 6: Internal dynamics around the regime switch (24 episodes, ManiSkill). Top: SSM state update magnitude ∥bt− bt−1∥ spikes 17× at ts (from 9.4× 10−5 to 5.4× 10−3) and decays over roughly 10 timesteps. Bottom: UA-TOM belief change overshoots the Oracle step function (1.58 vs. 1.0) then settles gradually over 5–10 steps. The SSM discretization ∆t remains near-constant at ≈0.78 throughout, confirming that detection sensitivity resides in the learned dynamics matrices A,B rather than input-dependent gating.",
+      "page": 7,
+      "index": 4,
+      "width": 440,
+      "height": 505
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04967v1/fig-005.webp",
+      "caption": "Fig. 2: UA-TOM computation flow. A frozen VLA backbone extracts features zt. The UA-TOM module (992K parameters, 0.014% of backbone) processes these through four pathways: a selective SSM maintains persistent belief bt via learned dynamics A,B (discretization ∆t converges to 0.78); causal attention re-anchors belief to recent observations; prediction error et provides an explicit change signal; and contrastive memory supplies categorical type cues via EMA prototypes. A gated fusion layer integrates all signals to produce type θ̂t, switch probability ŝt, and predicted action âct . Internal dynamics around the regime switch are shown in Fig. 6.",
+      "page": 4,
+      "index": 5,
+      "width": 860,
+      "height": 472
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04967v1/fig-006.webp",
+      "caption": "TABLE III: Closed-loop performance over five seeds (1200 episodes). †Privileged.",
+      "page": 5,
+      "index": 6,
+      "width": 442,
+      "height": 280
+    },
+    {
+      "url": "assets/figures/arxiv/2604.04967v1/fig-007.webp",
+      "caption": "Fig. 3: Detection reliability heatmap at ±3 step tolerance. Hard detection rate (%) per method and transition type across 12 behavioral transitions (e.g. Helper→Blocker, Competitor→Passive). Rows are sorted by mean detection rate. Methods separate into three tiers: fast detectors (>82%, blue), agent-modeling (58–62%, yellow), and slow recurrent models (<34%, red). At the standard ±5 tolerance, all cells would be 100%, masking these operationally relevant differences. Transition difficulty varies: Helper→Competitor is consistently hardest across methods due to similar spatial approach patterns.",
+      "page": 5,
+      "index": 7,
+      "width": 948,
+      "height": 387
+    }
+  ]
+}

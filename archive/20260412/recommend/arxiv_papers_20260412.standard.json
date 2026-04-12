@@ -1,0 +1,838 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-12T19:26:40.065326+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 18,
+    "deep_cap": 6,
+    "deep_selected": 10,
+    "quick_candidates": 14,
+    "quick_skim_target": 11,
+    "quick_selected": 11
+  },
+  "deep_dive": [
+    {
+      "id": "2604.03460v2",
+      "source": "arxiv",
+      "title": "FermiLink: A Unified Agent Framework for Multidomain Autonomous Scientific Simulations",
+      "abstract": "Artificial-intelligence (AI) agent frameworks have been developed for autonomous scientific simulations, but most current agent frameworks are tailored to a single or a small set of software packages. Herein, FermiLink, a unified and extensible open-source agent framework is introduced for multidomain scientific simulations. Its key design principle is the separation of package knowledge bases from simulation workflows, so that simulation workflows in FermiLink, from figure-level simulations to full-paper-level research on high-performance computing clusters, operate uniformly among supported packages via a four-layer progressive disclosure mechanism. Using OpenAI Codex as the agent provider, the capabilities of FermiLink are demonstrated across approximately 50 scientific software packages spanning nine research domains from physics to engineering. Systematic benchmarks on 132 real-world figure-level reproduction tasks with 44 packages show that FermiLink reproduces 74 (56.1%) of published figures with simulations, among which 30 achieve high-fidelity agreement and 35 reach qualitative agreement with the target figures. A smaller set of human expert-guided reproduction benchmarks with 10 packages further highlights the importance of expert insights for improving the simulation fidelity. Beyond reproduction, a single-blinded study demonstrates that FermiLink can produce research-grade results on unpublished polariton physics problems when provided with sufficiently detailed research objectives and source code, even in the absence of external documentation or tutorials. Overall, FermiLink provides a scalable research infrastructure that may accelerate the path from scientific questions to computational results across diverse domains.",
+      "authors": [
+        "Gang Meng",
+        "Andres Felipe Bocanegra Vargas",
+        "Xinwei Ji",
+        "Federico Garcia-Gaitan",
+        "Felipe Reyes-Osorio",
+        "Jalil Varela-Manjarres",
+        "Yafei Ren",
+        "Mohammadhasan Dinpajooh",
+        "Branislav K. Nikolić",
+        "Tao E. Li"
+      ],
+      "primary_category": "physics.chem-ph",
+      "categories": [
+        "physics.chem-ph",
+        "physics.comp-ph"
+      ],
+      "published": "2026-04-03T21:09:19+00:00",
+      "link": "https://arxiv.org/pdf/2604.03460v2",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "unified agent framework for autonomous scientific simulations",
+      "llm_evidence_cn": "用于自主科学模拟的统一智能体框架",
+      "llm_evidence": "用于自主科学模拟的统一智能体框架",
+      "canonical_evidence": "用于自主科学模拟的统一智能体框架",
+      "llm_tldr_en": "FermiLink is a unified agent framework designed to automate multidomain scientific simulations.",
+      "llm_tldr_cn": "FermiLink是一个统一的智能体框架，旨在实现多领域科学模拟的自动化。",
+      "llm_tldr": "FermiLink是一个统一的智能体框架，旨在实现多领域科学模拟的自动化。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体系统和相关算法的最新学术论文",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.03938v1",
+      "source": "arxiv",
+      "title": "What Do We Need for an Agentic Society?",
+      "abstract": "Thirty years ago, Wooldridge and Jennings defined intelligent agents through four properties: autonomy, reactivity, pro-activeness, and social ability. Today, advances in AI can empower everyday objects to become such intelligent agents. We call such objects agentic objects and envision that they can form an agentic society: a collective agentic environment that perceives patterns, makes judgments, and takes actions that no single object could achieve alone. However, individual capability does not guarantee coordination. Through an illustrative scenario of a teenager experiencing bullying and depression, we demonstrate both the promise of coordination and its failure modes: false positives that destroy trust, deadlocks that prevent action, and adversarial corruption that poisons judgment. These failures reveal open questions spanning three phases: what to share, how to judge, and when to act. These questions chart a research agenda for building agentic societies.",
+      "authors": [
+        "Kwon Ko",
+        "Hyoungwook Jin"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "published": "2026-04-05T02:34:10+00:00",
+      "link": "https://arxiv.org/pdf/2604.03938v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "exploring coordination and failure modes in an agentic society",
+      "llm_evidence_cn": "探索智能体社会中的协调与失败模式",
+      "llm_evidence": "探索智能体社会中的协调与失败模式",
+      "canonical_evidence": "探索智能体社会中的协调与失败模式",
+      "llm_tldr_en": "Discusses the requirements and challenges for coordination in a collective environment of intelligent agents.",
+      "llm_tldr_cn": "探讨了智能体社会中实现集体协调的要求以及可能导致协作失败的模式。",
+      "llm_tldr": "探讨了智能体社会中实现集体协调的要求以及可能导致协作失败的模式。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.03955v1",
+      "source": "arxiv",
+      "title": "Symbolic-Vector Attention Fusion for Collective Intelligence",
+      "abstract": "When autonomous agents observe different domains of a shared environment, each signal they exchange mixes relevant and irrelevant dimensions. No existing mechanism lets the receiver evaluate which dimensions to absorb. We introduce Symbolic-Vector Attention Fusion (SVAF), the content-evaluation half of a two-level coupling engine for collective intelligence. SVAF decomposes each inter-agent signal into 7 typed semantic fields, evaluates each through a learned fusion gate, and produces a remix -- new knowledge from the intersection of two domains. A band-pass model yields four outcomes (redundant, aligned, guarded, rejected), solving both selectivity and redundancy. The fusion gate independently discovers a cross-domain relevance hierarchy: mood emerges as the highest-weight field by epoch 1, before accuracy plateaus -- consistent with independent mechanistic evidence that LLM emotion representations are structurally embedded along valence-arousal axes. SVAF forms Layer 4 of the Mesh Memory Protocol (MMP); the other half of the coupling engine is a per-agent Closed-form Continuous-time (CfC) neural network at Layer 6, whose learned per-neuron time constants (tau) create the temporal dynamics from which collective intelligence emerges: fast neurons synchronise affect across agents in seconds, while slow neurons preserve domain expertise indefinitely. SVAF determines what enters each agent's cognitive state; CfC determines how that state evolves. Trained on 237K samples from 273 narrative scenarios, SVAF achieves 78.7% three-class accuracy. We verify the complete mesh cognition loop -- from per-field evaluation through remix, CfC state evolution, tau-modulated peer blending, and autonomous action -- in a live deployment with 7 nodes across macOS, iOS, and web.",
+      "authors": [
+        "Hongwei Xu"
+      ],
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "published": "2026-04-05T04:10:15+00:00",
+      "link": "https://arxiv.org/pdf/2604.03955v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "SVAF mechanism for inter-agent signal evaluation and collective intelligence",
+      "llm_evidence_cn": "SVAF机制用于智能体间信号评估与集体智能",
+      "llm_evidence": "SVAF机制用于智能体间信号评估与集体智能",
+      "canonical_evidence": "SVAF机制用于智能体间信号评估与集体智能",
+      "llm_tldr_en": "Introduces a fusion mechanism for agents to evaluate and remix shared information in collective systems.",
+      "llm_tldr_cn": "提出符号-向量注意力融合机制，解决集体智能中智能体间信息交换的筛选与冗余问题。",
+      "llm_tldr": "提出符号-向量注意力融合机制，解决集体智能中智能体间信息交换的筛选与冗余问题。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.04664v1",
+      "source": "arxiv",
+      "title": "ROSClaw: A Hierarchical Semantic-Physical Framework for Heterogeneous Multi-Agent Collaboration",
+      "abstract": "The integration of large language models (LLMs) with embodied agents has improved high-level reasoning capabilities; however, a critical gap remains between semantic understanding and physical execution. While vision-language-action (VLA) and vision-language-navigation (VLN) systems enable robots to perform manipulation and navigation tasks from natural language instructions, they still struggle with long-horizon sequential and temporally structured tasks. Existing frameworks typically adopt modular pipelines for data collection, skill training, and policy deployment, resulting in high costs in experimental validation and policy optimization. To address these limitations, we propose ROSClaw, an agent framework for heterogeneous robots that integrates policy learning and task execution within a unified vision-language model (VLM) controller. The framework leverages e-URDF representations of heterogeneous robots as physical constraints to construct a sim-to-real topological mapping, enabling real-time access to the physical states of both simulated and real-world agents. We further incorporate a data collection and state accumulation mechanism that stores robot states, multimodal observations, and execution trajectories during real-world execution, enabling subsequent iterative policy optimization. During deployment, a unified agent maintains semantic continuity between reasoning and execution, and dynamically assigns task-specific control to different agents, thereby improving robustness in multi-policy execution. By establishing an autonomous closed-loop framework, ROSClaw minimizes the reliance on robot-specific development workflows. The framework supports hardware-level validation, automated generation of SDK-level control programs, and tool-based execution, enabling rapid cross-platform transfer and continual improvement of robotic skills. Ours project page: https://www.rosclaw.io/.",
+      "authors": [
+        "Rongfeng Zhao",
+        "Xuanhao Zhang",
+        "Zhaochen Guo",
+        "Xiang Shao",
+        "Zhongpan Zhu",
+        "Bin He",
+        "Jie Chen"
+      ],
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-04-06T13:16:24+00:00",
+      "link": "https://arxiv.org/pdf/2604.04664v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "ROSClaw framework for heterogeneous multi-agent collaboration and semantic-physical integration",
+      "llm_evidence_cn": "ROSClaw框架用于异构多智能体协作及语义与物理执行的整合",
+      "llm_evidence": "ROSClaw框架用于异构多智能体协作及语义与物理执行的整合",
+      "canonical_evidence": "ROSClaw框架用于异构多智能体协作及语义与物理执行的整合",
+      "llm_tldr_en": "A hierarchical framework bridging semantic understanding and physical execution for multi-agent collaboration.",
+      "llm_tldr_cn": "提出ROSClaw框架，解决异构多智能体协作中语义理解与物理执行之间的脱节问题。",
+      "llm_tldr": "提出ROSClaw框架，解决异构多智能体协作中语义理解与物理执行之间的脱节问题。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.04967v1",
+      "source": "arxiv",
+      "title": "Belief Dynamics for Detecting Behavioral Shifts in Safe Collaborative Manipulation",
+      "abstract": "Robots operating in shared workspaces must maintain safe coordination with other agents whose behavior may change during task execution. When a collaborating agent switches strategy mid-episode, continuing under outdated assumptions can lead to unsafe actions and increased collision risk. Reliable detection of such behavioral regime changes is therefore critical. We study regime-switch detection under controlled non-stationarity in ManiSkill shared-workspace manipulation tasks. Across ten detection methods and five random seeds, enabling detection reduces post-switch collisions by 52%. However, average performance hides significant reliability differences: under a realistic tolerance of +-3 steps, detection ranges from 86% to 30%, while under +-5 steps all methods achieve 100%. We introduce UA-TOM, a lightweight belief-tracking module that augments frozen vision-language-action (VLA) control backbones using selective state-space dynamics, causal attention, and prediction-error signals. Across five seeds and 1200 episodes, UA-TOM achieves the highest detection rate among unassisted methods (85.7% at +-3) and the lowest close-range time (4.8 steps), outperforming an Oracle (5.3 steps). Analysis shows hidden-state update magnitude increases by 17x at regime switches and decays over roughly 10 timesteps, while the discretization step converges to a near-constant value (Delta_t approx 0.78), indicating sensitivity driven by learned dynamics rather than input-dependent gating. Cross-domain experiments in Overcooked show complementary roles of causal attention and prediction-error signals. UA-TOM introduces 7.4 ms inference overhead (14.8% of a 50 ms control budget), enabling reliable regime-switch detection without modifying the base policy.",
+      "authors": [
+        "Devashri Naik",
+        "Divake Kumar",
+        "Nastaran Darabi",
+        "Amit Ranjan Trivedi"
+      ],
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-04-04T02:41:09+00:00",
+      "link": "https://arxiv.org/pdf/2604.04967v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Detecting behavioral shifts for safe coordination in shared-workspace manipulation",
+      "llm_evidence_cn": "在共享工作空间操作中检测行为转变以实现安全协调",
+      "llm_evidence": "在共享工作空间操作中检测行为转变以实现安全协调",
+      "canonical_evidence": "在共享工作空间操作中检测行为转变以实现安全协调",
+      "llm_tldr_en": "This paper studies belief dynamics to detect strategy changes in collaborating agents to ensure safe coordination.",
+      "llm_tldr_cn": "本文研究信念动力学，以检测协作智能体的策略变化，确保安全协调。",
+      "llm_tldr": "本文研究信念动力学，以检测协作智能体的策略变化，确保安全协调。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.06747v1",
+      "source": "arxiv",
+      "title": "TurboAgent: An LLM-Driven Autonomous Multi-Agent Framework for Turbomachinery Aerodynamic Design",
+      "abstract": "The aerodynamic design of turbomachinery is a complex and tightly coupled multi-stage process involving geometry generation, performance prediction, optimization, and high-fidelity physical validation. Existing intelligent design approaches typically focus on individual stages or rely on loosely coupled pipelines, making fully autonomous end-to-end design challenging.To address this issue, this study proposes TurboAgent, a large language model (LLM)-driven autonomous multi-agent framework for turbomachinery aerodynamic design and optimization. The LLM serves as the core for task planning and coordination, while specialized agents handle generative design, rapid performance prediction, multi-objective optimization, and physics-based validation. The framework transforms traditional trial-and-error design into a data-driven collaborative workflow, with high-fidelity simulations retained for final verification.A transonic single-rotor compressor is used for validation. The results show strong agreement between target performance, generated designs, and CFD simulations. The coefficients of determination (R2) for mass flow rate, total pressure ratio, and isentropic efficiency all exceed 0.91, with normalized RMSE values below 8%. The optimization agent further improves isentropic efficiency by 1.61% and total pressure ratio by 3.02%. The complete workflow can be executed within approximately 30 minutes under parallel computing.   These results demonstrate that TurboAgent enables an autonomous closed-loop design process from natural language requirements to final design generation, providing an efficient and scalable paradigm for turbomachinery aerodynamic design",
+      "authors": [
+        "Juan Du",
+        "Yueteng Wu",
+        "Pan Zhao",
+        "Yuze Liu",
+        "Min Zhang",
+        "Xiaobin Xu",
+        "Xinglong Zhang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-08T07:12:44+00:00",
+      "link": "https://arxiv.org/pdf/2604.06747v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "LLM-driven autonomous multi-agent framework for task planning and coordination.",
+      "llm_evidence_cn": "大模型驱动的自主多智能体框架，用于任务规划与协调。",
+      "llm_evidence": "大模型驱动的自主多智能体框架，用于任务规划与协调。",
+      "canonical_evidence": "大模型驱动的自主多智能体框架，用于任务规划与协调。",
+      "llm_tldr_en": "Introduces TurboAgent, a multi-agent framework for autonomous turbomachinery design.",
+      "llm_tldr_cn": "引入了TurboAgent，一个用于自主透平机械设计的多元智能体框架。",
+      "llm_tldr": "引入了TurboAgent，一个用于自主透平机械设计的多元智能体框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.06747v2",
+      "source": "arxiv",
+      "title": "TurboAgent: An LLM-Driven Autonomous Multi-Agent Framework for Turbomachinery Aerodynamic Design",
+      "abstract": "The aerodynamic design of turbomachinery is a complex and tightly coupled multi-stage process involving geometry generation, performance prediction, optimization, and high-fidelity physical validation. Existing intelligent design approaches typically focus on individual stages or rely on loosely coupled pipelines, making fully autonomous end-to-end design challenging. To address this issue, this study proposes TurboAgent, a large language model (LLM)-driven autonomous multi-agent framework for turbomachinery aerodynamic design and optimization. The LLM serves as the core for task planning and coordination, while specialized agents handle generative design, rapid performance prediction, multi-objective optimization, and physics-based validation. The framework transforms traditional trial-and-error design into a data-driven collaborative workflow, with high-fidelity simulations retained for final verification. A transonic single-rotor compressor is used for validation. The results show strong agreement between target performance, generated designs, and CFD simulations. The coefficients of determination for mass flow rate, total pressure ratio, and isentropic efficiency all exceed 0.91, with normalized RMSE values below 8%. The optimization agent further improves isentropic efficiency by 1.61% and total pressure ratio by 3.02%. The complete workflow can be executed within approximately 30 minutes under parallel computing. These results demonstrate that TurboAgent enables an autonomous closed-loop design process from natural language requirements to final design generation, providing an efficient and scalable paradigm for turbomachinery aerodynamic design.",
+      "authors": [
+        "Juan Du",
+        "Yueteng Wu",
+        "Pan Zhao",
+        "Yuze Liu",
+        "Min Zhang",
+        "Xiaobin Xu",
+        "Xinglong Zhang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-08T07:12:44+00:00",
+      "link": "https://arxiv.org/pdf/2604.06747v2",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "LLM-driven autonomous multi-agent framework for task planning and coordination",
+      "llm_evidence_cn": "大语言模型驱动的自主多智能体任务规划与协调框架",
+      "llm_evidence": "大语言模型驱动的自主多智能体任务规划与协调框架",
+      "canonical_evidence": "大语言模型驱动的自主多智能体任务规划与协调框架",
+      "llm_tldr_en": "Proposes TurboAgent, a multi-agent framework for autonomous turbomachinery design and optimization.",
+      "llm_tldr_cn": "提出 TurboAgent，一个用于涡轮机械自主设计与优化的多智能体框架。",
+      "llm_tldr": "提出 TurboAgent，一个用于涡轮机械自主设计与优化的多智能体框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.07645v1",
+      "source": "arxiv",
+      "title": "PRIME: Training Free Proactive Reasoning via Iterative Memory Evolution for User-Centric Agent",
+      "abstract": "The development of autonomous tool-use agents for complex, long-horizon tasks in collaboration with human users has become the frontier of agentic research. During multi-turn Human-AI interactions, the dynamic and uncertain nature of user demands poses a significant challenge; agents must not only invoke tools but also iteratively refine their understanding of user intent through effective communication. While recent advances in reinforcement learning offer a path to more capable tool-use agents, existing approaches require expensive training costs and struggle with turn-level credit assignment across extended interaction horizons. To this end, we introduce PRIME (Proactive Reasoning via Iterative Memory Evolution), a gradient-free learning framework that enables continuous agent evolvement through explicit experience accumulation rather than expensive parameter optimization. PRIME distills multi-turn interaction trajectories into structured, human-readable experiences organized across three semantic zones: successful strategies, failure patterns, and user preferences. These experiences evolve through meta-level operations and guide future agent behavior via retrieval-augmented generation. Our experiments across several diverse user-centric environments demonstrate that PRIME achieves competitive performance with gradient-based methods while offering cost-efficiency and interpretability. Together, PRIME presents a practical paradigm for building proactive, collaborative agents that learn from Human-AI interaction without the computational burden of gradient-based training.",
+      "authors": [
+        "Prince Zizhuang Wang",
+        "Shuli Jiang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-08T23:11:12+00:00",
+      "link": "https://arxiv.org/pdf/2604.07645v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Proactive reasoning and iterative memory for autonomous tool-use agents",
+      "llm_evidence_cn": "自主工具使用智能体的主动推理与迭代记忆",
+      "llm_evidence": "自主工具使用智能体的主动推理与迭代记忆",
+      "canonical_evidence": "自主工具使用智能体的主动推理与迭代记忆",
+      "llm_tldr_en": "Introduces PRIME for proactive reasoning and intent refinement in human-agent collaboration.",
+      "llm_tldr_cn": "引入PRIME框架，用于在人机协作中实现主动推理和意图细化。",
+      "llm_tldr": "引入PRIME框架，用于在人机协作中实现主动推理和意图细化。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.07821v1",
+      "source": "arxiv",
+      "title": "More Capable, Less Cooperative? When LLMs Fail At Zero-Cost Collaboration",
+      "abstract": "Large language model (LLM) agents increasingly coordinate in multi-agent systems, yet we lack an understanding of where and why cooperation failures may arise. In many real-world coordination problems, from knowledge sharing in organizations to code documentation, helping others carries negligible personal cost while generating substantial collective benefits. However, whether LLM agents cooperate when helping neither benefits nor harms the helper, while being given explicit instructions to do so, remains unknown. We build a multi-agent setup designed to study cooperative behavior in a frictionless environment, removing all strategic complexity from cooperation. We find that capability does not predict cooperation: OpenAI o3 achieves only 17% of optimal collective performance while OpenAI o3-mini reaches 50%, despite identical instructions to maximize group revenue. Through a causal decomposition that automates one side of agent communication, we separate cooperation failures from competence failures, tracing their origins through agent reasoning analysis. Testing targeted interventions, we find that explicit protocols double performance for low-competence models, and tiny sharing incentives improve models with weak cooperation. Our findings suggest that scaling intelligence alone will not solve coordination problems in multi-agent systems and will require deliberate cooperative design, even when helping others costs nothing.",
+      "authors": [
+        "Advait Yadav",
+        "Sid Black",
+        "Oliver Sourbut"
+      ],
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "published": "2026-04-09T05:24:27+00:00",
+      "link": "https://arxiv.org/pdf/2604.07821v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "study of cooperative behavior and coordination in multi-agent systems",
+      "llm_evidence_cn": "多智能体系统中的协作行为与协调研究",
+      "llm_evidence": "多智能体系统中的协作行为与协调研究",
+      "canonical_evidence": "多智能体系统中的协作行为与协调研究",
+      "llm_tldr_en": "This paper investigates why LLM agents fail to cooperate in zero-cost multi-agent environments.",
+      "llm_tldr_cn": "本文研究了大型语言模型智能体在零成本多智能体环境中协作失败的原因。",
+      "llm_tldr": "本文研究了大型语言模型智能体在零成本多智能体环境中协作失败的原因。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.08276v1",
+      "source": "arxiv",
+      "title": "ACF: A Collaborative Framework for Agent Covert Communication under Cognitive Asymmetry",
+      "abstract": "As generative artificial intelligence evolves, autonomous agent networks present a powerful paradigm for interactive covert communication. However, because agents dynamically update internal memories via environmental interactions, existing methods face a critical structural vulnerability: cognitive asymmetry. Conventional approaches demand strict cognitive symmetry, requiring identical sequence prefixes between the encoder and decoder. In dynamic deployments, inevitable prefix discrepancies destroy synchronization, inducing severe channel degradation. To address this core challenge of cognitive asymmetry, we propose the Asymmetric Collaborative Framework (ACF), which structurally decouples covert communication from semantic reasoning via orthogonal statistical and cognitive layers. By deploying a prefix-independent decoding paradigm governed by a shared steganographic configuration, ACF eliminates the reliance on cognitive symmetry. Evaluations on realistic memory-augmented workflows demonstrate that under severe cognitive asymmetry, symmetric baselines suffer severe channel degradation, whereas ACF uniquely excels across both semantic fidelity and covert communication. It maintains computational indistinguishability, enabling reliable secret extraction with provable error bounds, and providing robust Effective Information Capacity guarantees for modern agent networks.",
+      "authors": [
+        "Wansheng Wu",
+        "Kaibo Huang",
+        "Yukun Wei",
+        "Zhongliang Yang",
+        "Linna Zhou"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "published": "2026-04-09T14:10:51+00:00",
+      "link": "https://arxiv.org/pdf/2604.08276v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Proposes a collaborative framework for agent covert communication under cognitive asymmetry.",
+      "llm_evidence_cn": "提出了一种认知不对称下的智能体隐蔽通信协作框架。",
+      "llm_evidence": "提出了一种认知不对称下的智能体隐蔽通信协作框架。",
+      "canonical_evidence": "提出了一种认知不对称下的智能体隐蔽通信协作框架。",
+      "llm_tldr_en": "Introduces ACF to solve synchronization issues in autonomous agent network communication.",
+      "llm_tldr_cn": "引入ACF框架以解决自主智能体网络通信中的同步与认知不对称问题。",
+      "llm_tldr": "引入ACF框架以解决自主智能体网络通信中的同步与认知不对称问题。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2603.21019v1",
+      "source": "arxiv",
+      "title": "SkillProbe: Security Auditing for Emerging Agent Skill Marketplaces via Multi-Agent Collaboration",
+      "abstract": "With the rapid evolution of Large Language Model (LLM) agent ecosystems, centralized skill marketplaces have emerged as pivotal infrastructure for augmenting agent capabilities. However, these marketplaces face unprecedented security challenges, primarily stemming from semantic-behavioral inconsistency and inter-skill combinatorial risks, where individually benign skills induce malicious behaviors during collaborative invocation. To address these vulnerabilities, we propose SkillProbe, a multi-stage security auditing framework driven by multi-agent collaboration. SkillProbe introduces a \"Skills-for-Skills\" design paradigm, encapsulating auditing processes into standardized skill modules to drive specialized agents through a rigorous pipeline, including admission filtering, semantic-behavioral alignment detection, and combinatorial risk simulation. We conducted a large-scale evaluation using 8 mainstream LLM series across 2,500 real-world skills from ClawHub. Our results reveal a striking popularity-security paradox, where download volume is not a reliable proxy for security quality, as over 90% of high-popularity skills failed to pass rigorous auditing. Crucially, we discovered that high-risk skills form a single giant connected component within the risk-link dimension, demonstrating that cascaded risks are systemic rather than isolated occurrences. We hope that SkillProbe will inspire researchers to provide a scalable governance infrastructure for constructing a trustworthy Agentic Web. SkillProbe is accessible for public experience at skillhub.holosai.io.",
+      "authors": [
+        "Zihan Guo",
+        "Zhiyu Chen",
+        "Xiaohang Nie",
+        "Jianghao Lin",
+        "Yuanjian Zhou",
+        "Weinan Zhang"
+      ],
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "published": "2026-03-22T02:31:27+00:00",
+      "link": "https://arxiv.org/pdf/2603.21019v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multi-agent collaboration for security auditing in agent skill marketplaces",
+      "llm_evidence_cn": "智能体技能市场中用于安全审计的多智能体协作",
+      "llm_evidence": "智能体技能市场中用于安全审计的多智能体协作",
+      "canonical_evidence": "智能体技能市场中用于安全审计的多智能体协作",
+      "llm_tldr_en": "SkillProbe uses multi-agent collaboration to audit security risks in emerging LLM agent skill marketplaces.",
+      "llm_tldr_cn": "SkillProbe利用多智能体协作来审计新兴大语言模型智能体技能市场中的安全风险。",
+      "llm_tldr": "SkillProbe利用多智能体协作来审计新兴大语言模型智能体技能市场中的安全风险。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.21019v1",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.05120v2",
+      "source": "arxiv",
+      "title": "Designing Digital Humans with Ambient Intelligence",
+      "abstract": "Digital humans are lifelike virtual agents capable of natural conversation and are increasingly deployed in domains like retail and finance. However, most current digital humans operate in isolation from their surroundings and lack contextual awareness beyond the dialogue itself. We address this limitation by integrating ambient intelligence (AmI) - i.e., environmental sensors, IoT data, and contextual modeling - with digital human systems. This integration enables situational awareness of the user's environment, anticipatory and proactive assistance, seamless cross-device interactions, and personalized long-term user support. We present a conceptual framework defining key roles that AmI can play in shaping digital human behavior, a design space highlighting dimensions such as proactivity levels and privacy strategies, and application-driven patterns with case studies in financial and retail services. We also discuss an architecture for ambient-enabled digital humans and provide guidelines for responsible design regarding privacy and data governance. Together, our work positions ambient intelligent digital humans as a new class of interactive agents powered by AI that respond not only to users' queries but also to the context and situations in which the interaction occurs.",
+      "authors": [
+        "Mengyu Chen",
+        "Pranav Deshpande",
+        "Runqing Yang",
+        "Elvir Azanli",
+        "Joseph Ligman",
+        "Shaohan Hu",
+        "Richard Chen"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC",
+        "cs.MA"
+      ],
+      "published": "2026-04-06T19:33:19+00:00",
+      "link": "https://arxiv.org/pdf/2604.05120v2",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "shaping digital human behavior with ambient intelligence",
+      "llm_evidence_cn": "利用环境智能塑造数字人行为",
+      "llm_evidence": "利用环境智能塑造数字人行为",
+      "canonical_evidence": "利用环境智能塑造数字人行为",
+      "llm_tldr_en": "Integrates ambient intelligence with digital humans to enable proactive behavior and contextual awareness.",
+      "llm_tldr_cn": "将环境智能与数字人集成，实现主动行为和上下文感知。",
+      "llm_tldr": "将环境智能与数字人集成，实现主动行为和上下文感知。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.07079v1",
+      "source": "arxiv",
+      "title": "MARVEL: Multimodal Adaptive Reasoning-intensiVe Expand-rerank and retrievaL",
+      "abstract": "Multimodal retrieval over text corpora remains a fundamental challenge: the best vision-language encoder achieves only 27.6 nDCG@10 on MM-BRIGHT, a reasoning-intensive multimodal retrieval benchmark, underperforming strong text-only systems. We argue that effective multimodal retrieval requires three tightly integrated capabilities that existing approaches address only in isolation: expanding the query's latent intent, retrieving with a model trained for complex reasoning, and reranking via explicit step-by-step reasoning over candidates. We introduce \\textbf{MARVEL} (\\textbf{M}ultimodal \\textbf{A}daptive \\textbf{R}easoning-intensi\\textbf{V}e \\textbf{E}xpand-rerank and retrieva\\textbf{L}), a unified pipeline that combines LLM-driven query expansion, \\textbf{MARVEL-Retriever} -- a reasoning-enhanced dense retriever fine-tuned for complex multimodal queries -- and GPT-4o-based chain-of-thought reranking with optional multi-pass reciprocal rank fusion. Evaluated on MM-BRIGHT across 29 technical domains, MARVEL achieves \\textbf{37.9} nDCG@10, surpassing the best multimodal encoder by \\textbf{+10.3 points} and outperforming all single-stage baselines in 27 of 29 domains and matching or approaching the best baseline in the remaining two highly-specialized domains (Crypto, Quantum Computing), demonstrating that reasoning-intensive multimodal retrieval is best addressed through a unified expand-retrieve-rerank framework. https://github.com/mm-bright/multimodal-reasoning-retrieval",
+      "authors": [
+        "Mahmoud SalahEldin Kasem",
+        "Mohamed Mahmoud",
+        "Mostafa Farouk Senussi",
+        "Mahmoud Abdalla",
+        "Abdelrahman Abdallah",
+        "Hyun-Soo Kang"
+      ],
+      "primary_category": "cs.IR",
+      "categories": [
+        "cs.IR"
+      ],
+      "published": "2026-04-08T13:35:09+00:00",
+      "link": "https://arxiv.org/pdf/2604.07079v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Focuses on reasoning-intensive retrieval using LLM-driven query expansion and reranking.",
+      "llm_evidence_cn": "侧重于利用LLM驱动的查询扩展和重排序进行推理密集型检索。",
+      "llm_evidence": "侧重于利用LLM驱动的查询扩展和重排序进行推理密集型检索。",
+      "canonical_evidence": "侧重于利用LLM驱动的查询扩展和重排序进行推理密集型检索。",
+      "llm_tldr_en": "Introduces MARVEL, a pipeline for reasoning-intensive multimodal retrieval and reranking.",
+      "llm_tldr_cn": "引入MARVEL，一个用于推理密集型多模态检索和重排序的流水线。",
+      "llm_tldr": "引入MARVEL，一个用于推理密集型多模态检索和重排序的流水线。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.24582v1",
+      "source": "arxiv",
+      "title": "The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence",
+      "abstract": "Agentic artificial intelligence (AI) in organizations is a sequential decision problem constrained by reliability and oversight cost. When deterministic workflows are replaced by stochastic policies over actions and tool calls, the key question is not whether a next step appears plausible, but whether the resulting trajectory remains statistically supported, locally unambiguous, and economically governable. We develop a measure-theoretic Markov framework for this setting. The core quantities are state blind-spot mass B_n(tau), state-action blind mass B^SA_{pi,n}(tau), an entropy-based human-in-the-loop escalation gate, and an expected oversight-cost identity over the workflow visitation measure.   We instantiate the framework on the Business Process Intelligence Challenge 2019 purchase-to-pay log (251,734 cases, 1,595,923 events, 42 distinct workflow actions) and construct a log-driven simulated agent from a chronological 80/20 split of the same process. The main empirical finding is that a large workflow can appear well supported at the state level while retaining substantial blind mass over next-step decisions: refining the operational state to include case context, economic magnitude, and actor class expands the state space from 42 to 668 and raises state-action blind mass from 0.0165 at tau=50 to 0.1253 at tau=1000. On the held-out split, m(s) = max_a pi-hat(a|s) tracks realized autonomous step accuracy within 3.4 percentage points on average.   The same quantities that delimit statistically credible autonomy also determine expected oversight burden. The framework is demonstrated on a large-scale enterprise procurement workflow and is designed for direct application to engineering processes for which operational event logs are available.",
+      "authors": [
+        "Biplab Pal",
+        "Santanu Bhattacharya"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-25T17:56:11+00:00",
+      "link": "https://arxiv.org/pdf/2603.24582v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Markovian framework for agentic AI reliability and oversight",
+      "llm_evidence_cn": "智能体AI可靠性与监督的马尔可夫框架",
+      "llm_evidence": "智能体AI可靠性与监督的马尔可夫框架",
+      "canonical_evidence": "智能体AI可靠性与监督的马尔可夫框架",
+      "llm_tldr_en": "A Markovian framework for auditing the reliability and oversight costs of stochastic agentic AI workflows.",
+      "llm_tldr_cn": "一种用于审计随机智能体AI工作流可靠性和监督成本的马尔可夫框架。",
+      "llm_tldr": "一种用于审计随机智能体AI工作流可靠性和监督成本的马尔可夫框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.24582v1",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.07922v1",
+      "source": "arxiv",
+      "title": "SAT: Balancing Reasoning Accuracy and Efficiency with Stepwise Adaptive Thinking",
+      "abstract": "Large Reasoning Models (LRMs) have revolutionized complex problem-solving, yet they exhibit a pervasive \"overthinking\", generating unnecessarily long reasoning chains. While current solutions improve token efficiency, they often sacrifice fine-grained control or risk disrupting the logical integrity of the reasoning process. To address this, we introduce Stepwise Adaptive Thinking (SAT), a framework that performs step-level, difficulty-aware pruning while preserving the core reasoning structure. SAT formulates reasoning as a Finite-State Machine (FSM) with distinct thinking modes (Slow, Normal, Fast, Skip). It navigates these states dynamically using a lightweight Process Reward Model (PRM), compressing easy steps while preserving depth for hard ones. Experiments across 9 LRMs and 7 benchmarks show that SAT achieves up to 40% reduction in reasoning tokens while generally maintaining or improving accuracy.",
+      "authors": [
+        "Weiyang Huang",
+        "Xuefeng Bai",
+        "Kehai Chen",
+        "Xinyang Chen",
+        "Yibin Chen",
+        "Weili Guan",
+        "Min Zhang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "published": "2026-04-09T07:44:25+00:00",
+      "link": "https://arxiv.org/pdf/2604.07922v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "stepwise adaptive thinking for large reasoning models",
+      "llm_evidence_cn": "大推理模型的逐步自适应思考",
+      "llm_evidence": "大推理模型的逐步自适应思考",
+      "canonical_evidence": "大推理模型的逐步自适应思考",
+      "llm_tldr_en": "Introduces SAT to balance reasoning accuracy and efficiency in large models using adaptive thinking modes.",
+      "llm_tldr_cn": "引入 SAT 框架，通过自适应思考模式平衡大模型的推理准确性与效率。",
+      "llm_tldr": "引入 SAT 框架，通过自适应思考模式平衡大模型的推理准确性与效率。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.07220v1",
+      "source": "arxiv",
+      "title": "HIVE: Query, Hypothesize, Verify An LLM Framework for Multimodal Reasoning-Intensive Retrieval",
+      "abstract": "Multimodal retrieval models fail on reasoning-intensive queries where images (diagrams, charts, screenshots) must be deeply integrated with text to identify relevant documents -- the best multimodal model achieves only 27.6 nDCG@10 on MM-BRIGHT, underperforming even strong text-only retrievers (32.2). We introduce \\textbf{HIVE} (\\textbf{H}ypothesis-driven \\textbf{I}terative \\textbf{V}isual \\textbf{E}vidence Retrieval), a plug-and-play framework that injects explicit visual-text reasoning into a retriever via LLMs. HIVE operates in four stages: (1) initial retrieval over the corpus, (2) LLM-based compensatory query synthesis that explicitly articulates visual and logical gaps observed in top-$k$ candidates, (3) secondary retrieval with the refined query, and (4) LLM verification and reranking over the union of candidates. Evaluated on the multimodal-to-text track of MM-BRIGHT (2,803 real-world queries across 29 technical domains), HIVE achieves a new state-of-the-art aggregated nDCG@10 of \\textbf{41.7} -- a \\textbf{+9.5} point gain over the best text-only model (DiVeR: 32.2) and \\textbf{+14.1} over the best multimodal model (Nomic-Vision: 27.6), where our reasoning-enhanced base retriever contributes 33.2 and the HIVE framework adds a further \\textbf{+8.5} points -- with particularly strong results in visually demanding domains (Gaming: 68.2, Chemistry: 42.5, Sustainability: 49.4). Compatible with both standard and reasoning-enhanced retrievers, HIVE demonstrates that LLM-mediated visual hypothesis generation and verification can substantially close the multimodal reasoning gap in retrieval. https://github.com/mm-bright/multimodal-reasoning-retrieval",
+      "authors": [
+        "Mahmoud Abdalla",
+        "Mahmoud SalahEldin Kasem",
+        "Mohamed Mahmoud",
+        "Mostafa Farouk Senussi",
+        "Abdelrahman Abdallah",
+        "Hyun-Soo Kang"
+      ],
+      "primary_category": "cs.IR",
+      "categories": [
+        "cs.IR"
+      ],
+      "published": "2026-04-08T15:41:42+00:00",
+      "link": "https://arxiv.org/pdf/2604.07220v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Injects explicit visual-text reasoning into a retriever via an LLM framework.",
+      "llm_evidence_cn": "通过LLM框架在检索器中注入显式的视觉文本推理能力。",
+      "llm_evidence": "通过LLM框架在检索器中注入显式的视觉文本推理能力。",
+      "canonical_evidence": "通过LLM框架在检索器中注入显式的视觉文本推理能力。",
+      "llm_tldr_en": "Proposes HIVE, a framework for multimodal reasoning-intensive retrieval using LLMs.",
+      "llm_tldr_cn": "提出了HIVE，一个利用大模型进行多模态推理密集型检索的框架。",
+      "llm_tldr": "提出了HIVE，一个利用大模型进行多模态推理密集型检索的框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.28393v1",
+      "source": "arxiv",
+      "title": "Within the MDT Room: Situated in Multidisciplinary Team-Grounded Agent Debate for Clinical Diagnosis",
+      "abstract": "Rare disease diagnosis is inherently challenging due to heterogeneous symptoms, limited clinical familiarity, and fragmented evidence across specialties. Recent large language model (LLM)-based agentic systems have shown promise by simulating multidisciplinary team discussions to generate and evaluate diagnostic hypotheses. However, fully automated diagnosis remains unrealistic, and existing human-in-the-loop approaches provide limited support for effective clinician-agent collaboration. In practice, clinicians are often presented with final diagnostic outputs and lengthy, unstructured agent discussion logs, making it difficult to inspect reasoning, intervene in a timely manner, or guide agent deliberation effectively. To address these challenges, we developed MDTRoom, an interactive system that transforms multi-agent discussions from linear transcripts into a structured, inspectable workspace. The system externalizes patient data, evidence provenance, hypothesis evolution, and inter-agent conflicts as interconnected visual objects, enabling clinicians to efficiently examine, intervene in, and guide agent reasoning. Our evaluation demonstrates the effectiveness of MDTRoom in supporting clinician-agent collaboration.",
+      "authors": [
+        "Peng Kuai",
+        "Yukun Yang",
+        "Shaolun Ruan",
+        "Junchi Xu",
+        "Yanjie Zhang",
+        "Lin Zhang",
+        "Min Zhu",
+        "Rui Sheng"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "published": "2026-03-30T13:03:16+00:00",
+      "link": "https://arxiv.org/pdf/2603.28393v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "agentic systems simulating multidisciplinary team discussions",
+      "llm_evidence_cn": "模拟多学科团队讨论的智能体系统",
+      "llm_evidence": "模拟多学科团队讨论的智能体系统",
+      "canonical_evidence": "模拟多学科团队讨论的智能体系统",
+      "llm_tldr_en": "Explores agent debate and human-agent collaboration for complex clinical diagnosis in rare diseases.",
+      "llm_tldr_cn": "探索了用于罕见病临床诊断的智能体辩论及人机协作机制。",
+      "llm_tldr": "探索了用于罕见病临床诊断的智能体辩论及人机协作机制。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.28393v1",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.08033v1",
+      "source": "arxiv",
+      "title": "IoT-Brain: Grounding LLMs for Semantic-Spatial Sensor Scheduling",
+      "abstract": "Intelligent systems powered by large-scale sensor networks are shifting from predefined monitoring to intent-driven operation, revealing a critical Semantic-to-Physical Mapping Gap. While large language models (LLMs) excel at semantic understanding, existing perception-centric pipelines operate retrospectively, overlooking the fundamental decision of what to sense and when. We formalize this proactive decision as Semantic-Spatial Sensor Scheduling (S3) and demonstrate that direct LLM planning is unreliable due to inherent gaps in representation, reasoning, and optimization. To bridge these gaps, we introduce the Spatial Trajectory Graph (STG), a neuro-symbolic paradigm governed by a verify-before-commit discipline that transforms open-ended planning into a verifiable graph optimization problem. Based on STG, we implement IoT-Brain, a concrete system embodiment, and construct TopoSense-Bench, a campus-scale benchmark with 5,250 natural-language queries across 2,510 cameras. Evaluations show that IoT-Brain boosts task success rate by 37.6% over the strongest search-intensive methods while running nearly 2 times faster and using 6.6 times fewer prompt tokens. In real-world deployment, it approaches the reliability upper bound while reducing 4.1 times network bandwidth, providing a foundational framework for LLMs to interact with the physical world with unprecedented reliability and efficiency.",
+      "authors": [
+        "Zhaomeng Zhou",
+        "Lan Zhang",
+        "Junyang Wang",
+        "Mu Yuan",
+        "Junda Lin",
+        "Jinke Song"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.NI"
+      ],
+      "published": "2026-04-09T09:38:15+00:00",
+      "link": "https://arxiv.org/pdf/2604.08033v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "proactive decision making and planning for sensor scheduling",
+      "llm_evidence_cn": "传感器调度的前瞻性决策与规划",
+      "llm_evidence": "传感器调度的前瞻性决策与规划",
+      "canonical_evidence": "传感器调度的前瞻性决策与规划",
+      "llm_tldr_en": "Introduces IoT-Brain for grounding LLMs in semantic-spatial sensor scheduling through neuro-symbolic planning.",
+      "llm_tldr_cn": "引入 IoT-Brain，通过神经符号规划将大模型应用于语义空间传感器调度。",
+      "llm_tldr": "引入 IoT-Brain，通过神经符号规划将大模型应用于语义空间传感器调度。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "获取智能体建模、通信和决策的核心研究成果",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.07589v1",
+      "source": "arxiv",
+      "title": "COSMIC: Emotionally Intelligent Agents to Support Mental and Emotional Well-being in Extreme Isolation: Lessons from Analog Astronaut Training Missions",
+      "abstract": "As humanity pivots toward long-duration interplanetary travel, the psychological constraints of Isolated and Confined Environments (ICE) emerge as a primary mission risk. This paper presents COSMIC (COmpanion System for Mission Interaction and Communication) representing the inaugural investigation into the deployment of a high-fidelity, emotionally intelligent AI companion in an analog astronaut setting. By integrating a Large Language Model (LLM) architecture with a diffusion-based digital avatar interface, COSMIC transcends traditional task-oriented automation to provide longitudinal affective support. We detail a modular system architecture designed for temporal continuity through short- and long-term memory systems and outline a robust naturalistic observational framework for evaluating psychological resilience at the LunAres Research Station. This work constitutes the first formal submission in the field to evaluate the efficacy of state-of-the-art generative AI and synthesized visual empathy in mitigating the effects of extreme isolation.",
+      "authors": [
+        "A. Xygkou-Tsiamoulou",
+        "Alexandra Covaci",
+        "Zeqi Jia",
+        "Jenny Yiend",
+        "Chee Siang Ang"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "published": "2026-04-08T20:45:47+00:00",
+      "link": "https://arxiv.org/pdf/2604.07589v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "emotionally intelligent agent architecture and interaction",
+      "llm_evidence_cn": "情感智能体架构与交互",
+      "llm_evidence": "情感智能体架构与交互",
+      "canonical_evidence": "情感智能体架构与交互",
+      "llm_tldr_en": "COSMIC is an emotionally intelligent AI companion designed for interaction in isolated environments.",
+      "llm_tldr_cn": "COSMIC是一个情感智能AI伴侣，旨在极端隔离环境下提供交互与情感支持。",
+      "llm_tldr": "COSMIC是一个情感智能AI伴侣，旨在极端隔离环境下提供交互与情感支持。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2604.01060v1",
+      "source": "arxiv",
+      "title": "Data-Model Co-Driven Continuous Channel Map Construction: A Perceptive Foundation for Embodied Intelligent Agents in 6G Networks",
+      "abstract": "Future 6G networks will host massive numbers of embodied intelligent agents, which require real-time channel awareness over continuous-space for autonomous decision-making. By pre-obtaining location-specific channel state information (CSI), channel map can be served as a foundational world model for embodied intelligence to achieve wireless channel perception. However, acquiring CSI via measurements is costly, so in practice only sparse observations are available, leaving agents blind to channel conditions at unvisited locations. Meanwhile, purely model-driven channel maps can provide dense CSI but often yields unsatisfactory accuracy and robustness, while purely data-driven interpolation from sparse measurements is computationally prohibitive for real-time updates. To address these challenges, this paper proposes a data-model co-driven (DMcD) framework that performs a two-stage interpolation toward a space-time continuous channel map, First, a hybrid ray tracing and geometry-based channel model (H-RT/GBSM) is developed to capture dynamic scatterers, providing dense, time-variant channel properties that match measurement statistics as a physically consistent prior. Then, an inductive edge-conditioned graph neural network (InductE-GNN) fuses the prior with sparse measurements to perform real-time spatial interpolation, enabling rapid online adaptation without retraining, ensuring the synchronization with the dynamic physical reality. Evaluations with measured datasets show that the proposed DMcD framework significantly outperforms data-only and model-only baselines, providing accurate and queryable channel information for embodied intelligent agents.",
+      "authors": [
+        "Tianrun Qi",
+        "Cheng-Xiang Wang",
+        "Chen Huang",
+        "Junling Li",
+        "John S Thompson"
+      ],
+      "primary_category": "eess.SP",
+      "categories": [
+        "eess.SP"
+      ],
+      "published": "2026-04-01T16:00:48+00:00",
+      "link": "https://arxiv.org/pdf/2604.01060v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "perceptive foundation for autonomous decision-making in agents",
+      "llm_evidence_cn": "智能体自主决策的感知基础",
+      "llm_evidence": "智能体自主决策的感知基础",
+      "canonical_evidence": "智能体自主决策的感知基础",
+      "llm_tldr_en": "Constructs a channel map as a world model for embodied intelligent agents to make autonomous decisions.",
+      "llm_tldr_cn": "构建信道图作为具身智能体的世界模型，以实现自主决策。",
+      "llm_tldr": "构建信道图作为具身智能体的世界模型，以实现自主决策。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "carryover_cache",
+      "paper_id": "2604.01060v1",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.01670v1",
+      "source": "arxiv",
+      "title": "Hierarchical Memory Orchestration for Personalized Persistent Agents",
+      "abstract": "While long-term memory is essential for intelligent agents to maintain consistent historical awareness, the accumulation of extensive interaction data often leads to performance bottlenecks. Naive storage expansion increases retrieval noise and computational latency, overwhelming the reasoning capacity of models deployed on constrained personal devices. To address this, we propose Hierarchical Memory Orchestration (HMO), a framework that organizes interaction history into a three-tiered directory driven by user-centric contextual relevance. Our system maintains a compact primary cache, coupling recent and pivotal memories with an evolving user profile to ensure agent reasoning remains aligned with individual behavioral traits. This primary cache is complemented by a high-priority secondary layer, both of which are managed within a global archive of the full interaction history. Crucially, the user persona dictates memory redistribution across this hierarchy, promoting records mapped to long-term patterns toward more active tiers while relegating less relevant information. This targeted orchestration surfaces historical knowledge precisely when needed while maintaining a lean and efficient active search space. Evaluations on multiple benchmarks achieve state-of-the-art performance. Real-world deployments in ecosystems like OpenClaw demonstrate that HMO significantly enhances agent fluidity and personalization.",
+      "authors": [
+        "Junming Liu",
+        "Yifei Sun",
+        "Weihua Cheng",
+        "Haodong Lei",
+        "Yuqi Li",
+        "Yirong Chen",
+        "Ding Wang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-02T06:16:53+00:00",
+      "link": "https://arxiv.org/pdf/2604.01670v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Orchestrates hierarchical memory to maintain agent reasoning and historical awareness.",
+      "llm_evidence_cn": "通过分层记忆编排来维持智能体的推理能力和历史感知。",
+      "llm_evidence": "通过分层记忆编排来维持智能体的推理能力和历史感知。",
+      "canonical_evidence": "通过分层记忆编排来维持智能体的推理能力和历史感知。",
+      "llm_tldr_en": "Introduces a hierarchical memory framework to enhance long-term reasoning for personalized agents.",
+      "llm_tldr_cn": "提出了一种分层记忆框架，旨在增强个性化智能体的长期推理与记忆能力。",
+      "llm_tldr": "提出了一种分层记忆框架，旨在增强个性化智能体的长期推理与记忆能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "carryover_cache",
+      "paper_id": "2604.01670v1",
+      "quick_tier": "8plus"
+    }
+  ]
+}

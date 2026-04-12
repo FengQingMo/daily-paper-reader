@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T09:48:25.117590+00:00",
-  "updated_date": "20260314-20260412",
+  "generated_at": "2026-04-12T19:26:40.066893+00:00",
+  "updated_date": "20260412",
   "carryover_days": 9,
   "tag_states": {
     "Agent": {
@@ -9,120 +9,88 @@
       "items": []
     },
     "agent": {
-      "updated_date": "20260314-20260412",
+      "updated_date": "20260412",
       "carryover_days": 9,
       "items": [
         {
-          "id": "2603.21019v1",
+          "id": "2604.08226v1",
           "source": "arxiv",
-          "title": "SkillProbe: Security Auditing for Emerging Agent Skill Marketplaces via Multi-Agent Collaboration",
-          "abstract": "With the rapid evolution of Large Language Model (LLM) agent ecosystems, centralized skill marketplaces have emerged as pivotal infrastructure for augmenting agent capabilities. However, these marketplaces face unprecedented security challenges, primarily stemming from semantic-behavioral inconsistency and inter-skill combinatorial risks, where individually benign skills induce malicious behaviors during collaborative invocation. To address these vulnerabilities, we propose SkillProbe, a multi-stage security auditing framework driven by multi-agent collaboration. SkillProbe introduces a \"Skills-for-Skills\" design paradigm, encapsulating auditing processes into standardized skill modules to drive specialized agents through a rigorous pipeline, including admission filtering, semantic-behavioral alignment detection, and combinatorial risk simulation. We conducted a large-scale evaluation using 8 mainstream LLM series across 2,500 real-world skills from ClawHub. Our results reveal a striking popularity-security paradox, where download volume is not a reliable proxy for security quality, as over 90% of high-popularity skills failed to pass rigorous auditing. Crucially, we discovered that high-risk skills form a single giant connected component within the risk-link dimension, demonstrating that cascaded risks are systemic rather than isolated occurrences. We hope that SkillProbe will inspire researchers to provide a scalable governance infrastructure for constructing a trustworthy Agentic Web. SkillProbe is accessible for public experience at skillhub.holosai.io.",
+          "title": "Grounding Clinical AI Competency in Human Cognition Through the Clinical World Model and Skill-Mix Framework",
+          "abstract": "The competency of any intelligent agent is bounded by its formal account of the world in which it operates. Clinical AI lacks such an account. Existing frameworks address evaluation, regulation, or system design in isolation, without a shared model of the clinical world to connect them. We introduce the Clinical World Model, a framework that formalizes care as a tripartite interaction among Patient, Provider, and Ecosystem. To formalize how any agent, whether human or artificial, transforms information into clinical action, we develop parallel decision-making architectures for providers, patients, and AI agents, grounded in validated principles of clinical cognition.   The Clinical AI Skill-Mix operationalizes competency through eight dimensions. Five define the clinical competency space (condition, phase, care setting, provider role, and task) and three specify how AI engages human reasoning (assigned authority, agent facing, and anchoring layer). The combinatorial product of these dimensions yields a space of billions of distinct competency coordinates. A central structural implication is that validation within one coordinate provides minimal evidence for performance in another, rendering the competency space irreducible. The framework supplies a common grammar through which clinical AI can be specified, evaluated, and bounded across stakeholders. By making this structure explicit, the Clinical World Model reframes the field's central question from whether AI works to in which competency coordinates reliability has been demonstrated, and for whom.",
           "authors": [
-            "Zihan Guo",
-            "Zhiyu Chen",
-            "Xiaohang Nie",
-            "Jianghao Lin",
-            "Yuanjian Zhou",
-            "Weinan Zhang"
+            "Seyed Amir Ahmad Safavi-Naini",
+            "Elahe Meftah",
+            "Josh Mohess",
+            "Pooya Mohammadi Kazaj",
+            "Georgios Siontis",
+            "Zahra Atf",
+            "Peter R. Lewis",
+            "Mauricio Reyes",
+            "Girish Nadkarni",
+            "Roland Wiest",
+            "Stephan Windecker",
+            "Christoph Grani",
+            "Ali Soroush",
+            "Isaac Shiri"
+          ],
+          "primary_category": "cs.AI",
+          "categories": [
+            "cs.AI",
+            "cs.HC",
+            "eess.SY"
+          ],
+          "published": "2026-04-09T13:20:13+00:00",
+          "link": "https://arxiv.org/pdf/2604.08226v1",
+          "tags": [
+            "keyword:agent",
+            "query:agent"
+          ],
+          "llm_score": 8.0,
+          "llm_evidence_en": "Decision-making architectures for AI agents grounded in clinical cognition",
+          "llm_evidence_cn": "基于临床认知的AI智能体决策架构",
+          "llm_evidence": "基于临床认知的AI智能体决策架构",
+          "canonical_evidence": "基于临床认知的AI智能体决策架构",
+          "llm_tldr_en": "Introduces a Clinical World Model to formalize how AI agents transform information into clinical action.",
+          "llm_tldr_cn": "引入临床世界模型，将AI智能体将信息转化为临床行动的过程形式化。",
+          "llm_tldr": "引入临床世界模型，将AI智能体将信息转化为临床行动的过程形式化。",
+          "llm_tags": [
+            "query:agent"
+          ],
+          "matched_query_tag": "query:agent",
+          "matched_query_text": "获取智能体建模、通信和决策的核心研究成果",
+          "matched_requirement_id": "req-7",
+          "selection_source": "carryover_cache",
+          "paper_id": "2604.08226v1",
+          "carry_days": 1
+        },
+        {
+          "id": "2604.05458v1",
+          "source": "arxiv",
+          "title": "MA-IDS: Multi-Agent RAG Framework for IoT Network Intrusion Detection with an Experience Library",
+          "abstract": "Network Intrusion Detection Systems (NIDS) face important limitations. Signature-based methods are effective for known attack patterns, but they struggle to detect zero-day attacks and often miss modified variants of previously known attacks, while many machine learning approaches offer limited interpretability. These challenges become even more severe in IoT environments because of resource constraints and heterogeneous protocols. To address these issues, we propose MA-IDS, a Multi-Agent Intrusion Detection System that combines Large Language Models (LLMs) with Retrieval Augmented Generation (RAG) for reasoning-driven intrusion detection. The proposed framework grounds LLM reasoning through a persistent, self-building Experience Library. Two specialized agents collaborate through a FAISS-based vector database: a Traffic Classification Agent that retrieves past error rules before each inference, and an Error Analysis Agent that converts misclassifications into human-readable detection rules stored for future retrieval, enabling continual learning through external knowledge accumulation, without modifying the underlying language model. Evaluated on NF-BoT-IoT and NF-ToN-IoT benchmark datasets, MA-IDS achieves Macro F1-Scores of 89.75% and 85.22%, improving over zero-shot baselines of 17% and 4.96% by more than 72 and 80 percentage points. These results are competitive with SVM while providing rule-level explanations for every classification decision, demonstrating that retrieval-augmented reasoning offers a principled path toward explainable, self-improving intrusion detection for IoT networks.",
+          "authors": [
+            "Md Shamimul Islam",
+            "Luis G. Jaimes",
+            "Ayesha S. Dina"
           ],
           "primary_category": "cs.CR",
           "categories": [
             "cs.CR",
-            "cs.SE"
-          ],
-          "published": "2026-03-22T02:31:27+00:00",
-          "link": "https://arxiv.org/pdf/2603.21019v1",
-          "tags": [
-            "keyword:agent"
-          ],
-          "llm_score": 8.0,
-          "llm_evidence_en": "multi-agent collaboration for security auditing in agent skill marketplaces",
-          "llm_evidence_cn": "智能体技能市场中用于安全审计的多智能体协作",
-          "llm_evidence": "智能体技能市场中用于安全审计的多智能体协作",
-          "canonical_evidence": "智能体技能市场中用于安全审计的多智能体协作",
-          "llm_tldr_en": "SkillProbe uses multi-agent collaboration to audit security risks in emerging LLM agent skill marketplaces.",
-          "llm_tldr_cn": "SkillProbe利用多智能体协作来审计新兴大语言模型智能体技能市场中的安全风险。",
-          "llm_tldr": "SkillProbe利用多智能体协作来审计新兴大语言模型智能体技能市场中的安全风险。",
-          "llm_tags": [
-            "query:agent"
-          ],
-          "matched_query_tag": "query:agent",
-          "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
-          "matched_requirement_id": "req-6",
-          "selection_source": "carryover_cache",
-          "paper_id": "2603.21019v1",
-          "carry_days": 1
-        },
-        {
-          "id": "2604.01060v1",
-          "source": "arxiv",
-          "title": "Data-Model Co-Driven Continuous Channel Map Construction: A Perceptive Foundation for Embodied Intelligent Agents in 6G Networks",
-          "abstract": "Future 6G networks will host massive numbers of embodied intelligent agents, which require real-time channel awareness over continuous-space for autonomous decision-making. By pre-obtaining location-specific channel state information (CSI), channel map can be served as a foundational world model for embodied intelligence to achieve wireless channel perception. However, acquiring CSI via measurements is costly, so in practice only sparse observations are available, leaving agents blind to channel conditions at unvisited locations. Meanwhile, purely model-driven channel maps can provide dense CSI but often yields unsatisfactory accuracy and robustness, while purely data-driven interpolation from sparse measurements is computationally prohibitive for real-time updates. To address these challenges, this paper proposes a data-model co-driven (DMcD) framework that performs a two-stage interpolation toward a space-time continuous channel map, First, a hybrid ray tracing and geometry-based channel model (H-RT/GBSM) is developed to capture dynamic scatterers, providing dense, time-variant channel properties that match measurement statistics as a physically consistent prior. Then, an inductive edge-conditioned graph neural network (InductE-GNN) fuses the prior with sparse measurements to perform real-time spatial interpolation, enabling rapid online adaptation without retraining, ensuring the synchronization with the dynamic physical reality. Evaluations with measured datasets show that the proposed DMcD framework significantly outperforms data-only and model-only baselines, providing accurate and queryable channel information for embodied intelligent agents.",
-          "authors": [
-            "Tianrun Qi",
-            "Cheng-Xiang Wang",
-            "Chen Huang",
-            "Junling Li",
-            "John S Thompson"
-          ],
-          "primary_category": "eess.SP",
-          "categories": [
-            "eess.SP"
-          ],
-          "published": "2026-04-01T16:00:48+00:00",
-          "link": "https://arxiv.org/pdf/2604.01060v1",
-          "tags": [
-            "keyword:agent"
-          ],
-          "llm_score": 8.0,
-          "llm_evidence_en": "perceptive foundation for autonomous decision-making in agents",
-          "llm_evidence_cn": "智能体自主决策的感知基础",
-          "llm_evidence": "智能体自主决策的感知基础",
-          "canonical_evidence": "智能体自主决策的感知基础",
-          "llm_tldr_en": "Constructs a channel map as a world model for embodied intelligent agents to make autonomous decisions.",
-          "llm_tldr_cn": "构建信道图作为具身智能体的世界模型，以实现自主决策。",
-          "llm_tldr": "构建信道图作为具身智能体的世界模型，以实现自主决策。",
-          "llm_tags": [
-            "query:agent"
-          ],
-          "matched_query_tag": "query:agent",
-          "matched_query_text": "分析自主智能体的行为建模与控制方法",
-          "matched_requirement_id": "req-2",
-          "selection_source": "carryover_cache",
-          "paper_id": "2604.01060v1",
-          "carry_days": 1
-        },
-        {
-          "id": "2604.01670v1",
-          "source": "arxiv",
-          "title": "Hierarchical Memory Orchestration for Personalized Persistent Agents",
-          "abstract": "While long-term memory is essential for intelligent agents to maintain consistent historical awareness, the accumulation of extensive interaction data often leads to performance bottlenecks. Naive storage expansion increases retrieval noise and computational latency, overwhelming the reasoning capacity of models deployed on constrained personal devices. To address this, we propose Hierarchical Memory Orchestration (HMO), a framework that organizes interaction history into a three-tiered directory driven by user-centric contextual relevance. Our system maintains a compact primary cache, coupling recent and pivotal memories with an evolving user profile to ensure agent reasoning remains aligned with individual behavioral traits. This primary cache is complemented by a high-priority secondary layer, both of which are managed within a global archive of the full interaction history. Crucially, the user persona dictates memory redistribution across this hierarchy, promoting records mapped to long-term patterns toward more active tiers while relegating less relevant information. This targeted orchestration surfaces historical knowledge precisely when needed while maintaining a lean and efficient active search space. Evaluations on multiple benchmarks achieve state-of-the-art performance. Real-world deployments in ecosystems like OpenClaw demonstrate that HMO significantly enhances agent fluidity and personalization.",
-          "authors": [
-            "Junming Liu",
-            "Yifei Sun",
-            "Weihua Cheng",
-            "Haodong Lei",
-            "Yuqi Li",
-            "Yirong Chen",
-            "Ding Wang"
-          ],
-          "primary_category": "cs.AI",
-          "categories": [
             "cs.AI"
           ],
-          "published": "2026-04-02T06:16:53+00:00",
-          "link": "https://arxiv.org/pdf/2604.01670v1",
+          "published": "2026-04-07T05:41:10+00:00",
+          "link": "https://arxiv.org/pdf/2604.05458v1",
           "tags": [
             "keyword:agent"
           ],
           "llm_score": 8.0,
-          "llm_evidence_en": "Orchestrates hierarchical memory to maintain agent reasoning and historical awareness.",
-          "llm_evidence_cn": "通过分层记忆编排来维持智能体的推理能力和历史感知。",
-          "llm_evidence": "通过分层记忆编排来维持智能体的推理能力和历史感知。",
-          "canonical_evidence": "通过分层记忆编排来维持智能体的推理能力和历史感知。",
-          "llm_tldr_en": "Introduces a hierarchical memory framework to enhance long-term reasoning for personalized agents.",
-          "llm_tldr_cn": "提出了一种分层记忆框架，旨在增强个性化智能体的长期推理与记忆能力。",
-          "llm_tldr": "提出了一种分层记忆框架，旨在增强个性化智能体的长期推理与记忆能力。",
+          "llm_evidence_en": "Multi-agent RAG framework for reasoning-driven intrusion detection",
+          "llm_evidence_cn": "用于推理驱动入侵检测的多智能体RAG框架",
+          "llm_evidence": "用于推理驱动入侵检测的多智能体RAG框架",
+          "canonical_evidence": "用于推理驱动入侵检测的多智能体RAG框架",
+          "llm_tldr_en": "MA-IDS uses a multi-agent system and RAG to provide reasoning-driven network intrusion detection in IoT.",
+          "llm_tldr_cn": "MA-IDS利用多智能体系统和RAG在物联网中提供推理驱动的网络入侵检测。",
+          "llm_tldr": "MA-IDS利用多智能体系统和RAG在物联网中提供推理驱动的网络入侵检测。",
           "llm_tags": [
             "query:agent"
           ],
@@ -130,85 +98,45 @@
           "matched_query_text": "查找关于智能体结构与推理能力的研究",
           "matched_requirement_id": "req-4",
           "selection_source": "carryover_cache",
-          "paper_id": "2604.01670v1",
+          "paper_id": "2604.05458v1",
           "carry_days": 1
         },
         {
-          "id": "2603.24582v1",
+          "id": "2604.06370v1",
           "source": "arxiv",
-          "title": "The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence",
-          "abstract": "Agentic artificial intelligence (AI) in organizations is a sequential decision problem constrained by reliability and oversight cost. When deterministic workflows are replaced by stochastic policies over actions and tool calls, the key question is not whether a next step appears plausible, but whether the resulting trajectory remains statistically supported, locally unambiguous, and economically governable. We develop a measure-theoretic Markov framework for this setting. The core quantities are state blind-spot mass B_n(tau), state-action blind mass B^SA_{pi,n}(tau), an entropy-based human-in-the-loop escalation gate, and an expected oversight-cost identity over the workflow visitation measure.   We instantiate the framework on the Business Process Intelligence Challenge 2019 purchase-to-pay log (251,734 cases, 1,595,923 events, 42 distinct workflow actions) and construct a log-driven simulated agent from a chronological 80/20 split of the same process. The main empirical finding is that a large workflow can appear well supported at the state level while retaining substantial blind mass over next-step decisions: refining the operational state to include case context, economic magnitude, and actor class expands the state space from 42 to 668 and raises state-action blind mass from 0.0165 at tau=50 to 0.1253 at tau=1000. On the held-out split, m(s) = max_a pi-hat(a|s) tracks realized autonomous step accuracy within 3.4 percentage points on average.   The same quantities that delimit statistically credible autonomy also determine expected oversight burden. The framework is demonstrated on a large-scale enterprise procurement workflow and is designed for direct application to engineering processes for which operational event logs are available.",
+          "title": "ForkKV: Scaling Multi-LoRA Agent Serving via Copy-on-Write Disaggregated KV Cache",
+          "abstract": "The serving paradigm of large language models (LLMs) is rapidly shifting towards complex multi-agent workflows where specialized agents collaborate over massive shared contexts. While Low-Rank Adaptation (LoRA) enables the efficient co-hosting of these specialized agents on a single base model, it introduces a critical memory footprint bottleneck during serving. Specifically, unique LoRA activations cause Key-Value (KV) cache divergence across agents, rendering traditional prefix caching ineffective for shared contexts. This forces redundant KV cache maintenance, rapidly saturating GPU capacity and degrading throughput.   To address this challenge, we introduce ForkKV, a serving system for multi-LoRA agent workflows centered around a novel memory management paradigm in OS: fork with copy-on-write (CoW). By exploiting the structural properties of LoRA, ForkKV physically decouples the KV cache into a massive shared component (analogous to the parent process's memory pages) and lightweight agent-specific components (the child process's pages). To support this mechanism, we propose a DualRadixTree architecture that allows newly forked agents to inherit the massive shared cache and apply CoW semantics for their lightweight unique cache. Furthermore, to guarantee efficient execution, we design ResidualAttention, a specialized kernel that reconstructs the disaggregated KV cache directly within on-chip SRAM. Comprehensive evaluations across diverse language models and practical datasets of different tasks demonstrate that ForkKV achieves up to 3.0x the throughput of state-of-the-art multi-LoRA serving systems with a negligible impact on generation quality.",
           "authors": [
-            "Biplab Pal",
-            "Santanu Bhattacharya"
+            "Shao Wang",
+            "Rui Ren",
+            "Lin Gui"
           ],
-          "primary_category": "cs.AI",
+          "primary_category": "cs.DC",
           "categories": [
-            "cs.AI"
+            "cs.DC",
+            "cs.LG"
           ],
-          "published": "2026-03-25T17:56:11+00:00",
-          "link": "https://arxiv.org/pdf/2603.24582v1",
+          "published": "2026-04-07T18:52:25+00:00",
+          "link": "https://arxiv.org/pdf/2604.06370v1",
           "tags": [
             "keyword:agent"
           ],
           "llm_score": 8.0,
-          "llm_evidence_en": "Markovian framework for agentic AI reliability and oversight",
-          "llm_evidence_cn": "智能体AI可靠性与监督的马尔可夫框架",
-          "llm_evidence": "智能体AI可靠性与监督的马尔可夫框架",
-          "canonical_evidence": "智能体AI可靠性与监督的马尔可夫框架",
-          "llm_tldr_en": "A Markovian framework for auditing the reliability and oversight costs of stochastic agentic AI workflows.",
-          "llm_tldr_cn": "一种用于审计随机智能体AI工作流可靠性和监督成本的马尔可夫框架。",
-          "llm_tldr": "一种用于审计随机智能体AI工作流可靠性和监督成本的马尔可夫框架。",
+          "llm_evidence_en": "serving system for multi-agent workflows and specialized agents",
+          "llm_evidence_cn": "多智能体工作流和专业智能体的服务系统",
+          "llm_evidence": "多智能体工作流和专业智能体的服务系统",
+          "canonical_evidence": "多智能体工作流和专业智能体的服务系统",
+          "llm_tldr_en": "ForkKV optimizes multi-LoRA agent serving using a disaggregated KV cache to improve throughput.",
+          "llm_tldr_cn": "ForkKV通过解耦KV缓存优化多LoRA智能体服务，提升了复杂工作流的吞吐量。",
+          "llm_tldr": "ForkKV通过解耦KV缓存优化多LoRA智能体服务，提升了复杂工作流的吞吐量。",
           "llm_tags": [
             "query:agent"
           ],
           "matched_query_tag": "query:agent",
-          "matched_query_text": "分析自主智能体的行为建模与控制方法",
-          "matched_requirement_id": "req-2",
+          "matched_query_text": "查找关于智能体系统和相关算法的最新学术论文",
+          "matched_requirement_id": "req-5",
           "selection_source": "carryover_cache",
-          "paper_id": "2603.24582v1",
-          "carry_days": 1
-        },
-        {
-          "id": "2603.28393v1",
-          "source": "arxiv",
-          "title": "Within the MDT Room: Situated in Multidisciplinary Team-Grounded Agent Debate for Clinical Diagnosis",
-          "abstract": "Rare disease diagnosis is inherently challenging due to heterogeneous symptoms, limited clinical familiarity, and fragmented evidence across specialties. Recent large language model (LLM)-based agentic systems have shown promise by simulating multidisciplinary team discussions to generate and evaluate diagnostic hypotheses. However, fully automated diagnosis remains unrealistic, and existing human-in-the-loop approaches provide limited support for effective clinician-agent collaboration. In practice, clinicians are often presented with final diagnostic outputs and lengthy, unstructured agent discussion logs, making it difficult to inspect reasoning, intervene in a timely manner, or guide agent deliberation effectively. To address these challenges, we developed MDTRoom, an interactive system that transforms multi-agent discussions from linear transcripts into a structured, inspectable workspace. The system externalizes patient data, evidence provenance, hypothesis evolution, and inter-agent conflicts as interconnected visual objects, enabling clinicians to efficiently examine, intervene in, and guide agent reasoning. Our evaluation demonstrates the effectiveness of MDTRoom in supporting clinician-agent collaboration.",
-          "authors": [
-            "Peng Kuai",
-            "Yukun Yang",
-            "Shaolun Ruan",
-            "Junchi Xu",
-            "Yanjie Zhang",
-            "Lin Zhang",
-            "Min Zhu",
-            "Rui Sheng"
-          ],
-          "primary_category": "cs.HC",
-          "categories": [
-            "cs.HC"
-          ],
-          "published": "2026-03-30T13:03:16+00:00",
-          "link": "https://arxiv.org/pdf/2603.28393v1",
-          "tags": [
-            "keyword:agent"
-          ],
-          "llm_score": 8.0,
-          "llm_evidence_en": "agentic systems simulating multidisciplinary team discussions",
-          "llm_evidence_cn": "模拟多学科团队讨论的智能体系统",
-          "llm_evidence": "模拟多学科团队讨论的智能体系统",
-          "canonical_evidence": "模拟多学科团队讨论的智能体系统",
-          "llm_tldr_en": "Explores agent debate and human-agent collaboration for complex clinical diagnosis in rare diseases.",
-          "llm_tldr_cn": "探索了用于罕见病临床诊断的智能体辩论及人机协作机制。",
-          "llm_tldr": "探索了用于罕见病临床诊断的智能体辩论及人机协作机制。",
-          "llm_tags": [
-            "query:agent"
-          ],
-          "matched_query_tag": "query:agent",
-          "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
-          "matched_requirement_id": "req-6",
-          "selection_source": "carryover_cache",
-          "paper_id": "2603.28393v1",
+          "paper_id": "2604.06370v1",
           "carry_days": 1
         }
       ]

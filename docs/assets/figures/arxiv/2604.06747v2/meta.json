@@ -1,0 +1,158 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-001.webp",
+      "caption": "Figure 14. Overall workflow and results of the design process.",
+      "page": 26,
+      "index": 1,
+      "width": 856,
+      "height": 913
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-002.webp",
+      "caption": "Figure 10. Interactive physical simulation workflow driven by natural language input.",
+      "page": 21,
+      "index": 2,
+      "width": 867,
+      "height": 427
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-003.webp",
+      "caption": "Figure 11. Comparison of design targets, CFD results, and predicted performance.",
+      "page": 22,
+      "index": 3,
+      "width": 850,
+      "height": 1099
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-004.webp",
+      "caption": "Figure 17. System directory architecture of TurboAgent.",
+      "page": 34,
+      "index": 4,
+      "width": 706,
+      "height": 738
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-005.webp",
+      "caption": "Figure 4. Front-end interface of the TurboAgent system.",
+      "page": 10,
+      "index": 5,
+      "width": 874,
+      "height": 433
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-006.webp",
+      "caption": "Figure 3. Two-dimensional blade profile parameterization.",
+      "page": 10,
+      "index": 6,
+      "width": 600,
+      "height": 302
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-007.webp",
+      "caption": "Table 2. Workflow of the LLM-driven optimization algorithm.",
+      "page": 14,
+      "index": 7,
+      "width": 833,
+      "height": 514
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-008.webp",
+      "caption": "Figure 6. Interaction process between the user and the generative design agent.",
+      "page": 18,
+      "index": 8,
+      "width": 633,
+      "height": 589
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-009.webp",
+      "caption": "Figure 12. Interactive structural validation and FEM-predicted stress distribution of the blade.",
+      "page": 23,
+      "index": 9,
+      "width": 579,
+      "height": 671
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-010.webp",
+      "caption": "Figure 16. Cost analysis of TurboAgent.",
+      "page": 28,
+      "index": 10,
+      "width": 554,
+      "height": 379
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-011.webp",
+      "caption": "Figure 7. Generated blade geometries under different design objectives.",
+      "page": 19,
+      "index": 11,
+      "width": 859,
+      "height": 908
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-012.webp",
+      "caption": "Figure 5. Task planning results under different validation scenarios.",
+      "page": 17,
+      "index": 12,
+      "width": 834,
+      "height": 679
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-013.webp",
+      "caption": "Table 1. Training and sampling algorithms of the cDDPM-based generative model.",
+      "page": 12,
+      "index": 13,
+      "width": 869,
+      "height": 490
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-014.webp",
+      "caption": "Figure 15. Human-machine interaction in the LLM-Driven design process.",
+      "page": 27,
+      "index": 14,
+      "width": 867,
+      "height": 1342
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-015.webp",
+      "caption": "Figure 13. Optimization process and convergence results using different optimization methods.",
+      "page": 24,
+      "index": 15,
+      "width": 869,
+      "height": 471
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-016.webp",
+      "caption": "Figure 2. The workflow of TurboAgent",
+      "page": 9,
+      "index": 16,
+      "width": 869,
+      "height": 323
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-017.webp",
+      "caption": "Figure 8. Predicted versus target performance of inverse designs.",
+      "page": 20,
+      "index": 17,
+      "width": 846,
+      "height": 295
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-018.webp",
+      "caption": "Figure 9. Interactive design modification and performance prediction.",
+      "page": 20,
+      "index": 18,
+      "width": 483,
+      "height": 539
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06747v2/fig-019.webp",
+      "caption": "Figure 1. Multi-agent AI framework for turbomachinery design",
+      "page": 5,
+      "index": 19,
+      "width": 877,
+      "height": 462
+    }
+  ]
+}

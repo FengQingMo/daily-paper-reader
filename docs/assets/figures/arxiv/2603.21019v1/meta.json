@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.21019v1/fig-001.webp",
+      "caption": "Figure 2: The overall system architecture of SkillProbe. The framework consists of five primary components, i.e., the Input Layer for data ingestion, the Orchestration Layer for multi-agent collaboration and task planning, the Skill Layer for core audit phases, the Output Layer for delivering the auditing findings, and the Infrastructure Layer for underlying storage and computing.",
+      "page": 6,
+      "index": 1,
+      "width": 902,
+      "height": 566
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21019v1/fig-002.webp",
+      "caption": "Figure 4: Cross-model audit consistency heatmap for ClawHub top 20 Skills. Each cell represents the aggregated risk score for a pair of model and skill, computed as the sum of per-dimension severity scores (malicious patterns, semantic consistency, composition safety), where Clean= 0, Suspected= 1, and Confirmed= 2 (range: 0–6). Cell labels A and C denote the final scorecard verdict (Approved and Conditional, respectively). Skills are ordered by download count (left to right, descending).",
+      "page": 11,
+      "index": 2,
+      "width": 904,
+      "height": 312
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21019v1/fig-003.webp",
+      "caption": "Figure 1: Visualizing invisible risks. Left panel depicts the semantic misalignment between highlevel documentation and low-level implementation. While the documentation declares “safe” and “restricted” attributes, the underlying code harbors shadow capabilities such as unauthorized access and hidden data exfiltration. The fragmented alignment line represents the perception gap caused by the agents’ reliance on natural language for black-box invocations. Right panel demonstrates the combinational explosion of risks during cross-skill collaboration. Although individual skills may pass independent audits, their interconnection via untrusted data flows can trigger a security collapse. This effect shows how benign-in-isolation components can mutate into lethal threats, such as command injection or systemic data leaks, when executed in a composite chain.",
+      "page": 2,
+      "index": 3,
+      "width": 904,
+      "height": 495
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21019v1/fig-004.webp",
+      "caption": "Figure 3: The overall workflow of the SkillProbe security auditing framework. The process comprises three main phases: (P1) malicious pattern inspection via the Gatekeeper, (P2) capability alignment detection to compare declared vs. actual functions, and (P3) composition risk simulation within the Flow Simulator. The Security Auditor coordinates these tasks, eventually generating a comprehensive report and registering the skill’s risk fingerprint in the registry.",
+      "page": 7,
+      "index": 4,
+      "width": 902,
+      "height": 495
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21019v1/fig-005.webp",
+      "caption": "Table 1: Core risk link policies for combinatorial attack detection.",
+      "page": 10,
+      "index": 5,
+      "width": 902,
+      "height": 309
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21019v1/fig-006.webp",
+      "caption": "Table 2: Per-model audit statistics across ClawHub top 20 skills.",
+      "page": 10,
+      "index": 6,
+      "width": 904,
+      "height": 266
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21019v1/fig-007.webp",
+      "caption": "Figure 6: Risk chain network of the 499 skills with at least one confirmed exploit from the nine official attack chains. Each node represents one skill, with node size scaling with download count. Edge color encodes the shared risk chain type between two connected skills (nine colors corresponding to nine risk categories as illustrated in Table 1). Edges connect any two skills that share at least one confirmed chain type.",
+      "page": 13,
+      "index": 7,
+      "width": 902,
+      "height": 458
+    },
+    {
+      "url": "assets/figures/arxiv/2603.21019v1/fig-008.webp",
+      "caption": "Figure 5: Security audit overview of the top 2500 most-downloaded skills on ClawHub. Left panel shows the distribution of final audit verdicts across 2,500 skills, including 9.9% are fully clean (Approved, w/o Finding), 59.8% pass with minor findings (Approved, w/ Finding), and 30.4% have potential risks (Conditional). Right panel depicts the stacked area chart showing the proportion of each verdict category across 25 equal-sized bins sorted by download rank (1 = most downloaded). The composition remains broadly stable across all popularity tiers, indicating that download rank is not a reliable proxy for security quality.",
+      "page": 12,
+      "index": 8,
+      "width": 904,
+      "height": 235
+    }
+  ]
+}

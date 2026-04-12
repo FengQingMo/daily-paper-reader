@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2603.24582v1/fig-001.webp",
+      "caption": "Figure 4: Scoped autonomy on the full BPI 2019 log under the refined state abstraction with N(s) ≥ 50 and w(s) ≤ 0.6. Event-level autonomy remains substantially higher than end-to-end case-level autonomy because local ambiguity compounds along the trajectory.",
+      "page": 14,
+      "index": 1,
+      "width": 538,
+      "height": 362
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24582v1/fig-002.webp",
+      "caption": "Figure 2: Dominant empirical transitions in the BPI 2019 purchase-to-pay process. Edge widths are proportional to empirical transition probabilities. The log contains recurrent loops and exception-handling branches; the mean case length is 6.34 events, the 99th percentile is 24 events, the maximum observed case length is 990, and the transition-level self-loop rate is 15.7%.",
+      "page": 8,
+      "index": 2,
+      "width": 683,
+      "height": 271
+    },
+    {
+      "url": "assets/figures/arxiv/2603.24582v1/fig-003.webp",
+      "caption": "Figure 5: Theory-versus-agent comparison on the chronological held-out split of BPI 2019. (A) Theoretical autonomous-step surrogate m(s) = maxa π̂(a | s) versus realized held-out step accuracy as the entropy threshold h0 varies, with mean absolute gap 3.4 percentage points. (B) Reliability-cost frontier induced by the same gate: the x-axis is mean human touches per case, the y-axis is safe case completion, and the theoretical curve is conservative but monotone relative to the held-out agent.",
+      "page": 16,
+      "index": 3,
+      "width": 758,
+      "height": 293
+    }
+  ]
+}

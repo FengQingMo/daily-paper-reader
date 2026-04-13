@@ -1,0 +1,373 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-13T20:45:55.682126+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 7,
+    "deep_cap": 6,
+    "deep_selected": 6,
+    "quick_candidates": 3,
+    "quick_skim_target": 11,
+    "quick_selected": 3
+  },
+  "deep_dive": [
+    {
+      "id": "2604.08727v1",
+      "source": "arxiv",
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "abstract": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "authors": [
+        "David Shoresh",
+        "Sarit Kraus",
+        "Yonatan Loewenstein"
+      ],
+      "primary_category": "cs.CY",
+      "categories": [
+        "cs.CY"
+      ],
+      "published": "2026-04-09T19:40:15+00:00",
+      "link": "https://arxiv.org/pdf/2604.08727v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "evaluating social intelligence in multi-agent environments",
+      "llm_evidence_cn": "评估多智能体环境下的社交智能",
+      "llm_evidence": "评估多智能体环境下的社交智能",
+      "canonical_evidence": "评估多智能体环境下的社交智能",
+      "llm_tldr_en": "Introduces a multiplayer arena to evaluate the social intelligence and interaction of LLM agents.",
+      "llm_tldr_cn": "引入多玩家竞技场，通过混合博弈评估大模型智能体的社交智能与交互动态。",
+      "llm_tldr": "引入多玩家竞技场，通过混合博弈评估大模型智能体的社交智能与交互动态。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.04503v3",
+      "source": "arxiv",
+      "title": "Memory Intelligence Agent",
+      "abstract": "Deep research agents (DRAs) integrate LLM reasoning with external tools. Memory systems enable DRAs to leverage historical experiences, which are essential for efficient reasoning and autonomous evolution. Existing methods rely on retrieving similar trajectories from memory to aid reasoning, while suffering from key limitations of ineffective memory evolution and increasing storage and retrieval costs. To address these problems, we propose a novel Memory Intelligence Agent (MIA) framework, consisting of a Manager-Planner-Executor architecture. Memory Manager is a non-parametric memory system that can store compressed historical search trajectories. Planner is a parametric memory agent that can produce search plans for questions. Executor is another agent that can search and analyze information guided by the search plan. To build the MIA framework, we first adopt an alternating reinforcement learning paradigm to enhance cooperation between the Planner and the Executor. Furthermore, we enable the Planner to continuously evolve during test-time learning, with updates performed on-the-fly alongside inference without interrupting the reasoning process. Additionally, we establish a bidirectional conversion loop between parametric and non-parametric memories to achieve efficient memory evolution. Finally, we incorporate a reflection and an unsupervised judgment mechanisms to boost reasoning and self-evolution in the open world. Extensive experiments across eleven benchmarks demonstrate the superiority of MIA.",
+      "authors": [
+        "Jingyang Qiao",
+        "Weicheng Meng",
+        "Yu Cheng",
+        "Zhihang Lin",
+        "Zhizhong Zhang",
+        "Xin Tan",
+        "Jingyu Gong",
+        "Kun Shao",
+        "Yuan Xie"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-04-06T07:59:52+00:00",
+      "link": "https://arxiv.org/pdf/2604.04503v3",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Memory systems for efficient reasoning and autonomous evolution in agents",
+      "llm_evidence_cn": "用于智能体高效推理和自主进化的记忆系统",
+      "llm_evidence": "用于智能体高效推理和自主进化的记忆系统",
+      "canonical_evidence": "用于智能体高效推理和自主进化的记忆系统",
+      "llm_tldr_en": "MIA framework uses a Manager-Planner-Executor architecture to enhance agent memory and reasoning efficiency.",
+      "llm_tldr_cn": "MIA框架采用管理-规划-执行架构，提升了智能体的记忆和推理效率。",
+      "llm_tldr": "MIA框架采用管理-规划-执行架构，提升了智能体的记忆和推理效率。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.05458v1",
+      "source": "arxiv",
+      "title": "MA-IDS: Multi-Agent RAG Framework for IoT Network Intrusion Detection with an Experience Library",
+      "abstract": "Network Intrusion Detection Systems (NIDS) face important limitations. Signature-based methods are effective for known attack patterns, but they struggle to detect zero-day attacks and often miss modified variants of previously known attacks, while many machine learning approaches offer limited interpretability. These challenges become even more severe in IoT environments because of resource constraints and heterogeneous protocols. To address these issues, we propose MA-IDS, a Multi-Agent Intrusion Detection System that combines Large Language Models (LLMs) with Retrieval Augmented Generation (RAG) for reasoning-driven intrusion detection. The proposed framework grounds LLM reasoning through a persistent, self-building Experience Library. Two specialized agents collaborate through a FAISS-based vector database: a Traffic Classification Agent that retrieves past error rules before each inference, and an Error Analysis Agent that converts misclassifications into human-readable detection rules stored for future retrieval, enabling continual learning through external knowledge accumulation, without modifying the underlying language model. Evaluated on NF-BoT-IoT and NF-ToN-IoT benchmark datasets, MA-IDS achieves Macro F1-Scores of 89.75% and 85.22%, improving over zero-shot baselines of 17% and 4.96% by more than 72 and 80 percentage points. These results are competitive with SVM while providing rule-level explanations for every classification decision, demonstrating that retrieval-augmented reasoning offers a principled path toward explainable, self-improving intrusion detection for IoT networks.",
+      "authors": [
+        "Md Shamimul Islam",
+        "Luis G. Jaimes",
+        "Ayesha S. Dina"
+      ],
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "published": "2026-04-07T05:41:10+00:00",
+      "link": "https://arxiv.org/pdf/2604.05458v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "multi-agent RAG framework for reasoning-driven intrusion detection",
+      "llm_evidence_cn": "用于推理驱动入侵检测的多智能体RAG框架",
+      "llm_evidence": "用于推理驱动入侵检测的多智能体RAG框架",
+      "canonical_evidence": "用于推理驱动入侵检测的多智能体RAG框架",
+      "llm_tldr_en": "Develops a multi-agent system using LLMs and an experience library for IoT network intrusion detection.",
+      "llm_tldr_cn": "开发了一个结合大模型与经验库的多智能体系统，用于物联网网络入侵检测。",
+      "llm_tldr": "开发了一个结合大模型与经验库的多智能体系统，用于物联网网络入侵检测。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "研究多智能体系统的交互与学习机制",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.06370v1",
+      "source": "arxiv",
+      "title": "ForkKV: Scaling Multi-LoRA Agent Serving via Copy-on-Write Disaggregated KV Cache",
+      "abstract": "The serving paradigm of large language models (LLMs) is rapidly shifting towards complex multi-agent workflows where specialized agents collaborate over massive shared contexts. While Low-Rank Adaptation (LoRA) enables the efficient co-hosting of these specialized agents on a single base model, it introduces a critical memory footprint bottleneck during serving. Specifically, unique LoRA activations cause Key-Value (KV) cache divergence across agents, rendering traditional prefix caching ineffective for shared contexts. This forces redundant KV cache maintenance, rapidly saturating GPU capacity and degrading throughput.   To address this challenge, we introduce ForkKV, a serving system for multi-LoRA agent workflows centered around a novel memory management paradigm in OS: fork with copy-on-write (CoW). By exploiting the structural properties of LoRA, ForkKV physically decouples the KV cache into a massive shared component (analogous to the parent process's memory pages) and lightweight agent-specific components (the child process's pages). To support this mechanism, we propose a DualRadixTree architecture that allows newly forked agents to inherit the massive shared cache and apply CoW semantics for their lightweight unique cache. Furthermore, to guarantee efficient execution, we design ResidualAttention, a specialized kernel that reconstructs the disaggregated KV cache directly within on-chip SRAM. Comprehensive evaluations across diverse language models and practical datasets of different tasks demonstrate that ForkKV achieves up to 3.0x the throughput of state-of-the-art multi-LoRA serving systems with a negligible impact on generation quality.",
+      "authors": [
+        "Shao Wang",
+        "Rui Ren",
+        "Lin Gui"
+      ],
+      "primary_category": "cs.DC",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "published": "2026-04-07T18:52:25+00:00",
+      "link": "https://arxiv.org/pdf/2604.06370v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "serving system for multi-agent workflows and collaboration",
+      "llm_evidence_cn": "多智能体工作流与协作的服务系统",
+      "llm_evidence": "多智能体工作流与协作的服务系统",
+      "canonical_evidence": "多智能体工作流与协作的服务系统",
+      "llm_tldr_en": "ForkKV optimizes KV cache for multi-agent workflows where specialized agents collaborate on shared contexts.",
+      "llm_tldr_cn": "ForkKV为多智能体协作工作流优化了KV缓存，解决了共享上下文下的内存瓶颈。",
+      "llm_tldr": "ForkKV为多智能体协作工作流优化了KV缓存，解决了共享上下文下的内存瓶颈。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.07927v2",
+      "source": "arxiv",
+      "title": "EigentSearch-Q+: Enhancing Deep Research Agents with Structured Reasoning Tools",
+      "abstract": "Deep research requires reasoning over web evidence to answer open-ended questions, and it is a core capability for AI agents. Yet many deep research agents still rely on implicit, unstructured search behavior that causes redundant exploration and brittle evidence aggregation. Motivated by Anthropic's \"think\" tool paradigm and insights from the information-retrieval literature, we introduce Q+, a set of query and evidence processing tools that make web search more deliberate by guiding query planning, monitoring search progress, and extracting evidence from long web snapshots. We integrate Q+ into the browser sub-agent of Eigent, an open-source, production-ready multi-agent workforce for computer use, yielding EigentSearch-Q+. Across four benchmarks (SimpleQA-Verified, FRAMES, WebWalkerQA, and X-Bench DeepSearch), Q+ improves Eigent's browser agent benchmark-size-weighted average accuracy by 3.0, 3.8, and 0.6 percentage points (pp) for GPT-4.1, GPT-5.1, and Minimax M2.5 model backends, respectively. Case studies further suggest that EigentSearch-Q+ produces more coherent tool-calling trajectories by making search progress and evidence handling explicit.",
+      "authors": [
+        "Boer Zhang",
+        "Mingyan Wu",
+        "Dongzhuoran Zhou",
+        "Yuqicheng Zhu",
+        "Wendong Fan",
+        "Puzhen Zhang",
+        "Zifeng Ding",
+        "Guohao Li",
+        "Yuan He"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-09T07:47:31+00:00",
+      "link": "https://arxiv.org/pdf/2604.07927v2",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "structured reasoning tools for AI agents and query planning",
+      "llm_evidence_cn": "AI智能体的结构化推理工具与查询规划",
+      "llm_evidence": "AI智能体的结构化推理工具与查询规划",
+      "canonical_evidence": "AI智能体的结构化推理工具与查询规划",
+      "llm_tldr_en": "Introduces Q+, a set of reasoning tools to enhance deep research agents' search and evidence processing.",
+      "llm_tldr_cn": "引入Q+推理工具集，通过结构化查询规划和证据处理增强深度研究智能体的能力。",
+      "llm_tldr": "引入Q+推理工具集，通过结构化查询规划和证据处理增强深度研究智能体的能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.08931v1",
+      "source": "arxiv",
+      "title": "Enhancing LLM Problem Solving via Tutor-Student Multi-Agent Interaction",
+      "abstract": "Human cognitive development is shaped not only by individual effort but by structured social interaction, where role-based exchanges such as those between a tutor and a learner, enable solutions that neither could achieve alone. Inspired by these developmental principles, we ask the question whether a tutor-student multi-agent system can create a synergistic effect by pushing Large Language Model (LLM) beyond what it can do within existing frameworks. To test the idea, we adopt autonomous coding problem domain where two agents instantiated from the same LLM assigned asymmetric roles: a student agent generates and iteratively refines solutions, while a tutor agent provides structured evaluative feedback without access to ground-truth answers. In our proposed framework (PETITE), we aim to extract better problem-solving performance from one model by structuring its interaction through complementary roles, rather than relying on stronger supervisory models or heterogeneous ensembles. Our model is evaluated on the APPS coding benchmark against state-of-the-art approaches of Self-Consistency, Self-Refine, Multi-Agent Debate, and Multi-Agent Review. The results show that our model achieves similar or higher accuracy while consuming significantly fewer tokens. These results suggest that developmentally grounded role-differentiated interaction structures provide a principled and resource-efficient paradigm for enhancing LLM problem-solving through structured peer-like interactions. Index Terms- Peer Tutoring, Scaffolding, Large Language Models, Multi-Agent Systems, Code Generation",
+      "authors": [
+        "Nurullah Eymen Özdemir",
+        "Erhan Oztop"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-04-10T03:56:49+00:00",
+      "link": "https://arxiv.org/pdf/2604.08931v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "tutor-student multi-agent interaction and role-based exchanges",
+      "llm_evidence_cn": "导师-学生多智能体交互与基于角色的交换",
+      "llm_evidence": "导师-学生多智能体交互与基于角色的交换",
+      "canonical_evidence": "导师-学生多智能体交互与基于角色的交换",
+      "llm_tldr_en": "Explores how tutor-student multi-agent interactions can enhance LLM problem-solving through structured feedback.",
+      "llm_tldr_cn": "探索导师-学生多智能体交互机制，通过结构化反馈提升大语言模型的解题能力。",
+      "llm_tldr": "探索导师-学生多智能体交互机制，通过结构化反馈提升大语言模型的解题能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "研究多智能体系统的交互与学习机制",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2604.05120v1",
+      "source": "arxiv",
+      "title": "Designing Digital Humans with Ambient Intelligence",
+      "abstract": "Digital humans are lifelike virtual agents capable of natural conversation and are increasingly deployed in domains like retail and finance. However, most current digital humans operate in isolation from their surroundings and lack contextual awareness beyond the dialogue itself. We address this limitation by integrating ambient intelligence (AmI) - i.e., environmental sensors, IoT data, and contextual modeling - with digital human systems. This integration enables situational awareness of the user's environment, anticipatory and proactive assistance, seamless cross-device interactions, and personalized long-term user support. We present a conceptual framework defining key roles that AmI can play in shaping digital human behavior, a design space highlighting dimensions such as proactivity levels and privacy strategies, and application-driven patterns with case studies in financial and retail services. We also discuss an architecture for ambient-enabled digital humans and provide guidelines for responsible design regarding privacy and data governance. Together, our work positions ambient intelligent digital humans as a new class of interactive agents powered by AI that respond not only to users' queries but also to the context and situations in which the interaction occurs.",
+      "authors": [
+        "Mengyu Chen",
+        "Pranav Deshpande",
+        "Runqing Yang",
+        "Elvir Azanli",
+        "Joseph Ligman",
+        "Shaohan Hu",
+        "Richard Chen"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC",
+        "cs.MA"
+      ],
+      "published": "2026-04-06T19:33:19+00:00",
+      "link": "https://arxiv.org/pdf/2604.05120v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "virtual agents with ambient intelligence for situational awareness and proactive assistance",
+      "llm_evidence_cn": "具有环境智能的虚拟智能体，用于情境感知和主动辅助",
+      "llm_evidence": "具有环境智能的虚拟智能体，用于情境感知和主动辅助",
+      "canonical_evidence": "具有环境智能的虚拟智能体，用于情境感知和主动辅助",
+      "llm_tldr_en": "Integrates ambient intelligence with digital humans to enable contextual awareness and proactive behavior.",
+      "llm_tldr_cn": "将环境智能与数字人结合，使虚拟智能体具备情境感知和主动服务能力。",
+      "llm_tldr": "将环境智能与数字人结合，使虚拟智能体具备情境感知和主动服务能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.04344v1",
+      "source": "arxiv",
+      "title": "Domain-Contextualized Inference: A Computable Graph Architecture for Explicit-Domain Reasoning",
+      "abstract": "We establish a computation-substrate-agnostic inference architecture in which domain is an explicit first-class computational parameter. This produces domain-scoped pruning that reduces per-query search space from O(N) to O(N/K), substrate-independent execution over symbolic, neural, vector, and hybrid substrates, and transparent inference chains where every step carries its evaluative context. The contribution is architectural, not logical. We formalize the computational theory across five dimensions: a five-layer architecture; three domain computation modes including chain indexing, path traversal as Kleisli composition, and vector-guided computation as a substrate transition; a substrate-agnostic interface with three operations Query, Extend, Bridge; reliability conditions C1 to C4 with three failure mode classes; and validation through a PHQ-9 clinical reasoning case study. The computational theory including operational semantics, complexity bounds, monad structure, substrate transitions, and boundary conditions is the contribution of this paper.",
+      "authors": [
+        "Chao Li",
+        "Yuru Wang",
+        "Chunyu Zhao"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-06T01:35:42+00:00",
+      "link": "https://arxiv.org/pdf/2604.04344v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.5,
+      "llm_evidence_en": "inference architecture for explicit-domain reasoning",
+      "llm_evidence_cn": "显式领域推理的推理架构",
+      "llm_evidence": "显式领域推理的推理架构",
+      "canonical_evidence": "显式领域推理的推理架构",
+      "llm_tldr_en": "This paper proposes a substrate-agnostic inference architecture to improve domain-scoped reasoning efficiency.",
+      "llm_tldr_cn": "本文提出了一种与底层无关的推理架构，以提高特定领域的推理效率。",
+      "llm_tldr": "本文提出了一种与底层无关的推理架构，以提高特定领域的推理效率。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.08226v1",
+      "source": "arxiv",
+      "title": "Grounding Clinical AI Competency in Human Cognition Through the Clinical World Model and Skill-Mix Framework",
+      "abstract": "The competency of any intelligent agent is bounded by its formal account of the world in which it operates. Clinical AI lacks such an account. Existing frameworks address evaluation, regulation, or system design in isolation, without a shared model of the clinical world to connect them. We introduce the Clinical World Model, a framework that formalizes care as a tripartite interaction among Patient, Provider, and Ecosystem. To formalize how any agent, whether human or artificial, transforms information into clinical action, we develop parallel decision-making architectures for providers, patients, and AI agents, grounded in validated principles of clinical cognition.   The Clinical AI Skill-Mix operationalizes competency through eight dimensions. Five define the clinical competency space (condition, phase, care setting, provider role, and task) and three specify how AI engages human reasoning (assigned authority, agent facing, and anchoring layer). The combinatorial product of these dimensions yields a space of billions of distinct competency coordinates. A central structural implication is that validation within one coordinate provides minimal evidence for performance in another, rendering the competency space irreducible. The framework supplies a common grammar through which clinical AI can be specified, evaluated, and bounded across stakeholders. By making this structure explicit, the Clinical World Model reframes the field's central question from whether AI works to in which competency coordinates reliability has been demonstrated, and for whom.",
+      "authors": [
+        "Seyed Amir Ahmad Safavi-Naini",
+        "Elahe Meftah",
+        "Josh Mohess",
+        "Pooya Mohammadi Kazaj",
+        "Georgios Siontis",
+        "Zahra Atf",
+        "Peter R. Lewis",
+        "Mauricio Reyes",
+        "Girish Nadkarni",
+        "Roland Wiest",
+        "Stephan Windecker",
+        "Christoph Grani",
+        "Ali Soroush",
+        "Isaac Shiri"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.HC",
+        "eess.SY"
+      ],
+      "published": "2026-04-09T13:20:13+00:00",
+      "link": "https://arxiv.org/pdf/2604.08226v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "decision-making architectures for AI agents grounded in clinical cognition",
+      "llm_evidence_cn": "基于临床认知理论的AI智能体决策架构",
+      "llm_evidence": "基于临床认知理论的AI智能体决策架构",
+      "canonical_evidence": "基于临床认知理论的AI智能体决策架构",
+      "llm_tldr_en": "Introduces a Clinical World Model to formalize decision-making and competency for clinical AI agents.",
+      "llm_tldr_cn": "引入临床世界模型，为临床AI智能体的决策和能力提供形式化框架。",
+      "llm_tldr": "引入临床世界模型，为临床AI智能体的决策和能力提供形式化框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

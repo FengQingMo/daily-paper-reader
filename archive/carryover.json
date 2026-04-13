@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T19:26:40.066893+00:00",
-  "updated_date": "20260412",
+  "generated_at": "2026-04-13T20:45:55.683100+00:00",
+  "updated_date": "20260413",
   "carryover_days": 9,
   "tag_states": {
     "Agent": {
@@ -9,137 +9,9 @@
       "items": []
     },
     "agent": {
-      "updated_date": "20260412",
+      "updated_date": "20260413",
       "carryover_days": 9,
-      "items": [
-        {
-          "id": "2604.08226v1",
-          "source": "arxiv",
-          "title": "Grounding Clinical AI Competency in Human Cognition Through the Clinical World Model and Skill-Mix Framework",
-          "abstract": "The competency of any intelligent agent is bounded by its formal account of the world in which it operates. Clinical AI lacks such an account. Existing frameworks address evaluation, regulation, or system design in isolation, without a shared model of the clinical world to connect them. We introduce the Clinical World Model, a framework that formalizes care as a tripartite interaction among Patient, Provider, and Ecosystem. To formalize how any agent, whether human or artificial, transforms information into clinical action, we develop parallel decision-making architectures for providers, patients, and AI agents, grounded in validated principles of clinical cognition.   The Clinical AI Skill-Mix operationalizes competency through eight dimensions. Five define the clinical competency space (condition, phase, care setting, provider role, and task) and three specify how AI engages human reasoning (assigned authority, agent facing, and anchoring layer). The combinatorial product of these dimensions yields a space of billions of distinct competency coordinates. A central structural implication is that validation within one coordinate provides minimal evidence for performance in another, rendering the competency space irreducible. The framework supplies a common grammar through which clinical AI can be specified, evaluated, and bounded across stakeholders. By making this structure explicit, the Clinical World Model reframes the field's central question from whether AI works to in which competency coordinates reliability has been demonstrated, and for whom.",
-          "authors": [
-            "Seyed Amir Ahmad Safavi-Naini",
-            "Elahe Meftah",
-            "Josh Mohess",
-            "Pooya Mohammadi Kazaj",
-            "Georgios Siontis",
-            "Zahra Atf",
-            "Peter R. Lewis",
-            "Mauricio Reyes",
-            "Girish Nadkarni",
-            "Roland Wiest",
-            "Stephan Windecker",
-            "Christoph Grani",
-            "Ali Soroush",
-            "Isaac Shiri"
-          ],
-          "primary_category": "cs.AI",
-          "categories": [
-            "cs.AI",
-            "cs.HC",
-            "eess.SY"
-          ],
-          "published": "2026-04-09T13:20:13+00:00",
-          "link": "https://arxiv.org/pdf/2604.08226v1",
-          "tags": [
-            "keyword:agent",
-            "query:agent"
-          ],
-          "llm_score": 8.0,
-          "llm_evidence_en": "Decision-making architectures for AI agents grounded in clinical cognition",
-          "llm_evidence_cn": "基于临床认知的AI智能体决策架构",
-          "llm_evidence": "基于临床认知的AI智能体决策架构",
-          "canonical_evidence": "基于临床认知的AI智能体决策架构",
-          "llm_tldr_en": "Introduces a Clinical World Model to formalize how AI agents transform information into clinical action.",
-          "llm_tldr_cn": "引入临床世界模型，将AI智能体将信息转化为临床行动的过程形式化。",
-          "llm_tldr": "引入临床世界模型，将AI智能体将信息转化为临床行动的过程形式化。",
-          "llm_tags": [
-            "query:agent"
-          ],
-          "matched_query_tag": "query:agent",
-          "matched_query_text": "获取智能体建模、通信和决策的核心研究成果",
-          "matched_requirement_id": "req-7",
-          "selection_source": "carryover_cache",
-          "paper_id": "2604.08226v1",
-          "carry_days": 1
-        },
-        {
-          "id": "2604.05458v1",
-          "source": "arxiv",
-          "title": "MA-IDS: Multi-Agent RAG Framework for IoT Network Intrusion Detection with an Experience Library",
-          "abstract": "Network Intrusion Detection Systems (NIDS) face important limitations. Signature-based methods are effective for known attack patterns, but they struggle to detect zero-day attacks and often miss modified variants of previously known attacks, while many machine learning approaches offer limited interpretability. These challenges become even more severe in IoT environments because of resource constraints and heterogeneous protocols. To address these issues, we propose MA-IDS, a Multi-Agent Intrusion Detection System that combines Large Language Models (LLMs) with Retrieval Augmented Generation (RAG) for reasoning-driven intrusion detection. The proposed framework grounds LLM reasoning through a persistent, self-building Experience Library. Two specialized agents collaborate through a FAISS-based vector database: a Traffic Classification Agent that retrieves past error rules before each inference, and an Error Analysis Agent that converts misclassifications into human-readable detection rules stored for future retrieval, enabling continual learning through external knowledge accumulation, without modifying the underlying language model. Evaluated on NF-BoT-IoT and NF-ToN-IoT benchmark datasets, MA-IDS achieves Macro F1-Scores of 89.75% and 85.22%, improving over zero-shot baselines of 17% and 4.96% by more than 72 and 80 percentage points. These results are competitive with SVM while providing rule-level explanations for every classification decision, demonstrating that retrieval-augmented reasoning offers a principled path toward explainable, self-improving intrusion detection for IoT networks.",
-          "authors": [
-            "Md Shamimul Islam",
-            "Luis G. Jaimes",
-            "Ayesha S. Dina"
-          ],
-          "primary_category": "cs.CR",
-          "categories": [
-            "cs.CR",
-            "cs.AI"
-          ],
-          "published": "2026-04-07T05:41:10+00:00",
-          "link": "https://arxiv.org/pdf/2604.05458v1",
-          "tags": [
-            "keyword:agent"
-          ],
-          "llm_score": 8.0,
-          "llm_evidence_en": "Multi-agent RAG framework for reasoning-driven intrusion detection",
-          "llm_evidence_cn": "用于推理驱动入侵检测的多智能体RAG框架",
-          "llm_evidence": "用于推理驱动入侵检测的多智能体RAG框架",
-          "canonical_evidence": "用于推理驱动入侵检测的多智能体RAG框架",
-          "llm_tldr_en": "MA-IDS uses a multi-agent system and RAG to provide reasoning-driven network intrusion detection in IoT.",
-          "llm_tldr_cn": "MA-IDS利用多智能体系统和RAG在物联网中提供推理驱动的网络入侵检测。",
-          "llm_tldr": "MA-IDS利用多智能体系统和RAG在物联网中提供推理驱动的网络入侵检测。",
-          "llm_tags": [
-            "query:agent"
-          ],
-          "matched_query_tag": "query:agent",
-          "matched_query_text": "查找关于智能体结构与推理能力的研究",
-          "matched_requirement_id": "req-4",
-          "selection_source": "carryover_cache",
-          "paper_id": "2604.05458v1",
-          "carry_days": 1
-        },
-        {
-          "id": "2604.06370v1",
-          "source": "arxiv",
-          "title": "ForkKV: Scaling Multi-LoRA Agent Serving via Copy-on-Write Disaggregated KV Cache",
-          "abstract": "The serving paradigm of large language models (LLMs) is rapidly shifting towards complex multi-agent workflows where specialized agents collaborate over massive shared contexts. While Low-Rank Adaptation (LoRA) enables the efficient co-hosting of these specialized agents on a single base model, it introduces a critical memory footprint bottleneck during serving. Specifically, unique LoRA activations cause Key-Value (KV) cache divergence across agents, rendering traditional prefix caching ineffective for shared contexts. This forces redundant KV cache maintenance, rapidly saturating GPU capacity and degrading throughput.   To address this challenge, we introduce ForkKV, a serving system for multi-LoRA agent workflows centered around a novel memory management paradigm in OS: fork with copy-on-write (CoW). By exploiting the structural properties of LoRA, ForkKV physically decouples the KV cache into a massive shared component (analogous to the parent process's memory pages) and lightweight agent-specific components (the child process's pages). To support this mechanism, we propose a DualRadixTree architecture that allows newly forked agents to inherit the massive shared cache and apply CoW semantics for their lightweight unique cache. Furthermore, to guarantee efficient execution, we design ResidualAttention, a specialized kernel that reconstructs the disaggregated KV cache directly within on-chip SRAM. Comprehensive evaluations across diverse language models and practical datasets of different tasks demonstrate that ForkKV achieves up to 3.0x the throughput of state-of-the-art multi-LoRA serving systems with a negligible impact on generation quality.",
-          "authors": [
-            "Shao Wang",
-            "Rui Ren",
-            "Lin Gui"
-          ],
-          "primary_category": "cs.DC",
-          "categories": [
-            "cs.DC",
-            "cs.LG"
-          ],
-          "published": "2026-04-07T18:52:25+00:00",
-          "link": "https://arxiv.org/pdf/2604.06370v1",
-          "tags": [
-            "keyword:agent"
-          ],
-          "llm_score": 8.0,
-          "llm_evidence_en": "serving system for multi-agent workflows and specialized agents",
-          "llm_evidence_cn": "多智能体工作流和专业智能体的服务系统",
-          "llm_evidence": "多智能体工作流和专业智能体的服务系统",
-          "canonical_evidence": "多智能体工作流和专业智能体的服务系统",
-          "llm_tldr_en": "ForkKV optimizes multi-LoRA agent serving using a disaggregated KV cache to improve throughput.",
-          "llm_tldr_cn": "ForkKV通过解耦KV缓存优化多LoRA智能体服务，提升了复杂工作流的吞吐量。",
-          "llm_tldr": "ForkKV通过解耦KV缓存优化多LoRA智能体服务，提升了复杂工作流的吞吐量。",
-          "llm_tags": [
-            "query:agent"
-          ],
-          "matched_query_tag": "query:agent",
-          "matched_query_text": "查找关于智能体系统和相关算法的最新学术论文",
-          "matched_requirement_id": "req-5",
-          "selection_source": "carryover_cache",
-          "paper_id": "2604.06370v1",
-          "carry_days": 1
-        }
-      ]
+      "items": []
     }
   }
 }

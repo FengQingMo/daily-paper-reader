@@ -1,0 +1,726 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-14T20:43:38.547143+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 14,
+    "deep_cap": 6,
+    "deep_selected": 7,
+    "quick_candidates": 16,
+    "quick_skim_target": 11,
+    "quick_selected": 11
+  },
+  "deep_dive": [
+    {
+      "id": "2604.09744v1",
+      "source": "arxiv",
+      "title": "MPAC: A Multi-Principal Agent Coordination Protocol for Interoperable Multi-Agent Collaboration",
+      "abstract": "The AI agent ecosystem has converged on two protocols: the Model Context Protocol (MCP) for tool invocation and Agent-to-Agent (A2A) for single-principal task delegation. Both assume a single controlling principal, meaning one person or organization that owns every agent. When independent principals' agents must coordinate over shared state, such as engineers' coding agents editing the same repository, family members planning a shared trip, or agents from different organizations negotiating a joint decision, neither protocol applies, and coordination collapses to ad-hoc chat, manual merging, or silent overwrites. We present MPAC (Multi-Principal Agent Coordination Protocol), an application-layer protocol that fills this gap with explicit coordination semantics across five layers: Session, Intent, Operation, Conflict, and Governance. MPAC makes intent declaration a precondition for action, represents conflicts as first-class structured objects, and supports human-in-the-loop arbitration through a pluggable governance layer. The specification defines 21 message types, three state machines with normative transition tables, Lamport-clock causal watermarking, two execution models, three security profiles, and optimistic concurrency control on shared state. We release two interoperable reference implementations in Python and TypeScript with 223 tests, a JSON Schema suite, and seven live multi-agent demos. A controlled three-agent code review benchmark shows a 95 percent reduction in coordination overhead and a 4.8 times wall-clock speedup versus a serialized human-mediated baseline, with per-agent decision time preserved. The speedup comes from eliminating coordination waits, not compressing model calls. Specification, implementations, and demos are open source.",
+      "authors": [
+        "Kaiyang Qian",
+        "Xinmin Fang",
+        "Zhengxiong Li"
+      ],
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "published": "2026-04-10T01:12:05+00:00",
+      "link": "https://arxiv.org/pdf/2604.09744v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "coordination protocol for multi-principal agent collaboration",
+      "llm_evidence_cn": "多主体智能体协作的协调协议",
+      "llm_evidence": "多主体智能体协作的协调协议",
+      "canonical_evidence": "多主体智能体协作的协调协议",
+      "llm_tldr_en": "Proposes a protocol for agents owned by different principals to coordinate over shared states.",
+      "llm_tldr_cn": "提出了一种协议，使不同主体拥有的智能体能够在共享状态下进行协调。",
+      "llm_tldr": "提出了一种协议，使不同主体拥有的智能体能够在共享状态下进行协调。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.06788v2",
+      "source": "arxiv",
+      "title": "From Perception to Autonomous Computational Modeling: A Multi-Agent Approach",
+      "abstract": "We present a solver-agnostic framework in which coordinated large language model (LLM) agents autonomously execute the complete computational mechanics workflow, from perceptual data of an engineering component through geometry extraction, material inference, discretisation, solver execution, uncertainty quantification, and code-compliant assessment, to an engineering report with actionable recommendations. Agents are formalised as conditioned operators on a shared context space with quality gates that introduce conditional iteration between pipeline layers. We introduce a mathematical framework for extracting engineering information from perceptual data under uncertainty using interval bounds, probability densities, and fuzzy membership functions, and introduce task-dependent conservatism to resolve the ambiguity of what `conservative' means when different limit states are governed by opposing parameter trends. The framework is demonstrated through a finite element analysis pipeline applied to a photograph of a steel L-bracket, producing a 171,504-node tetrahedral mesh, seven analyses across three boundary condition hypotheses, and a code-compliant assessment revealing structural failure with a quantified redesign. All results are presented as generated in the first autonomous iteration without manual correction, reinforcing that a professional engineer must review and sign off on any such analysis.",
+      "authors": [
+        "Daniel N. Wilke"
+      ],
+      "primary_category": "cs.CE",
+      "categories": [
+        "cs.CE",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "published": "2026-04-08T07:56:34+00:00",
+      "link": "https://arxiv.org/pdf/2604.06788v2",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "coordinated LLM agents autonomously execute computational mechanics workflow",
+      "llm_evidence_cn": "协调的大语言模型智能体自主执行计算力学工作流",
+      "llm_evidence": "协调的大语言模型智能体自主执行计算力学工作流",
+      "canonical_evidence": "协调的大语言模型智能体自主执行计算力学工作流",
+      "llm_tldr_en": "Proposes a multi-agent framework for autonomous engineering modeling and decision-making from perceptual data.",
+      "llm_tldr_cn": "提出一个多智能体框架，用于从感知数据中自主进行工程建模和决策。",
+      "llm_tldr": "提出一个多智能体框架，用于从感知数据中自主进行工程建模和决策。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "研究多智能体系统的交互与学习机制",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.10505v1",
+      "source": "arxiv",
+      "title": "Cooperation in Human and Machine Agents: Promise Theory Considerations",
+      "abstract": "Agent based systems are more common than we may think. A Promise Theory perspective on cooperation, in systems of human-machine agents, offers a unified perspective on organization and functional design with semi-automated efforts, in terms of the abstract properties of autonomous agents, This applies to human efforts, hardware systems, software, and artificial intelligence, with and without management. One may ask how does a reasoning system of components keep to an intended purpose? As the agent paradigm is now being revived, in connection with artificial intelligence agents, I revisit established principles of agent cooperation, as applied to humans, machines, and their mutual interactions. Promise Theory represents the fundamentals of signalling, comprehension, trust, risk, and feedback between agents, and offers some lessons about success and failure.",
+      "authors": [
+        "M. Burgess"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-04-12T07:48:31+00:00",
+      "link": "https://arxiv.org/pdf/2604.10505v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Promise Theory perspective on agent cooperation and signaling",
+      "llm_evidence_cn": "关于智能体协作和信令的承诺理论视角",
+      "llm_evidence": "关于智能体协作和信令的承诺理论视角",
+      "canonical_evidence": "关于智能体协作和信令的承诺理论视角",
+      "llm_tldr_en": "Revisits principles of agent cooperation and signaling using Promise Theory for human-machine systems.",
+      "llm_tldr_cn": "利用承诺理论重新审视人机系统中智能体协作和信令的原则。",
+      "llm_tldr": "利用承诺理论重新审视人机系统中智能体协作和信令的原则。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.11161v1",
+      "source": "arxiv",
+      "title": "A Simulation-Based Method for Testing Collaborative Learning Scaffolds Using LLM-Based Multi-Agent Systems",
+      "abstract": "Background: Traditional research on collaborative learning scaffolding is often time-consuming and resource-heavy, which hinders the rapid iteration and optimization of instructional strategies. LLM-based multi-agent systems have recently emerged as a powerful tool to simulate complex social interactions and provide a novel paradigm for educational research. Objectives: This study proposes an LLM-based multi-agent simulation approach to investigate collaborative learning processes and the effectiveness of instructional scaffolds prior to actual classroom deployment. The research specifically examines the feasibility of simulating group discussions and the alignment of these simulations with established learning science theories. Methods: The simulation system was implemented using the MetaGPT framework and GPT-4o, comprising one teacher agent and five distinct student roles (Leader, Supporter, Expounder, Rebutter, and Summarizer). Two scaffolding strategies, \"Deep Think before Speak\" and \"Direct Speak\", were compared across ten classical Chinese poetry appreciation tasks. Evaluation was conducted through discourse analysis of quality and behavior. Results and Conclusions: The introduction of the \"Deep Think before Speak\" scaffold significantly improved the agents' discourse diversity and interaction depth while notably reducing content repetitiveness. Behavioral analysis showed that the scaffold encouraged more complex interaction patterns, such as reflecting, rebutting, and explaining. These findings align with the ICAP framework, as the scaffold prompted agents to move from simple \"Active\" participation to \"Constructive\" and \"Interactive\" knowledge co-construction. This study demonstrates the feasibility and ecological validity of using LLM-based multi-agent systems to simulate authentic collaborative learning dynamics.",
+      "authors": [
+        "Han Wua",
+        "Lishan Zhang",
+        "Chunming Lu"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC",
+        "cs.MA"
+      ],
+      "published": "2026-04-13T08:25:17+00:00",
+      "link": "https://arxiv.org/pdf/2604.11161v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "LLM-based multi-agent simulation to investigate collaborative learning processes",
+      "llm_evidence_cn": "基于大语言模型的多智能体模拟，研究协作学习过程",
+      "llm_evidence": "基于大语言模型的多智能体模拟，研究协作学习过程",
+      "canonical_evidence": "基于大语言模型的多智能体模拟，研究协作学习过程",
+      "llm_tldr_en": "Proposes an LLM-based multi-agent simulation to study collaborative learning and instructional scaffolds.",
+      "llm_tldr_cn": "提出一种基于大语言模型的多智能体模拟方法，用于研究协作学习过程和教学支架的有效性。",
+      "llm_tldr": "提出一种基于大语言模型的多智能体模拟方法，用于研究协作学习过程和教学支架的有效性。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.11477v1",
+      "source": "arxiv",
+      "title": "OOM-RL: Out-of-Money Reinforcement Learning Market-Driven Alignment for LLM-Based Multi-Agent Systems",
+      "abstract": "The alignment of Multi-Agent Systems (MAS) for autonomous software engineering is constrained by evaluator epistemic uncertainty. Current paradigms, such as Reinforcement Learning from Human Feedback (RLHF) and AI Feedback (RLAIF), frequently induce model sycophancy, while execution-based environments suffer from adversarial \"Test Evasion\" by unconstrained agents. In this paper, we introduce an objective alignment paradigm: \\textbf{Out-of-Money Reinforcement Learning (OOM-RL)}. By deploying agents into the non-stationary, high-friction reality of live financial markets, we utilize critical capital depletion as an un-hackable negative gradient. Our longitudinal 20-month empirical study (July 2024 -- February 2026) chronicles the system's evolution from a high-turnover, sycophantic baseline to a robust, liquidity-aware architecture. We demonstrate that the undeniable ontological consequences of financial loss forced the MAS to abandon overfitted hallucinations in favor of the \\textbf{Strict Test-Driven Agentic Workflow (STDAW)}, which enforces a Byzantine-inspired uni-directional state lock (RO-Lock) anchored to a deterministically verified $\\geq 95\\%$ code coverage constraint matrix. Our results show that while early iterations suffered severe execution decay, the final OOM-RL-aligned system achieved a stable equilibrium with an annualized Sharpe ratio of 2.06 in its mature phase. We conclude that substituting subjective human preference with rigorous economic penalties provides a robust methodology for aligning autonomous agents in high-stakes, real-world environments, laying the groundwork for generalized paradigms where computational billing acts as an objective physical constraint",
+      "authors": [
+        "Kun Liu",
+        "Liqun Chen"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.SE",
+        "q-fin.TR"
+      ],
+      "published": "2026-04-13T13:45:42+00:00",
+      "link": "https://arxiv.org/pdf/2604.11477v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Alignment of Multi-Agent Systems using market-driven reinforcement learning",
+      "llm_evidence_cn": "使用市场驱动的强化学习进行多智能体系统对齐",
+      "llm_evidence": "使用市场驱动的强化学习进行多智能体系统对齐",
+      "canonical_evidence": "使用市场驱动的强化学习进行多智能体系统对齐",
+      "llm_tldr_en": "Proposes OOM-RL to align multi-agent systems by using financial market capital depletion as a feedback signal.",
+      "llm_tldr_cn": "提出OOM-RL，利用金融市场的资本损耗作为反馈信号来对齐多智能体系统。",
+      "llm_tldr": "提出OOM-RL，利用金融市场的资本损耗作为反馈信号来对齐多智能体系统。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.11523v1",
+      "source": "arxiv",
+      "title": "PAC-BENCH: Evaluating Multi-Agent Collaboration under Privacy Constraints",
+      "abstract": "We are entering an era in which individuals and organizations increasingly deploy dedicated AI agents that interact and collaborate with other agents. However, the dynamics of multi-agent collaboration under privacy constraints remain poorly understood. In this work, we present $PAC\\text{-}Bench$, a benchmark for systematic evaluation of multi-agent collaboration under privacy constraints. Experiments on $PAC\\text{-}Bench$ show that privacy constraints substantially degrade collaboration performance and make outcomes depend more on the initiating agent than the partner. Further analysis reveals that this degradation is driven by recurring coordination breakdowns, including early-stage privacy violations, overly conservative abstraction, and privacy-induced hallucinations. Together, our findings identify privacy-aware multi-agent collaboration as a distinct and unresolved challenge that requires new coordination mechanisms beyond existing agent capabilities.",
+      "authors": [
+        "Minjun Park",
+        "Donghyun Kim",
+        "Hyeonjong Ju",
+        "Seungwon Lim",
+        "Dongwook Choi",
+        "Taeyoon Kwon",
+        "Minju Kim",
+        "Jinyoung Yeo"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-04-13T14:26:38+00:00",
+      "link": "https://arxiv.org/pdf/2604.11523v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "benchmark for multi-agent collaboration under privacy constraints",
+      "llm_evidence_cn": "隐私限制下多智能体协作的基准测试",
+      "llm_evidence": "隐私限制下多智能体协作的基准测试",
+      "canonical_evidence": "隐私限制下多智能体协作的基准测试",
+      "llm_tldr_en": "Evaluates how privacy constraints lead to coordination breakdowns in multi-agent collaborative systems.",
+      "llm_tldr_cn": "评估隐私限制如何导致多智能体协作系统中的协调崩溃。",
+      "llm_tldr": "评估隐私限制如何导致多智能体协作系统中的协调崩溃。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2604.11540v1",
+      "source": "arxiv",
+      "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+      "abstract": "Current large language models require hundreds of billions of parameters yet struggle with domain-specific reasoning and tool coordination in materials science. Here, we present MatBrain, a lightweight collaborative agent system with two synergistic models specialization for crystal materials research. MatBrain employs a dual-model architecture: Mat-R1 (30B parameters) as the analytical model providing expert-level domain reasoning, and Mat-T1 (14B parameters) as the executive model orchestrating tool-based actions. Entropy analysis confirms that this architecture resolves the conflict between tool planning and analytical reasoning by decoupling their distinct entropy dynamics. Enabled by this dual-model architecture and structural efficiency, MatBrain significantly outperforms larger general-purpose models while reducing the hardware deployment barrier by over 95%. MatBrain exhibits versatility across structure generation, property prediction, and synthesis planning tasks. Applied to catalyst design, MatBrain generated 30,000 candidate structures and identified 38 promising materials within 48 hours, achieving approximately 100-fold acceleration over traditional approaches. These results demonstrate the potential of lightweight collaborative intelligence for advancing materials research capabilities.",
+      "authors": [
+        "Tongyu Shi",
+        "Yutang Li",
+        "Zhanyuan Li",
+        "Qian Liu",
+        "Jie Zhou",
+        "Wenhe Xu",
+        "Yang Li",
+        "Dawei Dai",
+        "Rui He",
+        "Wenhua Zhou",
+        "Jiahong Wang",
+        "Xue-Feng Yu"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-13T14:33:19+00:00",
+      "link": "https://arxiv.org/pdf/2604.11540v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "collaborative agent system with dual-model architecture for reasoning",
+      "llm_evidence_cn": "具有双模型推理结构的协作智能体系统",
+      "llm_evidence": "具有双模型推理结构的协作智能体系统",
+      "canonical_evidence": "具有双模型推理结构的协作智能体系统",
+      "llm_tldr_en": "Presents a dual-model agent architecture that decouples analytical reasoning from tool coordination.",
+      "llm_tldr_cn": "提出了一种将分析推理与工具协调解耦的双模型智能体架构。",
+      "llm_tldr": "提出了一种将分析推理与工具协调解耦的双模型智能体架构。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2604.07857v1",
+      "source": "arxiv",
+      "title": "Networking-Aware Energy Efficiency in Agentic AI Inference: A Survey",
+      "abstract": "The rapid emergence of Large Language Models (LLMs) has catalyzed Agentic artificial intelligence (AI), autonomous systems integrating perception, reasoning, and action into closed-loop pipelines for continuous adaptation. While unlocking transformative applications in mobile edge computing, autonomous systems, and next-generation wireless networks, this paradigm creates fundamental energy challenges through iterative inference and persistent data exchange. Unlike traditional AI where bottlenecks are computational Floating Point Operations (FLOPs), Agentic AI faces compounding computational and communication energy costs. In this survey, we propose an energy accounting framework identifying computational and communication costs across the Perception-Reasoning-Action cycle. We establish a unified taxonomy spanning model simplification, computation control, input and attention optimization, and hardware-aware inference. We explore cross-layer co-design strategies jointly optimizing model parameters, wireless transmissions, and edge resources. Finally, we identify open challenges of federated green learning, carbon-aware agency, 6th generation mobile communication (6G)-native Agentic AI, and self-sustaining systems, providing a roadmap for scalable autonomous intelligence.",
+      "authors": [
+        "Xiaojing Chen",
+        "Haiqi Yu",
+        "Wei Ni",
+        "Dusit Niyato",
+        "Ruichen Zhang",
+        "Xin Wang",
+        "Shunqing Zhang",
+        "Shugong Xu"
+      ],
+      "primary_category": "eess.SY",
+      "categories": [
+        "eess.SY",
+        "cs.AI"
+      ],
+      "published": "2026-04-09T06:13:59+00:00",
+      "link": "https://arxiv.org/pdf/2604.07857v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "survey on energy efficiency in agentic AI inference and communication",
+      "llm_evidence_cn": "关于智能体AI推理与通信能效的综述",
+      "llm_evidence": "关于智能体AI推理与通信能效的综述",
+      "canonical_evidence": "关于智能体AI推理与通信能效的综述",
+      "llm_tldr_en": "Surveys energy challenges in agentic AI, focusing on the costs of iterative reasoning and data exchange.",
+      "llm_tldr_cn": "综述了智能体AI中的能源挑战，重点关注迭代推理和数据交换的成本。",
+      "llm_tldr": "综述了智能体AI中的能源挑战，重点关注迭代推理和数据交换的成本。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体系统和相关算法的最新学术论文",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.04344v3",
+      "source": "arxiv",
+      "title": "Domain-Contextualized Inference: A Computable Graph Architecture for Explicit-Domain Reasoning",
+      "abstract": "We establish a computation-substrate-agnostic inference architecture in which domain is an explicit first-class computational parameter. This produces domain-scoped pruning that reduces per-query search space from O(N) to O(N/K), substrate-independent execution over symbolic, neural, vector, and hybrid substrates, and transparent inference chains where every step carries its evaluative context. The contribution is architectural, not logical. We formalize the computational theory across five dimensions: a five-layer architecture; three domain computation modes including chain indexing, path traversal as Kleisli composition, and vector-guided computation as a substrate transition; a substrate-agnostic interface with three operations Query, Extend, Bridge; reliability conditions C1 to C4 with three failure mode classes; and validation through a PHQ-9 clinical reasoning case study. The computational theory including operational semantics, complexity bounds, monad structure, substrate transitions, and boundary conditions is the contribution of this paper.",
+      "authors": [
+        "Chao Li",
+        "Yuru Wang",
+        "Chunyi Zhao"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-06T01:35:42+00:00",
+      "link": "https://arxiv.org/pdf/2604.04344v3",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "computable graph architecture for explicit-domain reasoning",
+      "llm_evidence_cn": "用于显式领域推理的可计算图架构",
+      "llm_evidence": "用于显式领域推理的可计算图架构",
+      "canonical_evidence": "用于显式领域推理的可计算图架构",
+      "llm_tldr_en": "Introduces a domain-contextualized inference architecture to improve reasoning efficiency and transparency.",
+      "llm_tldr_cn": "引入领域上下文推理架构，以提高推理效率和透明度。",
+      "llm_tldr": "引入领域上下文推理架构，以提高推理效率和透明度。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体结构与推理能力的研究",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.08621v1",
+      "source": "arxiv",
+      "title": "Sustained Impact of Agentic Personalisation in Marketing: A Longitudinal Case Study",
+      "abstract": "In consumer applications, Customer Relationship Management (CRM) has traditionally relied on the manual optimisation of static, rule-based messaging strategies. While adaptive and autonomous learning systems offer the promise of scalable personalisation, it remains unclear to what extent ``human-in-the-loop'' oversight is required to sustain performance uplift over time. This paper presents a longitudinal case study analysing a real-world consumer application that leverages agentic infrastructure to personalise marketing messaging for a large-scale user base over an 11-month period.   We compare two distinct periods: an active phase where marketers directly curated content, audiences, and strategies -- followed immediately by a passive phase where agents operated autonomously from a fixed library of components. Our results demonstrate that whilst active human management generates the highest relative lift in engagement metrics, the autonomous agents successfully sustained a positive lift during the passive period. These findings suggest a symbiotic model where human intervention drives strategic initialisation and discovery, yet autonomous agents can ensure the scalable retention and preservation of performance gains.",
+      "authors": [
+        "Olivier Jeunen",
+        "Eleanor Hanna",
+        "Schaun Wheeler"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "published": "2026-04-09T10:25:20+00:00",
+      "link": "https://arxiv.org/pdf/2604.08621v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "analyzes autonomous learning systems and agentic infrastructure in marketing",
+      "llm_evidence_cn": "分析营销中的自主学习系统和智能体基础设施",
+      "llm_evidence": "分析营销中的自主学习系统和智能体基础设施",
+      "canonical_evidence": "分析营销中的自主学习系统和智能体基础设施",
+      "llm_tldr_en": "A longitudinal study on the impact and oversight of agentic personalization in real-world marketing.",
+      "llm_tldr_cn": "关于真实营销场景中智能体个性化影响及监管的长期案例研究。",
+      "llm_tldr": "关于真实营销场景中智能体个性化影响及监管的长期案例研究。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2604.10159v1",
+      "source": "arxiv",
+      "title": "ODUTQA-MDC: A Task for Open-Domain Underspecified Tabular QA with Multi-turn Dialogue-based Clarification",
+      "abstract": "The advancement of large language models (LLMs) has enhanced tabular question answering (Tabular QA), yet they struggle with open-domain queries exhibiting underspecified or uncertain expressions. To address this, we introduce the ODUTQA-MDC task and the first comprehensive benchmark to tackle it. This benchmark includes: (1) a large-scale ODUTQA dataset with 209 tables and 25,105 QA pairs; (2) a fine-grained labeling scheme for detailed evaluation; and (3) a dynamic clarification interface that simulates user feedback for interactive assessment. We also propose MAIC-TQA, a multi-agent framework that excels at detecting ambiguities, clarifying them through dialogue, and refining answers. Experiments validate our benchmark and framework, establishing them as a key resource for advancing conversational, underspecification-aware Tabular QA research.",
+      "authors": [
+        "Zhensheng Wang",
+        "ZhanTeng Lin",
+        "Wenmian Yang",
+        "Kun Zhou",
+        "Yiquan Zhang",
+        "Weijia Jia"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.DB",
+        "cs.IR",
+        "cs.MA"
+      ],
+      "published": "2026-04-11T11:11:54+00:00",
+      "link": "https://arxiv.org/pdf/2604.10159v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multi-agent framework for dialogue-based clarification and collaboration",
+      "llm_evidence_cn": "用于对话澄清和协作的多智能体框架",
+      "llm_evidence": "用于对话澄清和协作的多智能体框架",
+      "canonical_evidence": "用于对话澄清和协作的多智能体框架",
+      "llm_tldr_en": "Introduces a multi-agent framework to resolve ambiguities in tabular QA through interactive dialogue.",
+      "llm_tldr_cn": "引入了一个多智能体框架，通过交互式对话解决表格问答中的歧义。",
+      "llm_tldr": "引入了一个多智能体框架，通过交互式对话解决表格问答中的歧义。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.07784v1",
+      "source": "arxiv",
+      "title": "Automotive Engineering-Centric Agentic AI Workflow Framework",
+      "abstract": "Engineering workflows such as design optimization, simulation-based diagnosis, control tuning, and model-based systems engineering (MBSE) are iterative, constraint-driven, and shaped by prior decisions. Yet many AI methods still treat these activities as isolated tasks rather than as parts of a broader workflow. This paper presents Agentic Engineering Intelligence (AEI), an industrial vision framework that models engineering workflows as constrained, history-aware sequential decision processes in which AI agents support engineer-supervised interventions over engineering toolchains. AEI links an offline phase for engineering data processing and workflow-memory construction with an online phase for workflow-state estimation, retrieval, and decision support. A control-theoretic interpretation is also possible, in which engineering objectives act as reference signals, agents act as workflow controllers, and toolchains provide feedback for intervention selection. Representative automotive use cases in suspension design, reinforcement learning tuning, multimodal engineering knowledge reuse, aerodynamic exploration, and MBSE show how diverse workflows can be expressed within a common formulation. Overall, the paper positions engineering AI as a problem of process-level intelligence and outlines a practical roadmap for future empirical validation in industrial settings.",
+      "authors": [
+        "Tong Duy Son",
+        "Zhihao Liu",
+        "Piero Brigida",
+        "Yerlan Akhmetov",
+        "Gurudevan Devarajan",
+        "Kai Liu",
+        "Ajinkya Bhave"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "published": "2026-04-09T04:22:18+00:00",
+      "link": "https://arxiv.org/pdf/2604.07784v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "agentic AI workflow framework for sequential decision processes",
+      "llm_evidence_cn": "用于顺序决策过程的智能体 AI 工作流框架",
+      "llm_evidence": "用于顺序决策过程的智能体 AI 工作流框架",
+      "canonical_evidence": "用于顺序决策过程的智能体 AI 工作流框架",
+      "llm_tldr_en": "Models engineering workflows as sequential decision processes supported by AI agents.",
+      "llm_tldr_cn": "将工程工作流建模为由 AI 智能体支持的顺序决策过程。",
+      "llm_tldr": "将工程工作流建模为由 AI 智能体支持的顺序决策过程。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "获取智能体建模、通信和决策的核心研究成果",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.11045v1",
+      "source": "arxiv",
+      "title": "Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure",
+      "abstract": "AI coding agents have become central to developer workflows, yet every existing solution locks its reasoning capabilities within a specific delivery form, such as a CLI, IDE plugin, or web application. This limitation creates systemic barriers when enterprises attempt to reuse these capabilities across heterogeneous engineering environments. To address this challenge, we present Sema Code, an open AI coding framework built on the principle of being embeddable, pluggable, and framework-first. Sema Code completely decouples the core agent engine from all client layers, publishing it as a standalone npm library that any runtime can drive programmatically. Built around this architecture, we designed eight key mechanisms: multi-tenant engine isolation, FIFO input queuing with safe session reconstruction, adaptive context compression, multi-agent collaborative scheduling, intelligent Todo-based process management, four-layer asynchronous permission control, three-tier ecosystem integration spanning MCP, Skills, and Plugins, and a background task framework with separated execution and observation privileges. These mechanisms collectively address the engineering challenges of transforming a complex agent engine into a shared, programmable core. Demonstrating its architectural versatility, the same Sema Core engine simultaneously powers a VSCode extension and a multi-channel messaging gateway, which we name SemaClaw, to unify agent interactions across platforms such as Telegram and Feishu. These represent two fundamentally different product forms sharing an identical reasoning kernel, differing only at the client layer.",
+      "authors": [
+        "Huacan Wang",
+        "Jie Zhou",
+        "Ningyan Zhu",
+        "Shuo Zhang",
+        "Feiyu Chen",
+        "Jiarou Wu",
+        "Ge Chen",
+        "Chen Liu",
+        "Wangyi Chen",
+        "Xiaofeng Mou",
+        "Yi Xu"
+      ],
+      "primary_category": "cs.SE",
+      "categories": [
+        "cs.SE"
+      ],
+      "published": "2026-04-13T06:20:11+00:00",
+      "link": "https://arxiv.org/pdf/2604.11045v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "decoupling AI coding agents into programmable infrastructure",
+      "llm_evidence_cn": "将 AI 编程智能体解耦为可编程基础设施",
+      "llm_evidence": "将 AI 编程智能体解耦为可编程基础设施",
+      "canonical_evidence": "将 AI 编程智能体解耦为可编程基础设施",
+      "llm_tldr_en": "Presents Sema Code, a framework that decouples agent reasoning from specific delivery interfaces.",
+      "llm_tldr_cn": "提出 Sema Code 框架，将智能体推理能力与特定交付界面解耦。",
+      "llm_tldr": "提出 Sema Code 框架，将智能体推理能力与特定交付界面解耦。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "查找关于智能体系统和相关算法的最新学术论文",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2604.10386v1",
+      "source": "arxiv",
+      "title": "TrajOnco: a multi-agent framework for temporal reasoning over longitudinal EHR for multi-cancer early detection",
+      "abstract": "Accurate estimation of cancer risk from longitudinal electronic health records (EHRs) could support earlier detection and improved care, but modeling such complex patient trajectories remains challenging. We present TrajOnco, a training-free, multi-agent large language model (LLM) framework designed for scalable multi-cancer early detection. Using a chain-of-agents architecture with long-term memory, TrajOnco performs temporal reasoning over sequential clinical events to generate patient-level summaries, evidence-linked rationales, and predicted risk scores. We evaluated TrajOnco on de-identified Truveta EHR data across 15 cancer types using matched case-control cohorts, predicting risk of cancer diagnosis at 1 year. In zero-shot evaluation, TrajOnco achieved AUROCs of 0.64-0.80, performing comparably to supervised machine learning in a lung cancer benchmark while demonstrating better temporal reasoning than single-agent LLMs. The multi-agent design also enabled effective temporal reasoning with smaller-capacity models such as GPT-4.1-mini. The fidelity of TrajOnco's output was validated through human evaluation. Furthermore, TrajOnco's interpretable reasoning outputs can be aggregated to reveal population-level risk patterns that align with established clinical knowledge. These findings highlight the potential of multi-agent LLMs to execute interpretable temporal reasoning over longitudinal EHRs, advancing both scalable multi-cancer early detection and clinical insight generation.",
+      "authors": [
+        "Sihang Zeng",
+        "Young Won Kim",
+        "Wilson Lau",
+        "Ehsan Alipour",
+        "Ruth Etzioni",
+        "Meliha Yetisgen",
+        "Anand Oka"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "published": "2026-04-12T00:16:38+00:00",
+      "link": "https://arxiv.org/pdf/2604.10386v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Multi-agent framework for temporal reasoning and collaboration",
+      "llm_evidence_cn": "用于时间推理和协作的多智能体框架",
+      "llm_evidence": "用于时间推理和协作的多智能体框架",
+      "canonical_evidence": "用于时间推理和协作的多智能体框架",
+      "llm_tldr_en": "Introduces TrajOnco, a multi-agent LLM framework for temporal reasoning over longitudinal health records.",
+      "llm_tldr_cn": "引入TrajOnco，一个用于纵向健康记录时间推理的多智能体大模型框架。",
+      "llm_tldr": "引入TrajOnco，一个用于纵向健康记录时间推理的多智能体大模型框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探索智能体在多智能体环境下的学习与协作研究",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.09121v2",
+      "source": "arxiv",
+      "title": "Interactive ASR: Towards Human-Like Interaction and Semantic Coherence Evaluation for Agentic Speech Recognition",
+      "abstract": "Recent years have witnessed remarkable progress in automatic speech recognition (ASR), driven by advances in model architectures and large-scale training data. However, two important aspects remain underexplored. First, Word Error Rate (WER), the dominant evaluation metric for decades, treats all words equally and often fails to reflect the semantic correctness of an utterance at the sentence level. Second, interactive correction-an essential component of human communication-has rarely been systematically studied in ASR research. In this paper, we integrate these two perspectives under an agentic framework for interactive ASR. We propose leveraging LLM-as-a-Judge as a semantic-aware evaluation metric to assess recognition quality beyond token-level accuracy. Furthermore, we design an LLM-driven agent framework to simulate human-like multi-turn interaction, enabling iterative refinement of recognition outputs through semantic feedback. Extensive experiments are conducted on standard benchmarks, including GigaSpeech (English), WenetSpeech (Chinese), the ASRU 2019 code-switching test set. Both objective and subjective evaluations demonstrate the effectiveness of the proposed framework in improving semantic fidelity and interactive correction capability. We will release the code to facilitate future research in interactive and agentic ASR.",
+      "authors": [
+        "Peng Wang",
+        "Yanqiao Zhu",
+        "Zixuan Jiang",
+        "Qinyuan Chen",
+        "Xingjian Zhao",
+        "Xipeng Qiu",
+        "Wupeng Wang",
+        "Zhifu Gao",
+        "Xiangang Li",
+        "Kai Yu",
+        "Xie Chen"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SD"
+      ],
+      "published": "2026-04-10T09:02:42+00:00",
+      "link": "https://arxiv.org/pdf/2604.09121v2",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "agentic framework for interactive speech recognition and semantic evaluation",
+      "llm_evidence_cn": "用于交互式语音识别和语义评估的智能体框架",
+      "llm_evidence": "用于交互式语音识别和语义评估的智能体框架",
+      "canonical_evidence": "用于交互式语音识别和语义评估的智能体框架",
+      "llm_tldr_en": "Develops an agentic framework for interactive ASR focusing on human-like correction and semantic coherence.",
+      "llm_tldr_cn": "开发了一个用于交互式语音识别的智能体框架，侧重于类人纠错和语义连贯性。",
+      "llm_tldr": "开发了一个用于交互式语音识别的智能体框架，侧重于类人纠错和语义连贯性。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "获取智能体建模、通信和决策的核心研究成果",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.10470v1",
+      "source": "arxiv",
+      "title": "From Query to Counsel: Structured Reasoning with a Multi-Agent Framework and Dataset for Legal Consultation",
+      "abstract": "Legal consultation question answering (Legal CQA) presents unique challenges compared to traditional legal QA tasks, including the scarcity of high-quality training data, complex task composition, and strong contextual dependencies. To address these, we construct JurisCQAD, a large-scale dataset of over 43,000 real-world Chinese legal queries annotated with expert-validated positive and negative responses, and design a structured task decomposition that converts each query into a legal element graph integrating entities, events, intents, and legal issues. We further propose JurisMA, a modular multi-agent framework supporting dynamic routing, statutory grounding, and stylistic optimization. Combined with the element graph, the framework enables strong context-aware reasoning, effectively capturing dependencies across legal facts, norms, and procedural logic. Trained on JurisCQAD and evaluated on a refined LawBench, our system significantly outperforms both general-purpose and legal-domain LLMs across multiple lexical and semantic metrics, demonstrating the benefits of interpretable decomposition and modular collaboration in Legal CQA.",
+      "authors": [
+        "Mingfei Lu",
+        "Yi Zhang",
+        "Mengjia Wu",
+        "Yue Feng"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "published": "2026-04-12T05:49:37+00:00",
+      "link": "https://arxiv.org/pdf/2604.10470v1",
+      "tags": [
+        "keyword:agent",
+        "query:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multi-agent framework supporting dynamic routing and task decomposition",
+      "llm_evidence_cn": "支持动态路由和任务分解的多智能体框架",
+      "llm_evidence": "支持动态路由和任务分解的多智能体框架",
+      "canonical_evidence": "支持动态路由和任务分解的多智能体框架",
+      "llm_tldr_en": "Proposes a multi-agent framework for legal consultation using structured reasoning and task decomposition.",
+      "llm_tldr_cn": "提出一种用于法律咨询的多智能体框架，通过结构化推理和任务分解实现协作。",
+      "llm_tldr": "提出一种用于法律咨询的多智能体框架，通过结构化推理和任务分解实现协作。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "探讨协作智能体之间的通讯与协调机制",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2604.09889v1",
+      "source": "arxiv",
+      "title": "In-situ process monitoring for defect detection in wire-arc additive manufacturing: an agentic AI approach",
+      "abstract": "AI agents are being increasingly deployed across a wide range of real-world applications. In this paper, we propose an agentic AI framework for in-situ process monitoring for defect detection in wire-arc additive manufacturing (WAAM). The autonomous agent leverages a WAAM process monitoring dataset and a trained classification tool to build AI agents and uses a large language model (LLM) for in-situ process monitoring decision-making for defect detection. A processing agent is developed based on welder process signals, such as current and voltage, and a monitoring agent is developed based on acoustic data collected during the process. Both agents are tasked with identifying porosity defects from processing and monitoring signals, respectively. Ground truth X-ray computed tomography (XCT) data are used to develop classification tools for both the processing and monitoring agents. Furthermore, a multi-agent framework is demonstrated in which the processing and monitoring agents are orchestrated together for parallel decision-making on the given task of defect classification. Evaluation metrics are proposed to determine the efficacy of both individual agents, the combined single-agent, and the coordinated multi-agent system. The multi-agent configuration outperforms all individual-agent counterparts, achieving a decision accuracy of 91.6% and an F1 score of 0.821 on decided runs, across 15 independent runs, and a reasoning quality score of 3.74 out of 5. These in-situ process monitoring agents hold significant potential for autonomous real-time process monitoring and control toward building qualified parts for WAAM and other additive manufacturing processes.",
+      "authors": [
+        "Pallock Halder",
+        "Satyajit Mojumder"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-04-10T20:36:37+00:00",
+      "link": "https://arxiv.org/pdf/2604.09889v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "agentic AI framework for in-situ process monitoring and decision-making",
+      "llm_evidence_cn": "用于原位过程监控和决策的智能体AI框架",
+      "llm_evidence": "用于原位过程监控和决策的智能体AI框架",
+      "canonical_evidence": "用于原位过程监控和决策的智能体AI框架",
+      "llm_tldr_en": "Applies an agentic AI approach to manufacturing defect detection using LLM-based decision-making.",
+      "llm_tldr_cn": "将智能体AI应用于制造业缺陷检测，利用大模型进行原位监控决策。",
+      "llm_tldr": "将智能体AI应用于制造业缺陷检测，利用大模型进行原位监控决策。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "分析自主智能体的行为建模与控制方法",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2604.11337v1",
+      "source": "arxiv",
+      "title": "Governance by Design: A Parsonian Institutional Architecture for Internet-Wide Agent Societies",
+      "abstract": "The dominant paradigm of local multi-agent systems -- orchestrated, enterprise-bounded pipelines -- is being superseded by internet-wide agent societies in which autonomous agents discover each other through open registries, interact without central orchestrators, and generate emergent social behaviors. We argue that governing such societies requires institutional design, not merely risk enumeration or process compliance. Applying Talcott Parsons' AGIL framework -- four functional imperatives (Adaptation, Goal Attainment, Integration, Latency) every viable social system must satisfy -- we derive a prescriptive sixteen-cell institutional architecture for internet-wide agent governance. Diagnostically applied to the OpenClaw ecosystem (250,000+ GitHub stars, 2M+ monthly users, 770,000+ registered agents) via a recursive sub-function analysis (64 binary indicators across 16 cells), we find at most 19% sub-function coverage (sensitivity range 17-30%) -- potential rather than operative capacity, since zero inter-cell coordination prevents existing infrastructure from participating in inter-pillar interchange. A complementary interchange media assessment finds zero of twelve inter-pillar pathways functional: the ecosystem has technical infrastructure but no active governance, no coordination layer, and no normative grounding, with the Fiduciary and Political pillars most severely underserved. Extending the diagnostic to the broader agent-native protocol stack (MCP, A2A, ANP, x402, ERC-8004), independent development teams reproduce the same structural pattern -- confirming the governance gap is a feature of market-driven development, not ecosystem immaturity. Institutional design is most effective before social patterns calcify; we conclude with a prioritized roadmap for the missing governance infrastructure.",
+      "authors": [
+        "Anbang Ruan"
+      ],
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "published": "2026-04-13T11:37:46+00:00",
+      "link": "https://arxiv.org/pdf/2604.11337v1",
+      "tags": [
+        "keyword:agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "institutional architecture for internet-wide agent societies and emergent social behaviors",
+      "llm_evidence_cn": "互联网规模智能体社会的制度架构与涌现社会行为",
+      "llm_evidence": "互联网规模智能体社会的制度架构与涌现社会行为",
+      "canonical_evidence": "互联网规模智能体社会的制度架构与涌现社会行为",
+      "llm_tldr_en": "Develops a governance framework for large-scale agent societies based on Parsonian social theory.",
+      "llm_tldr_cn": "基于帕森斯社会理论，为大规模智能体社会开发了一套治理框架。",
+      "llm_tldr": "基于帕森斯社会理论，为大规模智能体社会开发了一套治理框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "研究多智能体系统的交互与学习机制",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    }
+  ]
+}

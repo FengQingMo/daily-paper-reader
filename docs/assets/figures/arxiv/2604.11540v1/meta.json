@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.11540v1/fig-001.webp",
+      "caption": "Figure 2 | Construction and training paradigm of the MatBrain dual-model system. (a) Automated data curation pipeline. Heterogeneous data from crystallographic databases and unstructured scientific literature are integrated to construct the Mat252K-SFT dataset. (b) Base model selection strategy. The dashed box highlights the selection of Qwen3-30B and Qwen3-14B as optimal foundations for the analytical and executive models, respectively. (c) Training workflow of Mat-R1. The analytical model is trained on the domain-specific Mat-252K-SFT dataset augmented with open-",
+      "page": 6,
+      "index": 1,
+      "width": 869,
+      "height": 887
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11540v1/fig-002.webp",
+      "caption": "Figure 5 | Practical application of MatBrain across the materials research lifecycle. (a) Autonomous structure generation for the rare-earth double perovskite Cs2ErAgBr6. The system generates a valid CIF structure after confirming the absence of existing database records. (b) Expert-level modeling of the complex mixed-halide perovskite CsPb(Cl0.2Br0.4I0.4)3. MatBrain successfully constructs the non-stoichiometric lattice using fractional occupancy and Vegard’s Law. (c) Thermodynamic stability analysis of Li2ZrCl6. The system autonomously constructs the Li-Zr-Cl ternary phase diagram, identifying the compound as a metastable phase (Ehull=0.028 eV/atom). (d) Electronic property prediction for Cs2ErAgBr6. The calculated bandgap of 1.37 eV indicates strong potential for visible-light optoelectronic applications. (e) Intelligent design of a synthesis protocol. MatBrain formulates a detailed room-temperature synthesis pathway for the mixed-halide perovskite, including precursor selection and reaction conditions. (f) Theoretical characterization fingerprints. Simulated XRD patterns for Cs2ErAgBr6 provide reference standards for experimental validation.",
+      "page": 15,
+      "index": 2,
+      "width": 869,
+      "height": 640
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11540v1/fig-003.webp",
+      "caption": "Figure 3 | Systematic evaluation and performance benchmarking of the MatBrain system. (a) Capability comparison of different models. Mat-R1 (orange star) exhibits balanced and robust performance, significantly outperforming general LLMs in domain-specific metrics. (b) Ablation study on tool-utilization strategies using DeepSeek-R1 as the base model. The comparison includes the base model, the model with standard ReAct strategy (*), and the model integrated with Mat-T1 (†). (c) Comprehensive accuracy comparison between MatBrain, Mat-R1 (30B), and state-ofthe-art general LLMs (GPT-5, DeepSeek-R1, Gemini-2.5-Pro), evaluated both in their default states and with Mat-T1 integration (†), across seven key materials science tasks. (d-f) Comparison of MatBrain-predicted energetic properties against ground truths from the MP database. The plots display results for (d) formation energy (Ef), (e) energy above hull (Ehull), and (f) Fermi energy (Efermi). The high coefficients of determination (R2) and low Mean Absolute Errors (MAE) demonstrate the precision of MatBrain in quantitative regression tasks through synergistic knowledge reasoning and tool execution.",
+      "page": 10,
+      "index": 3,
+      "width": 869,
+      "height": 664
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11540v1/fig-004.webp",
+      "caption": "Figure 6 | End-to-end autonomous discovery of bio-inspired nitrogen fixation catalysts. (a) Interactive design process from nitrogenase analysis to M-V-S catalyst proposal and 30,000 structure generation. (b) A seven-step screening funnel reduces 30,000 candidates to 38 novel materials through sequential filters. (c) XRD Rietveld refinement confirming the C2/m space group of CoV4S8. (d) Energy-dispersive X-ray spectroscopy mapping shows the uniform distribution of Co, V, and S elements. (e) Scanning transmission electron microscopy images reveal the pristine crystal lattice and atomic arrangement. (f) Chronoamperometry curves for CoV4S8 NS at various applied",
+      "page": 18,
+      "index": 4,
+      "width": 869,
+      "height": 842
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11540v1/fig-005.webp",
+      "caption": "Figure 4 | Entropic differentiation and statistical validation of dual-model cognitive modes. (a) Entropy trajectory of the analytic base model (Qwen3-30B-A3B) on a scientific task, showing a natural convergence trend (mean = 0.673). (b) Entropy trajectory of the executive base model (Qwen3-14B) utilizing Mat-MCP tools, displaying an elevated average entropy (mean = 0.878) with significant fluctuations. (c) Entropy evolution of Mat-R1 following SFT. The model exhibits a deterministic, lowentropy profile (mean = 0.483), indicating high confidence in crystallographic reasoning. (d) Entropy evolution of Mat-T1 following RL optimization. The model develops a high-entropy exploratory pattern (mean = 0.974), reflecting adaptive planning over a broadened search space. (e) Collaborative entropy dynamics within MatBrain. The injection of high-entropy observations from Mat-T1 facilitates rapid convergence in the reasoning phase of Mat-R1. (f) Kernel density estimation of entropy distributions across 200 test samples. Mat-T1 features a distinct entropy peak at ~3.3 bits (aligning with the effective tool action space), whereas the distribution of Mat-R1 shows monotonic decay.",
+      "page": 13,
+      "index": 5,
+      "width": 869,
+      "height": 556
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11540v1/fig-006.webp",
+      "caption": "Figure 1 | MatBrain: A lightweight dual-model collaborative framework for autonomous materials research. (a) Overview of materials research challenges and solutions. Schematic illustrating the gap between tool use and knowledge (left), leading to entropy collapse in monolithic models due to conflicting entropy dynamics and",
+      "page": 4,
+      "index": 6,
+      "width": 869,
+      "height": 644
+    }
+  ]
+}

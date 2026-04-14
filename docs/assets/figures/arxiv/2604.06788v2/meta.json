@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-001.webp",
+      "caption": "Table 2: Comparison of autonomously extracted geometry (from photograph) against groundtruth physical measurements, together with the derived bracket self-weight. The “Plaus. band” column is the first-iteration self-reported plausibility band produced by the geometry agent from image evidence alone; it is an agent-generated estimate of its own confidence, not a calibrated confidence interval, and it is not guaranteed to bracket the true value. Five of the eleven geometric parameters and both derived mass quantities fall outside this self-reported band. Rather than being a failure of the uncertainty-quantification framework, these exceedances are the primary demonstration of why the framework places a professional engineer in the loop at the end of the pipeline (Section 7): ground truth is not recoverable from a single photograph, so every such row flags a parameter for which engineer-supplied measurement is the definitive reference. The residuals reported here become the feedback signal δr that updates the agent via Equation (7). The agent correctly identifies the bar width (25 mm) and inner-bend radius (3 mm) but underestimates arm length by 17% and thickness by 17%. The self-weight underestimate compounds the length and thickness errors but does not materially affect the analysis because the self-weight G is negligible compared to the applied design load (G ≈ 1.2N vs P = 200N).",
+      "page": 15,
+      "index": 1,
+      "width": 735,
+      "height": 387
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-002.webp",
+      "caption": "Figure 4: Von Mises stress across all three BC variants (LC1, 200 N UDL). Left column: full bracket view; right column: zoom into the inner-bend region at the two nearest holes. Nominal (top): peak σVM = 1651MPa at BC singularity. Flexible (middle): peak σVM = 2024MPa, highest stress. Stiff (bottom): peak σVM = 799MPa, lowest stress due to back-face clamping distributing load. The inner-bend is autonomously identified as the critical hot-spot; the engineering bending stress at the bend cross-section (480MPa) is consistent with the hand calculation.",
+      "page": 21,
+      "index": 2,
+      "width": 888,
+      "height": 823
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-003.webp",
+      "caption": "Figure 5: Deformed shapes (front view, warp ×0.5, common colour scale) for all three BC variants under LC1 (200 N UDL). Nominal: δmax = 10.77mm; flexible: δmax = 11.15mm (stiffness-conservative); stiff: δmax = 6.59mm. The flexible variant produces the largest deflection, confirming it is conservative for stiffness under load-controlled conditions (Section 5).",
+      "page": 22,
+      "index": 3,
+      "width": 889,
+      "height": 330
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-004.webp",
+      "caption": "Figure 6: FEA simulation matrix results across all seven runs. Top: peak von Mises stress with yield (σy = 200MPa), allowable (σy/1.5 = 133MPa), and analytical bounds [300 to 1000] MPa shown as references. Bottom: maximum displacement with the L/50 = 2.5mm serviceability limit. R4 (concentrated tip load, red) produces the worst case for both stress and deflection; R2 (stiff BC, green) produces the lowest stress. All runs exceed both yield and deflection limits. Colour coding: blue = baseline, green = best case, red = worst case, grey = sensitivity variants.",
+      "page": 22,
+      "index": 4,
+      "width": 790,
+      "height": 627
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-005.webp",
+      "caption": "Table 1: Continuum physics: fields, equations, and required inputs. This table is not exhaustive; many other physics models (piezoelectric, magnetohydrodynamic, phase-field fracture, etc.) follow the same pattern. For each row, agents must determine all listed quantities before a solver can be invoked.",
+      "page": 10,
+      "index": 5,
+      "width": 950,
+      "height": 482
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-006.webp",
+      "caption": "Figure 3: Autonomous mesh feature audit. The discretisation reviewer agent scans the generated mesh to confirm hole count, identifies each hole with an index, and reports diameters, positions, and countersink presence. The inner-bend region carries the finest element size (0.5 mm), with secondary refinement at hole/countersink features (0.8 mm), selected automatically by the discretisation generator agent.",
+      "page": 18,
+      "index": 6,
+      "width": 782,
+      "height": 740
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-007.webp",
+      "caption": "Table 4: Code-compliance assessment. Baseline (t = 2.5 mm) fails all strength/stiffness checks. Maximum safe load: 46N (4.7 kg), governed by stiffness. Notation: σbend = engineering bending stress at the bend, σy = yield strength (200MPa), σb = bearing stress, fu = ultimate tensile strength (340MPa), t = thickness, γ = 1.5 = safety factor, L = arm length, δ = tip deflection, FoS = factor of safety, ULS = ultimate limit state, SLS = serviceability limit state.",
+      "page": 23,
+      "index": 7,
+      "width": 781,
+      "height": 237
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-008.webp",
+      "caption": "Figure 1: Three-layer architecture with orchestrator and iterative feedback. The input (perceptual data: image, video, audio, or text, plus user metadata) feeds into three processing layers: the perception layer extracts structured data from the perceptual input; the analysis layer handles discretisation, solving, and verification; the assessment layer interprets results against design codes and emits actionable recommendations and proposed design modifications as outputs. An overarching orchestrator (right) coordinates the entire process, maintaining a dynamic checklist of tasks, dispatching agents, monitoring quality gate outcomes, and routing feedback between layers. The agent evolver (top right) processes engineer corrections after each completed analysis, updating agent definitions and shared memory for future runs. Dashed arrows indicate iterative feedback: assessment findings can trigger re-analysis with modified assumptions, and analysis-layer quality gates can request updated perception-layer outputs. The orchestrator decides which agent to invoke next based on the current state of the shared context, the pending checklist items, and any gate failures. The architecture is solver-agnostic (FEA, computational fluid dynamics (CFD), DEM, SPH, MPM, lattice Boltzmann method (LBM)).",
+      "page": 4,
+      "index": 8,
+      "width": 902,
+      "height": 777
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-009.webp",
+      "caption": "Figure 2: From photograph to finite element mesh. (a) Input image with visual cues used for geometry extraction and material identification. (b) Resulting tetrahedral mesh with graded refinement.",
+      "page": 17,
+      "index": 9,
+      "width": 950,
+      "height": 720
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-010.webp",
+      "caption": "Figure 8: Two-tier self-improving feedback loop. Prompt-level refinement (olive dashed): engineer corrections are distilled into abstract patterns updating agent definitions and shared memory, lightweight, interpretable, and reversible. Model-level refinement (red dashed): when the same correction recurs across multiple analyses, the feedback operator triggers supervised retraining (fine-tuning or preference optimisation) of the LLM executing the agents, so that persistent weaknesses are addressed at the model level. Each analysis performed under engineering supervision makes future analyses more reliable.",
+      "page": 27,
+      "index": 10,
+      "width": 761,
+      "height": 498
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-011.webp",
+      "caption": "Figure 7: Autonomous redesign outcome: baseline (t = 2.5 mm, top) versus redesign RD2 (t = 5.0 mm, bottom) for the nominal BC variant. Left: bracket geometry; centre: innerbend mesh detail; right: mesh and result metrics including scaling ratios versus beam-theory predictions.",
+      "page": 24,
+      "index": 11,
+      "width": 902,
+      "height": 654
+    },
+    {
+      "url": "assets/figures/arxiv/2604.06788v2/fig-012.webp",
+      "caption": "Table 3: FEA simulation matrix (t = 2.5 mm baseline with countersinks). Peak VM stress is at the BC singularity; the engineering bending stress at the bend is 480MPa for LC1. R7 is the coarse-mesh convergence check.",
+      "page": 20,
+      "index": 12,
+      "width": 781,
+      "height": 227
+    }
+  ]
+}

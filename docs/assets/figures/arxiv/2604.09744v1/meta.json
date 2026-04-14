@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.09744v1/fig-001.webp",
+      "caption": "Figure 1: MPAC’s five logical coordination layers. The solid arrows on the left show the normal lifecycle: agents join a session, declare intents, propose or commit operations, and—if a conflict is detected—negotiate in the conflict layer, with the governance layer as the final authority. The dashed arrow on the right shows the governance override path: a RESOLUTION can unfreeze a contested scope and return control to the intent/operation layers. All layers share a single session coordinator that provides total order (Lamport clock + coordinator_epoch), scope-overlap detection, snapshotbased fault recovery, and runtime enforcement of resolution authority. Implementations may merge these layers internally, but their externally visible semantics remain distinct.",
+      "page": 6,
+      "index": 1,
+      "width": 820,
+      "height": 339
+    },
+    {
+      "url": "assets/figures/arxiv/2604.09744v1/fig-002.webp",
+      "caption": "Table 3: Seven distributed validation scenarios. Together they exercise all 21 message types under real Claude agent decision-making over a WebSocket transport binding.",
+      "page": 11,
+      "index": 2,
+      "width": 823,
+      "height": 887
+    },
+    {
+      "url": "assets/figures/arxiv/2604.09744v1/fig-003.webp",
+      "caption": "Table 1: The 21 MPAC message types grouped by protocol layer. All 21 have JSON Schema payload definitions and live Claude API demo coverage.",
+      "page": 8,
+      "index": 3,
+      "width": 732,
+      "height": 192
+    }
+  ]
+}

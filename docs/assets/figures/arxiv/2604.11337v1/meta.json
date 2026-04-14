@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/arxiv/2604.11337v1/fig-001.webp",
+      "caption": "Figure 2: Sub-Function Coverage Heatmap. The sixteen AGIL cells are arranged in a 4×4 matrix (pillars as rows, sub-function types as columns). Cell shading indicates sub-function coverage: dark cells indicate presence (✓), light cells indicate absence (×). The heatmap visualizes the concentration of coverage in the A-sub (infrastructure) column and the near-total absence of I-sub (coordination) and L-sub (normative grounding), corresponding to the quantitative findings in Tables 7 and 8.",
+      "page": 21,
+      "index": 1,
+      "width": 736,
+      "height": 509
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11337v1/fig-002.webp",
+      "caption": "Table 9: Interchange Media Status Assessment",
+      "page": 22,
+      "index": 2,
+      "width": 955,
+      "height": 800
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11337v1/fig-003.webp",
+      "caption": "Figure 3: Inter-Pillar Interchange Media Pathways. The four AGIL pillars are arranged along the cybernetic hierarchy (high information at top, high energy at bottom). Arrows represent the twelve bidirectional media flows across six adjacent boundaries (A↔G, A↔I, A↔L, G↔I, G↔L, I↔L). Each pillar’s generalized symbolic medium is labeled. The OpenClaw ecosystem assessment (0/12 pathways functional) is annotated at center.",
+      "page": 23,
+      "index": 3,
+      "width": 736,
+      "height": 556
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11337v1/fig-004.webp",
+      "caption": "Table 11a: Ostrom’s Eight Design Principles Mapped to AGIL Cells",
+      "page": 60,
+      "index": 4,
+      "width": 963,
+      "height": 731
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11337v1/fig-005.webp",
+      "caption": "Table 6a: Scoring Criteria for Sub-Function Presence",
+      "page": 50,
+      "index": 5,
+      "width": 976,
+      "height": 777
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11337v1/fig-006.webp",
+      "caption": "Table 2: Generalized Symbolic Media of the Social System",
+      "page": 8,
+      "index": 6,
+      "width": 968,
+      "height": 708
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11337v1/fig-007.webp",
+      "caption": "Table 12: Agent-Native Infrastructure Stack — AGIL Coverage by Layer",
+      "page": 24,
+      "index": 7,
+      "width": 959,
+      "height": 321
+    },
+    {
+      "url": "assets/figures/arxiv/2604.11337v1/fig-008.webp",
+      "caption": "Figure 1: The Cybernetic Hierarchy of Control (L → I → G → A). Higher-information systems regulate lower-energy systems. The fiduciary institution (L) constrains the societal community (I), which constrains the political institution (G), which constrains the economic institution (A). Downward arrows represent informational control; upward arrows represent energetic conditioning. Each pillar’s generalized symbolic medium is annotated.",
+      "page": 5,
+      "index": 8,
+      "width": 736,
+      "height": 673
+    }
+  ]
+}
